@@ -1,0 +1,1100 @@
+                                 HHS Public Access
+                                 Author manuscript
+                                 J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+
+
+
+
+Author Manuscript
+                    Published in final edited form as:
+                     J Acquir Immune Defic Syndr. 2026 June 01; 101(6): 680–687. doi:10.1097/QAI.0000000000003854.
+
+
+
+                    Impact of SGLT2 Inhibitors on Kidney Function Among People
+                    with HIV: A US Prospective Multi-Site Study
+                    Lara Haidar, PharmD MSc1, Heidi M Crane, MD, MPH2, Robin M Nance, PhD2, Malcolm
+                    B Doupe, PhD1, Christine Leong, PharmD1, Laura Bamford, MD3, Greer Burkholder, MD4,
+                    Edward Cachay, MD5, Katerina Christopoulos, MD6, Alexander Commanday, MD7, Laila
+                    Aboulatta, PharmD1, Joseph AC Delaney, PhD2, Lydia N Drumright, PhD2, Carolyn A Fahey,
+
+
+
+
+Author Manuscript
+                    PhD2, Sonya Heath, MD4, Robert Kalayjian, MD8, Mari M Kitahata, MD, MPH2, Ryan P
+                    Kyle, PhD2, Kenneth H Mayer, MD9, Richard D Moore, MD10, April C Pettit, MD11, Sonia
+                    Napravnik, PhD7, Stephanie A Ruderman, PhD2, Michael S Saag, MD4, Amanda L Willig,
+                    PhD12, Bridget M Whitney, PhD2, Sherif Eltonsy, PhD1
+                    1University of Manitoba, Winnipeg, Manitoba, Canada
+
+                    2University of Washington, Seattle, WA, USA
+
+                    3University of California San Diego, San Diego, CA, USA
+
+                    4University of Alabama at Birmingham, AL, USA
+
+                    5Mayo Clinic, Scottsdale, AZ, USA
+
+                    6University of California San Francisco, CA, USA
+
+
+
+
+Author Manuscript
+                    7University of North Carolina at Chapel Hill, NC, USA
+
+                    8Case Western Reserve University, Cleveland, OH, USA
+
+                    9Harvard Medical School, Fenway Institute, Boston, MA, USA
+
+                    10Johns Hopkins University, Baltimore, MD, USA
+
+                    11Vanderbilt University, Nashville, TN, USA
+
+                    12TW Education, AL, USA
+
+
+
+                    Abstract
+                         Background: Sodium-glucose cotransporter 2 inhibitors (SGLT2i) are nephroprotective but are
+
+
+
+
+Author Manuscript
+                         associated with early eGFR decline, also termed “eGFR dip.” Despite elevated risk of kidney
+                         disease, this phenomenon is understudied among people with HIV (PWH).
+
+
+
+
+                    Corresponding Author: Sherif Eltonsy, 750 McDermot Avenue, College of Pharmacy, University of Manitoba, Winnipeg, Manitoba,
+                    Canada, R3E 0T5, sherif.eltonsy@umanitoba.ca, Fax: 204-798-3744.
+                    Meeting where parts of the data were presented: Conference on Retroviruses and Opportunistic Infections (CROI), San Francisco,
+                    CA, USA, March 9-12, 2025.
+                    Conflicts of Interest: The authors report no potential conflicts of interest, including relevant financial interests, activities,
+                    relationships, and affiliations. All funding sources are listed above.
+                    Haidar et al.                                                                                              Page 2
+
+
+                             Methods: In a 1:1 propensity score-matched cohort study using data from 9 Centers for AIDS
+
+
+
+
+Author Manuscript
+                             Research Network of Integrated Clinical Systems (CNICS) sites, we compared new SGLT2i users
+                             with new users of other antihyperglycemic classes. We estimated adjusted hazard ratios (aHRs) for
+                             time to ≥10% and ≥30% eGFR decline using multivariable Cox proportional hazards models and
+                             analyzed eGFR change using multivariable linear mixed models. Additionally, longer-term eGFR
+                             trends over 24 months were visualized using locally weighted scatterplot smoothing (LOWESS)
+                             curves.
+
+                             Results: Among 1554 eligible PWH, we obtained 295 matched pairs. Over 6 months, eGFR
+                             decline incidence of ≥10% and ≥30% was higher among users of SGLT2i versus other
+                             antihyperglycemic classes, (58.2% vs. 37.4%; aHR: 1.79; 95% CI: 1.40-2.28; and 17.3% vs.
+                             9.8%; aHR: 1.69; 95% CI: 1.05-2.73; respectively) Adjusted mean eGFR change at 6 months was
+                             −2.62 mL/min/1.73m2 for SGLT2i versus 0.05 mL/min/1.73m2 for other classes. Long-term eGFR
+                             trends revealed an expected initial decline following SGLT2i initiation, followed by stabilization
+
+
+
+
+Author Manuscript
+                             and a slower subsequent decline compared to other classes.
+
+                             Conclusion: Acute eGFR dips were more common among PWH initiating SGLT2i relative to
+                             other antihyperglycemic classes, though overall declines were small, transient, and consistent with
+                             the general population. Further research is needed to explore the long-term effects of SGLT2i in
+                             PWH.
+
+                       Keywords
+                             SGLT2 inhibitors; People with HIV; Acute eGFR dip; Antihyperglycemic medications; kidney
+                             function
+
+
+                       Introduction
+
+
+
+
+Author Manuscript
+                                       In the past decade, sodium-glucose co-transporter-2 inhibitors (SGLT2i) have received
+                                       attention for their cardiorenal benefits, with large clinical trials demonstrating a reduction
+                                       in kidney disease progression, irrespective of diabetes status, and major cardiovascular
+                                       events.1–7 Consequently, SGLT2i are of interest for the clinical management of people with
+                                       HIV (PWH), as cardiovascular disease and chronic kidney disease (CKD) are more prevalent
+                                       among PWH than the general population, especially as the population of PWH ages. 8–12
+
+                                       A well-recognized early effect of SGLT2i initiation is an acute, transient decline in
+                                       estimated glomerular filtration rate (eGFR), commonly referred to as the eGFR “dip,”
+                                       which typically ranges from 3–6 mL/min/1.73m2 in the general population and is usually
+                                       reversible, stabilizing over time.13–16 This dip primarily reflects hemodynamic changes
+                                       rather than structural kidney injury. 17 SGLT2 inhibition reduces glucose and sodium
+
+
+
+
+Author Manuscript
+                                       reabsorption in the proximal tubule, increasing sodium delivery to the macula densa
+                                       and triggering tubuloglomerular feedback, which causes afferent arteriole vasoconstriction
+                                       and lowers intraglomerular pressure.18 While this mechanism produces an initial eGFR
+                                       decrease, it may protect against glomerular hyperfiltration and slow long-term kidney
+                                       function decline.19 Clinically, SGLT2i discontinuation is generally unnecessary unless an
+                                       unexplained eGFR decline exceeds 30%.13,20–23 PWH may be particularly susceptible to
+                                       acute eGFR changes due to an already elevated risk of renal complications, including CKD
+
+
+                                      J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                             Page 3
+
+
+                                     and acute kidney injury (AKI), driven by a combination of HIV-specific factors, such as
+
+
+
+
+Author Manuscript
+                                     chronic inflammation and antiretroviral therapy (ART), as well as traditional risk factors like
+                                     diabetes and hypertension.24 As a result, PWH may require closer monitoring and potential
+                                     medication adjustments when initiating SGLT2i.
+
+                                     Despite their long-term benefits, SGLT2i are currently underutilized in PWH.25 Barriers
+                                     to treatment include potential safety concerns, particularly regarding acute eGFR declines
+                                     that remain poorly characterized within this population, as well as limited insurance
+                                     coverage for these medications.26–28 Such factors may deter clinicians from prescribing
+                                     SGLT2i, making it crucial to understand these declines. Lack of clinician awareness of this
+                                     therapeutic class and its benefits may also contribute to under-prescribing.29 This study
+                                     characterized the incidence and magnitude of acute eGFR declines within the first 6 months
+                                     and explored long-term eGFR trends among PWH initiating SGLT2i compared to other
+                                     antihyperglycemic medication classes.
+
+
+
+
+Author Manuscript
+                       Methods
+                       Study Design and Population
+                                     We conducted an observational study using data from the Centers for AIDS Research
+                                     (CFAR) Network of Integrated Clinical Systems (CNICS) cohort.30 The CNICS cohort is a
+                                     dynamic, prospective, clinical cohort of PWH aged 18 and older in care at ten academic sites
+                                     across the United States. This study includes data from 9 CNICS sites with the necessary
+                                     data available: University of Washington, Johns Hopkins University, University of Alabama
+                                     at Birmingham, University of California San Diego, University of North Carolina at Chapel
+                                     Hill, University of California San Francisco, Case Western Reserve University, Fenway
+                                     Health, and Vanderbilt University. Sites received local institutional review board approval
+
+
+
+
+Author Manuscript
+                                     for participation in CNICS.
+
+                                     PWH who initiated an SGLT2i or other antihyperglycemic medications from the glucagon-
+                                     like peptide-1 receptor agonist (GLP-1RA), dipeptidyl peptidase-4 inhibitor (DPP-4i), or
+                                     sulfonylurea classes between 2013 and 2023 were eligible for inclusion. New users were
+                                     defined as having no previously recorded prescription of any medication within these four
+                                     classes, with the date of treatment initiation defined as the index date. To be included, PWH
+                                     needed to have had at least one eGFR measurement in the year prior to medication initiation,
+                                     hereafter referred to as the baseline eGFR, and at least one eGFR measurement within 6
+                                     months of the index date, hereafter referred to as the post-index eGFR. If a patient had
+                                     more than one eGFR measurement in the year prior to initiating therapy, the measurement
+                                     closest to the index date was chosen as the baseline eGFR. PWH with a baseline eGFR <15
+
+
+
+
+Author Manuscript
+                                     mL/min/1.73m2, indicative of end-stage renal disease, and those who initiated two or more
+                                     medications from different antihyperglycemic classes on the index date were excluded.
+
+                       Outcomes Definitions and Exposure Assessment
+                                     Primary outcomes were time to first occurrence of ≥10% and ≥30% decline in eGFR
+                                     mL/min/1.73m2 within the first 6 months following medication initiation. A ≥10% decline
+                                     was used to capture acute “dipping,” whereas a ≥30% decline, a commonly used marker
+
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                            Page 4
+
+
+                                     of clinically meaningful kidney function reduction that may warrant closer monitoring or
+
+
+
+
+Author Manuscript
+                                     SGLT2i discontinuation, was used to assess more severe declines.
+
+                                     Secondary outcomes included acute eGFR change at 6 months, assessed as the absolute
+                                     difference between baseline and post-index eGFR measurements, as well as the time to a
+                                     ≥20% decline in eGFR, and the time to absolute decreases in eGFR of ≥5 and ≥10 mL/min/
+                                     1.73m2. Additionally, we assessed the trajectory of eGFR over 24 months to characterize
+                                     longer-term trends in eGFR. Exploratory analyses evaluated potential predictors of a ≥10%
+                                     eGFR decline within 6 months of medication initiation. All analyses compared users of
+                                     SGLT2i with a combined group of other antihyperglycemic classes, including GLP-1RA,
+                                     DPP-4 inhibitors, and sulfonylureas. eGFR was calculated using the race-free 2021 Chronic
+                                     Kidney Disease Epidemiology Collaboration (CKD-EPI) equation.31,32
+
+                                     We identified medication use based on prescription records from routine HIV care
+
+
+
+
+Author Manuscript
+                                     visits. Treatment categories included the following: SGLT2i: empagliflozin, canagliflozin,
+                                     dapagliflozin, and ertugliflozin; GLP-1RA: dulaglutide, exenatide, semaglutide, liraglutide,
+                                     lixisenatide, and albiglutide; DPP-4 inhibitors: sitagliptin, saxagliptin, linagliptin, and
+                                     alogliptin; and sulfonylureas: glyburide, glimepiride, and glipizide.
+
+                       Statistical Analysis
+                                     Baseline characteristics were summarized using descriptive statistics. We computed means
+                                     and standard deviations (SD) for continuous variables, and calculated frequencies and
+                                     percentages for categorical variables. When determining follow-up time, we used both an
+                                     intention-to-treat (ITT) and an on-treatment analysis approach. In the ITT approach, PWH
+                                     were followed up until the occurrence of the outcome (for time-to-event outcomes), death, or
+                                     the study end date, defined as 6 months after the index date, whichever occurred first. The
+
+
+
+
+Author Manuscript
+                                     on-treatment analysis followed a similar approach but also censored patients at medication
+                                     discontinuation or switching.
+
+                                     To minimize confounding, we performed 1:1 propensity score (PS) matching to balance
+                                     covariates between new users of SGLT2i and those initiating other antihyperglycemic
+                                     classes. Propensity scores were estimated using a logistic regression model that included
+                                     baseline covariates selected a priori based on their potential to act as confounders or
+                                     risk factors. These covariates included: age, sex, race/ethnicity (non-Hispanic White, non-
+                                     Hispanic Black, Hispanic, and Other), eGFR (mL/min/1.73 m2), CD4 count (cells/mm3),
+                                     HIV viral load (copies/mL), diabetes status, treated hypertension, smoking history (based
+                                     on the presence of a tobacco use diagnosis, and categorized as never vs. ever smokers), and
+                                     current use of medications, including ART, tenofovir disoproxil fumarate (TDF), insulin,
+
+
+
+
+Author Manuscript
+                                     metformin, and statins. Based on CNICS operational definitions, diabetes was defined as
+                                     meeting at least one of the following criteria: 1) hemoglobin A1c ≥6.5%, 2) use of a
+                                     diabetes-specific medication (e.g., insulin, sulfonylureas), or 3) use of a diabetes-related
+                                     medication (a medication not exclusively used for diabetes (e.g., metformin)) subsequent to
+                                     an earlier diabetes diagnosis.33 Treated hypertension required both a hypertension diagnosis
+                                     and a prescription for antihypertensive medication(s).
+
+
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                          Page 5
+
+
+                                     PS matching was performed using the nearest neighbor method without replacement and
+                                     a caliper of 0.1.34 Covariate balance was assessed using the standardized mean difference
+
+
+
+
+Author Manuscript
+                                     (SMD), with an SMD <10% indicating good balance. After matching, body mass index
+                                     (BMI) and diabetes status remained imbalanced (SMD >10%). BMI was excluded from
+                                     the PS model due to missing data (1.5% missingness), as including it would have reduced
+                                     the number of matched individuals and compromised study power given the relatively
+                                     small sample size. To address this post-matching imbalance, multiple imputation by chained
+                                     equations (10 imputations) was performed for BMI, and outcome models were adjusted for
+                                     BMI and diabetes, the two covariates that remained imbalanced after matching.
+
+                                     Time-to-event outcomes of eGFR decline were assessed using Cox proportional hazards
+                                     models in the matched cohort with a robust variance estimator, adjusting for BMI and
+                                     diabetes. For these analyses, the ITT follow-up definition was used. Results were reported
+                                     as adjusted hazards ratios (aHR) and 95% confidence intervals (CI). Schoenfeld residuals
+
+
+
+
+Author Manuscript
+                                     were used to assess the proportional hazards assumption.35 A Kaplan-Meier analysis was
+                                     performed to estimate the probabilities of ≥10% and ≥30% eGFR declines at 6 months, with
+                                     Kaplan-Meier curves depicting the cumulative incidence of first observed decline over time.
+
+                                     For the eGFR change analysis, PWH were censored when they stopped treatment and were
+                                     required to have at least one on-treatment eGFR measurement during the 6-month follow-up
+                                     period. As a result, the number of PWH included in the on-treatment analyses was lower
+                                     than in the ITT analyses. eGFR changes were assessed using linear mixed models with
+                                     random intercepts and random slopes for time, adjusting for imbalanced covariates after
+                                     matching. The on-treatment definition was used for these analyses, as ITT tends to yield
+                                     more conservative estimates, potentially making SGLT2i treatment appear safer.
+
+
+
+
+Author Manuscript
+                                     To visualize and estimate eGFR change trends beyond six months, we examined up to 24
+                                     months of follow-up and used locally weighted scatterplot smoothing (LOWESS) to model
+                                     trajectories of eGFR for PWH initiating SGLT2i versus other antihyperglycemic classes. For
+                                     contextual comparison, we also plotted eGFR trajectories derived from approximate mean
+                                     changes reported in published randomized controlled trials among the general population
+                                     (e.g., CREDENCE, DAPA-CKD, EMPA-REG). This nonparametric method fits smooth
+                                     curves to localized data without assuming a specific functional form,36 enabling us to
+                                     capture nonlinear eGFR trajectories despite fewer observations after six months.
+
+                                     Additionally, to evaluate predictors of a ≥10% eGFR decline we used multivariable
+                                     Poisson regression with robust variance, reporting adjusted risk ratios (aRRs) and 95%
+                                     CIs. Analyses were conducted overall and stratified by treatment group (SGLT2i and other
+                                     antihyperglycemic classes).
+
+
+
+
+Author Manuscript
+                                     Subgroup analyses for time to ≥10% eGFR decline were performed based on age (≥60 vs.
+                                     <60 years), sex (male vs. female), race/ethnicity (black vs. non-black), and baseline eGFR
+                                     (≥60 vs. <60 mL/min/1.73m2), but subgroup analyses for ≥30% decline were not conducted
+                                     due to the small number of events. Effect modification was tested using an interaction term
+                                     between treatment group and subgroup. A p-value of <0.05 was considered statistically
+
+
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                             Page 6
+
+
+                                     significant. All analyses were performed using Stata version 17 (StataCorp, College Station,
+
+
+
+
+Author Manuscript
+                                     TX).
+
+                                     To assess the robustness of our findings, we conducted three sensitivity analyses: (i)
+                                     on-treatment analysis for time-to-event outcomes of ≥10% and ≥30% eGFR decline,
+                                     censoring follow-up at treatment discontinuation or switching; (ii) ITT analysis for acute
+                                     eGFR changes, assuming continuous exposure throughout the follow-up, regardless of
+                                     discontinuation or switching; (iii) multivariable Cox regression analysis using the full cohort
+                                     without applying PS matching, adjusting for baseline covariates (as another method to
+                                     control for confounding).
+
+
+                       Results
+                       Baseline Patient Characteristics
+
+
+
+
+Author Manuscript
+                                     We identified a total of 1,554 PWH who met inclusion criteria, including 299 new users
+                                     of SGLT2i and 1,255 new users of other antihyperglycemic medications (585 GLP-1RA,
+                                     200 DPP-4 inhibitors, and 470 sulfonylureas; Figure S1). After matching, 295 users of
+                                     SGLT2i were matched in a 1:1 ratio to 295 users of other antihyperglycemic medications,
+                                     specifically 151 GLP-1RA users, 48 DPP-4i users, and 96 sulfonylurea users.
+
+                                     Prior to matching, there were significant differences between the groups (Table 1). SGLT2i
+                                     users were older on average (56 vs. 53 years) and more likely to be male (81% vs. 74%).
+                                     Those receiving SGLT2i also had a lower mean eGFR (71 vs. 83 mL/min/1.73m2) and
+                                     included a higher proportion of PWH with moderate kidney impairment (eGFR 30–60
+                                     mL/min/1.73m2: 30% vs. 15%). After matching, baseline characteristics were generally well
+                                     balanced between the two groups, including mean age (56 vs. 57 years), baseline eGFR (71
+
+
+
+
+Author Manuscript
+                                     vs. 71 mL/min/1.73m2), and eGFR category ≥60-89 mL/min/1.73m2 (44% vs 40%). Balance
+                                     was poorer for diabetes status (69% vs. 74%) and BMI (31 vs. 33 kg/m2).
+
+                       Follow-up eGFR Measurements
+                                     During the 6-month follow-up period, the median number of eGFR measurements was
+                                     similar across groups, with a median of 2 (IQR: 1–4) for SGLT2i and 2 (IQR: 1–3) for
+                                     other classes. The median time to the first eGFR measurement after medication initiation
+                                     was shorter for SGLT2i: 69 days (IQR: 27–125) vs. 91 days (IQR: 44–134) for other classes.
+
+                       Primary Outcomes
+                                     During 6 months follow-up, a total of 263 events of eGFR decline ≥10% and 72 events of
+                                     eGFR decline ≥30% occurred among 590 PWH. The Kaplan-Meier cumulative incidence
+
+
+
+
+Author Manuscript
+                                     of ≥10% eGFR decline was higher among those initiating SGLT2i (58.2%, 95% CI: 52.4%–
+                                     64.2%) compared to other antihyperglycemic classes (37.4%, 95% CI: 34.7%–40.4%), with
+                                     SGLT2i use significantly associated with an increased risk of decline (aHR 1.79 [95% CI:
+                                     1.40–2.28]) (Figures 1 and 2). For ≥30% eGFR decline, 16.9% (95% CI: 12.9–22.1) of
+                                     SGLT2i users experienced this outcome, compared to 10.2% (95% CI: 7.1–14.4) of users
+                                     of other antihyperglycemic classes, with SGLT2i use also associated with a higher risk
+                                     compared to other classes (aHR 1.69 [95% CI: 1.05 – 2.73]) (Figures 1 and 2).
+
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                             Page 7
+
+
+                       Secondary Outcomes
+
+
+
+
+Author Manuscript
+                                     Change in eGFR over the 6-month follow-up period was assessed in on-treatment analysis,
+                                     which included 278 on SGLT2i users and 265 on other antihyperglycemic classes. SGLT2i
+                                     showed a greater absolute eGFR decline vs. other antihyperglycemic classes (−2.62 mL/min/
+                                     1.73m2 [95% CI: −7.90, 2.67] vs. +0.05 [95% CI: −3.00, 3.09]); however, the between-
+                                     group difference was not statistically significant (p-interaction=0.3; Table S1). Additional
+                                     secondary outcomes, a decline of ≥20% and absolute declines of ≥10 and ≥5 mL/min/
+                                     1.73m2, further showed higher acute eGFR decline risk with SGLT2i versus other classes
+                                     (Figure S2).
+
+                                     Long-term eGFR trajectories, based on LOWESS-smoothed curves in the on-treatment
+                                     population, revealed an acute decline in eGFR among SGLT2i users followed by partial
+                                     recovery (Figure 3). The trajectories for the two groups crossed at approximately 14 months,
+
+
+
+
+Author Manuscript
+                                     after which the SGLT2i group experienced a slower rate of decline. However, only 149
+                                     SGLT2i users and 152 users of other classes had at least one eGFR measurement between
+                                     7 and 24 months, representing about 55% of the original cohort. Among these, the median
+                                     number of eGFR measurements during this period was 4 (IQR 2–7 for SGLT2i; 2–9 for
+                                     other classes). Exploratory multivariable analyses examining factors associated with ≥10%
+                                     eGFR decline are presented in Table S2.
+
+                       Subgroup Analyses
+                                     Across all subgroups, SGLT2i was consistently associated with a higher risk of a ≥10%
+                                     decline in eGFR compared to other antihyperglycemic classes. No statistically significant
+                                     interactions were observed across subgroups (p-interaction > 0.05), indicating no evidence
+                                     of effect modification (Figure S3). Given the small subgroup sample sizes, these analyses
+
+
+
+
+Author Manuscript
+                                     were not powered to detect statistically significant differences and should be interpreted with
+                                     caution.
+
+                       Sensitivity Analyses
+                                     In the first sensitivity analysis, on-treatment results for ≥10% and ≥30% eGFR declines at 6
+                                     months were consistent with the main ITT analyses, also demonstrating higher risk among
+                                     SGLT2i users versus other antihyperglycemic classes (Table S3). The second sensitivity
+                                     analysis, using ITT analysis for changes in eGFR at 6 months, demonstrated smaller
+                                     mean eGFR declines in new users of SGLT2i compared to the on-treatment analyses,
+                                     but the overall trend of greater eGFR decline among SGLT2i users remained consistent
+                                     (Table S4). This difference reflects the direct effects of SGLT2i in on-treatment analyses,
+                                     while ITT likely estimate an attenuated effect by including those who discontinued or
+
+
+
+
+Author Manuscript
+                                     switched medications. The third sensitivity analysis, multivariable regression on the full
+                                     cohort adjusted for baseline covariates, showed hazard ratios consistent with the propensity
+                                     score-matched cohort (Table S5).
+
+
+                       Discussion
+                                     In our cohort study of PWH initiating antihyperglycemic medications, we found that acute
+                                     eGFR decline within 6 months was more common following SGLT2i initiation compared
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                              Page 8
+
+
+                                     to other antihyperglycemic medications. However, the magnitude of the decline was, on
+
+
+
+
+Author Manuscript
+                                     average, small, non-clinically significant, and consistent with the eGFR dip observed in the
+                                     general population.
+
+                                     A few studies have examined kidney function changes with SGLT2i in PWH, though data
+                                     remain limited. Guiraud et al. examined 20 PWH receiving dapagliflozin or empagliflozin
+                                     over a median 8.3-month follow-up and observed a small but significant median increase in
+                                     serum creatinine of 17.5 μmol/L (~0.20 mg/dL), consistent with hemodynamic changes.37
+                                     Similarly, Sise et al. studied 80 PWH receiving SGLT2i and found that 11.3% experienced
+                                     AKI, a rate comparable to the 9.9% observed among PWH prescribed GLP-1s, suggesting
+                                     that SGLT2i are generally safe in this population.25 Together with our results, these findings
+                                     suggest that initial eGFR changes with SGLT2i in PWH are generally modest and appear to
+                                     be well tolerated.
+
+
+
+
+Author Manuscript
+                                     Comparing our findings with studies of people without HIV is challenging given differences
+                                     in patient populations, but such comparisons highlight both similarities and differences.
+                                     In large trials and observational studies of the general population, ≥30% eGFR declines
+                                     are relatively uncommon, ranging from 1 to 6%.14,38 In our cohort, such declines were
+                                     more frequent, 17% among PWH initiating SGLT2i and 10% among those on other
+                                     antihyperglycemic classes. This higher incidence may reflect HIV-specific factors, including
+                                     chronic inflammation, immune activation, 39–43 nephrotoxic effects of certain older ART
+                                     medications (such as TDF),44,45 or the impact of some ART agents, such as dolutegravir
+                                     and cobicistat, which can inhibit tubular creatinine secretion and lead to mild increases in
+                                     serum creatinine that do not represent true declines in kidney function.46 Despite this, the
+                                     magnitude of the average decline with SGLT2i was similar to that observed in HIV-negative
+                                     populations. Moreover, the trajectory of eGFR over 24 months mirrored that of HIV-negative
+
+
+
+
+Author Manuscript
+                                     populations, with an initial decline followed by recovery and stabilization. Reassuringly,
+                                     these patterns are consistent with those seen in large trials, although the smaller sample size
+                                     after 6 months in our cohort limits conclusions about long-term nephroprotection.
+
+                                     From a clinical perspective, these findings provide reassurance that the modest eGFR
+                                     dip following SGLT2i initiation in PWH is not harmful and should not be interpreted as
+                                     AKI.47 In fact, studies in the general population suggest that SGLT2i reduce the risk of
+                                     AKI while providing substantial cardiorenal benefits, even among patients who experience
+                                     an initial dip.14,38,48 Nevertheless, given that PWH may have increased susceptibility
+                                     to clinically significant eGFR declines (≥30%), and although current guidelines do not
+                                     recommend additional renal monitoring solely for the initiation of a SGLT2i,23 clinicians
+                                     should consider individualized monitoring based on the patient’s overall risk profile.
+
+
+
+
+Author Manuscript
+                                     Recommendations for the general population, such as withholding SGLT2i if significant
+                                     acute eGFR declines are observed and avoiding dose increases of angiotensin-converting
+                                     enzyme (ACE) inhibitors, angiotensin II receptor blockers (ARBs), or diuretics before
+                                     starting SGLT2i, would also be prudent for PWH.22 In addition, these considerations are
+                                     especially important for PWH, as many ART medications, particularly nucleoside reverse
+                                     transcriptase inhibitors (NRTIs), are partially or completely renally eliminated,49 potentially
+                                     requiring dose adjustments of ART to avoid toxicity in case of very low eGFR.
+
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                                                 Page 9
+
+
+                       Strengths and Limitations
+
+
+
+
+Author Manuscript
+                                     Strengths of our study include leveraging real-world data from CNICS, a large, prospective
+                                     cohort of PWH in routine clinical care, allowing our findings to be generalizable to diverse
+                                     geographic and demographic populations of PWH.
+
+                                     The study has several limitations. Firstly, as an observational study, residual confounding
+                                     is possible despite PS matching, which only accounts for measured variables. Important
+                                     covariates such as ACE inhibitors, ARBs, diuretics, and nonsteroidal anti-inflammatory
+                                     drugs (NSAIDs) were not included and may have introduced bias. Pre-matching differences
+                                     between groups suggest potential channeling bias, with SGLT2i more often prescribed to
+                                     PWH with more advanced kidney disease. While PS matching helped address baseline
+                                     imbalances, some residual differences remained. Additionally, PWH on SGLT2i were
+                                     more likely to undergo earlier eGFR measurements, potentially leading to differential
+
+
+
+
+Author Manuscript
+                                     surveillance bias and an overestimation of eGFR decline. Furthermore, due to variable
+                                     timing of eGFR measurements, including some PWH with only a single follow-up, the
+                                     Kaplan–Meier curves reflect the first observed decline and may not capture early, transient,
+                                     or subsequent changes. This approach mirrors real-world clinical follow-up, where the
+                                     timing of laboratory assessments varies across patients. Moreover, there is some potential
+                                     for exposure misclassification, but if present is likely non-differential. Finally, these findings
+                                     may only be generalizable to PWH in care.
+
+
+                       Conclusion
+                                     Given the increased risk of kidney disease in PWH, evaluating new, effective therapies like
+                                     SGLT2i is essential. We found that early, small eGFR declines were more common among
+                                     PWH initiating SGLT2i, consistent with class effects observed in the general population.
+
+
+
+
+Author Manuscript
+                                     However, clinically significant eGFR declines of ≥30% were more frequent in both SGLT2i
+                                     and other antihyperglycemic users compared to what is typically seen in HIV-negative
+                                     populations, suggesting that HIV-related factors may increase susceptibility. While these
+                                     findings are reassuring, clinicians should remain vigilant for early eGFR declines following
+                                     SGLT2i initiation and consider individualized monitoring. As CKD continues to emerge as
+                                     a major comorbidity, further long-term studies are needed to assess whether SGLT2i offer
+                                     similar nephroprotective benefits in PWH.
+
+
+                       Supplementary Material
+                                     Refer to Web version on PubMed Central for supplementary material.
+
+
+
+
+Author Manuscript
+                       Acknowledgements:
+                                     The authors acknowledge all CNICS participants and study personnel for their essential contributions to this work.
+
+                       Sources of Funding:
+                                     This work was supported by grants from the National Institutes of Health including R24 AI067039, R01
+                                     HL126538, R33 AG067069; P30 AI027757, P30 AI027767, P30 AI036214, P30 AI027763, P30 AI036219, P30
+                                     AI094189, U01 DA036935, P30 AI060354, P30 AI50410, P30 AI110527, P30 AI073961.
+
+
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                                    Page 10
+
+
+                       References
+
+
+
+
+Author Manuscript
+                                     1. Neal B, Perkovic V, Mahaffey KW, et al. Canagliflozin and Cardiovascular and Renal Events in
+                                        Type 2 Diabetes. N Engl J Med. 2017;377(7):644–657. [PubMed: 28605608]
+                                     2. Wanner C, Inzucchi SE, Lachin JM, et al. Empagliflozin and Progression of Kidney Disease in Type
+                                        2 Diabetes. N Engl J Med. 2016;375(4):323–334. [PubMed: 27299675]
+                                     3. Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in
+                                        type 2 diabetes. N Engl J Med. 2016;13(1):17–18.
+                                     4. Herrington WG, Staplin N, Wanner C, et al. Empagliflozin in Patients with Chronic Kidney Disease.
+                                        N Engl J Med. 2023;388(2):117–127. [PubMed: 36331190]
+                                     5. Wiviott SD, Raz I, Bonaca MP, et al. Dapagliflozin and Cardiovascular Outcomes in Type 2
+                                        Diabetes. N Engl J Med. 2019;380(4):347–357. [PubMed: 30415602]
+                                     6. Perkovic V, Jardine MJ, Neal B, et al. Canagliflozin and Renal Outcomes in Type 2 Diabetes and
+                                        Nephropathy. N Engl J Med. 2019;380(24):2295–2306. [PubMed: 30990260]
+                                     7. Heerspink HJL, Stefánsson BV., Correa-Rotter R, et al. Dapagliflozin in Patients with Chronic
+                                        Kidney Disease. N Engl J Med. 2020;383(15):1436–1446. [PubMed: 32970396]
+
+
+
+
+Author Manuscript
+                                     8. Shah ASV, Stelzle D, Ken Lee K, et al. Global burden of atherosclerotic cardiovascular disease in
+                                        people living with HIV systematic review and meta-analysis. Circulation. 2018;138(11):1100–1112.
+                                        [PubMed: 29967196]
+                                     9. Mallipattu SK, Salem F, Wyatt CM. The changing epidemiology of HIV-related chronic kidney
+                                        disease in the era of antiretroviral therapy. Kidney Int. 2014;86(2):259–265. [PubMed: 24573317]
+                                     10. Islam FM, Wu J, Jansson J, Wilson DP. Relative risk of renal disease among people living with
+                                          HIV: a systematic review and meta-analysis. BMC Public Health. 2012;12(1):234. [PubMed:
+                                          22439731]
+                                     11. Kalayjian RC. Renal issues in HIV infection. Curr HIV/AIDS Rep. 2011;8(3):164–171. [PubMed:
+                                          21643783]
+                                     12. McCutcheon K, Nqebelele U, Murray L, Thomas TS, Mpanya D, Tsabedze N. Cardiac and Renal
+                                          Comorbidities in Aging People Living with HIV. Circ Res. 2024;134(11):1636–1660. [PubMed:
+                                          38781295]
+                                     13. Heerspink HJL, Cherney DZI. Clinical implications of an acute dip in egfr after sglt2 inhibitor
+
+
+
+
+Author Manuscript
+                                          initiation. Clin J Am Soc Nephrol. 2021;16(8):1278–1280. [PubMed: 33879500]
+                                     14. Adamson C, Docherty KF, Heerspink HJL, et al. Initial Decline (Dip) in Estimated Glomerular
+                                          Filtration Rate After Initiation of Dapagliflozin in Patients With Heart Failure and Reduced
+                                          Ejection Fraction: Insights From DAPA-HF. Circulation. 2022;146(6):438–449. [PubMed:
+                                          35442064]
+                                     15. Kraus BJ, Weir MR, Bakris GL, et al. Characterization and implications of the initial estimated
+                                          glomerular filtration rate ‘dip’ upon sodium-glucose cotransporter-2 inhibition with empagliflozin
+                                          in the EMPA-REG OUTCOME trial. Kidney Int. 2021;99(3):750–762. [PubMed: 33181154]
+                                     16. Oshima M, Jardine MJ, Agarwal R, et al. Insights from CREDENCE trial indicate an acute drop
+                                          in estimated glomerular filtration rate during treatment with canagliflozin with implications for
+                                          clinical practice. Kidney Int. 2021;99(4):999–1009. [PubMed: 33316282]
+                                     17. Yau K, Cherney DZI, van Raalte DH, Wever BE. Kidney protective mechanisms of SGLT2
+                                          inhibitors: evidence for a hemodynamic effect. Kidney Int. 2024;105(6):1168–1172. [PubMed:
+                                          38777402]
+                                     18. Vallon V. State-of-the-Art-Review: Mechanisms of Action of SGLT2 Inhibitors and Clinical
+
+
+
+
+Author Manuscript
+                                          Implications. Am J Hypertens. 2024;(July):841–852. [PubMed: 39017631]
+                                     19. Sen T, Heerspink HJL. A kidney perspective on the mechanism of action of sodium glucose
+                                          co-transporter 2 inhibitors. Cell Metab. 2021;33(4):732–739. [PubMed: 33691091]
+                                     20. van Bommel EJM, Lytvyn Y, Perkins BA, et al. Renal hemodynamic effects of sodium-glucose
+                                          cotransporter 2 inhibitors in hyperfiltering people with type 1 diabetes and people with type 2
+                                          diabetes and normal kidney function. Kidney Int. 2020;97(4):631–635. [PubMed: 32200854]
+                                     21. Umanath K, Testani JM, Lewis JB. “Dip” in eGFR: Stay the Course With SGLT-2 Inhibition.
+                                          Circulation. 2022;146(6):463–465. [PubMed: 35939546]
+
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                                   Page 11
+
+
+                                     22. Meraz-Munoz AY, Weinstein J, Wald R. eGFR Decline after SGLT2 Inhibitor Initiation: The
+                                         Tortoise and the Hare Reimagined. Kidney360. 2021;2(6):1042–1047. [PubMed: 35373074]
+
+
+
+
+Author Manuscript
+                                     23. KDIGO. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic
+                                         Kidney Disease. Kidney Int. 2024;105(4).
+                                     24. Heron JE, Bagnis CI, Gracey DM. Contemporary issues and new challenges in chronic kidney
+                                         disease amongst people living with HIV. AIDS Res Ther. 2020;17(1):1–13. [PubMed: 31907064]
+                                     25. Sise ME, Katz-Agranov N, Strohbehn IA, et al. Use and Side Effects of Sodium Glucose
+                                         Transporter 2 Inhibitors among U.S. People with HIV with Clinical Indications. JAIDS J Acquir
+                                         Immune Defic Syndr. 2023;Publish Ah.
+                                     26. Yi TW, Hara DVO, Smyth B, Jardine MJ, Levin A, Morton RL. Identifying Barriers and
+                                         Facilitators for Increasing Uptake of Sodium-Inhibitors in British Columbia , Canada , using the
+                                         Consolidated Framework for Implementation Research. 2024;2.
+                                     27. Zhao JZ, Weinhandl ED, Carlson AM, Peter WL St. Disparities in SGLT2 Inhibitor or Glucagon-
+                                         Like Peptide 1 Receptor Agonist Initiation Among Medicare-Insured Adults With CKD in the
+                                         United States. Kidney Med. 2023;5(1).
+                                     28. Aggarwal R, Vaduganathan M, Chiu N, Bhatt DL. Out-of-Pocket Costs for SGLT-2 (Sodium-
+
+
+
+
+Author Manuscript
+                                         Glucose Transport Protein-2) Inhibitors in the United States. Circ Hear Fail. 2022;15(3):287–289.
+                                     29. Koh SWC, Lai MY, Leong CK, Lam J, Chew HSJ, Ngoh CLY. Primary Care Physicians’
+                                         Perspective on SGLT2 Inhibitors for Chronic Kidney Disease. Kidney Med. 2025;7(6):101002.
+                                         [PubMed: 40510618]
+                                     30. Kitahata MM, Rodriguez B, Haubrich R, et al. Cohort profile: The centers for AIDS research
+                                         network of integrated clinical systems. Int J Epidemiol. 2008;37(5):948–955. [PubMed: 18263650]
+                                     31. Miller WG, Kaufman HW, Levey AS, et al. National Kidney Foundation Laboratory Engagement
+                                         Working Group Recommendations for Implementing the CKD-EPI 2021 Race-Free Equations for
+                                         Estimated Glomerular Filtration Rate: Practical Guidance for Clinical Laboratories. Clin Chem.
+                                         2022;68(4):511–520. [PubMed: 34918062]
+                                     32. Muiru AN, Madden E, Scherzer R, et al. Effect of Adopting the New Race-Free 2021 Chronic
+                                         Kidney Disease Epidemiology Collaboration Estimated Glomerular Filtration Rate Creatinine
+                                         Equation on Racial Differences in Kidney Disease Progression among People with Human
+                                         Immunodeficiency Virus: An Obs. Clin Infect Dis. 2023;76(3):461–468. [PubMed: 36069064]
+
+
+
+
+Author Manuscript
+                                     33. Crane HM, Kadane JB, Crane PK, Kitahata MM. Diabetes Case Identification Methods Applied
+                                         to Electronic Medical Record Systems: Their Use in HIV-Infected Patients. Curr HIV Res.
+                                         2006;4(1):97–106. [PubMed: 16454715]
+                                     34. Austin PC. A comparison of 12 algorithms for matching on the propensity score. Stat Med.
+                                         2014;33(6):1057–1069. [PubMed: 24123228]
+                                     35. Schoenfeld D. Partial residuals for the proportional hazards regression model. Biometrika.
+                                         1982;69(1):239–241.
+                                     36. Cleveland WS. Robust Locally and Smoothing Weighted Regression Scatterplots. J Am Stat Assoc.
+                                         1979;74(368):829–836.
+                                     37. Guiraud V, Sauce D, Bittar R, et al. Clinical, biological, metabolic, and immune changes associated
+                                         with the use of sodium-glucose cotransporter 2 inhibitors in people living with HIV. Infect Dis
+                                         now. 2025;55(2):105040. [PubMed: 39961547]
+                                     38. Xie Y, Bowe B, Gibson AK, McGill JB, Maddukuri G, Al-Aly Z. Clinical implications
+                                         of estimated glomerular filtration rate dip following sodium-glucose cotransporter-2 inhibitor
+                                         initiation on cardiovascular and kidney outcomes. J Am Heart Assoc. 2021;10(11).
+
+
+
+
+Author Manuscript
+                                     39. Rønsholt FF, Ullum Henrik; Katzenstein Terese L.; Gerstoft Jan; Ostrowski SR. Persistent
+                                         Inflammation and Endothelial Activation in HIV-1 Infected Patients after 12 Years of
+                                         Antiretroviral Therapy. PLoS One. 2013;8(6):1–5.
+                                     40. Hileman CO, Funderburg NT. Inflammation, Immune Activation, and Antiretroviral Therapy in
+                                         HIV. Curr HIV/AIDS Rep. 2017;14(3):93–100. [PubMed: 28434169]
+                                     41. Neuhaus J, Jacobs DR, Baker JV., et al. Markers of inflammation, coagulation, and renal function
+                                         are elevated in adults with HIV infection. J Infect Dis. 2010;201(12):1788–1795. [PubMed:
+                                         20446848]
+
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                                    Page 12
+
+
+                                     42. Abraham AG, Darilay A, McKay H, et al. Kidney Dysfunction and Markers of Inflammation in the
+                                         Multicenter AIDS Cohort Study. J Infect Dis. 2015;212(7):1100–1110. [PubMed: 25762788]
+
+
+
+
+Author Manuscript
+                                     43. Choshi J, Hanser S, Mabhida SE, et al. A systematic review assessing the association of
+                                         inflammatory markers with kidney dysfunction in people living with HIV on highly active
+                                         antiretroviral therapy. BMC Infect Dis. 2024;24(1):1–9. [PubMed: 38166696]
+                                     44. Cooper RD, Wiebe N, Smith N, Keiser P, Naicker S, Tonelli M. Systematic review and meta-
+                                         analysis: Renal safety of tenofovir disoproxil fumarate in hiv-infected patients. Clin Infect Dis.
+                                         2010;51(5):496–505. [PubMed: 20673002]
+                                     45. Kalayjian RC, Lau B, Mechekano RN, et al. Risk factors for chronic kidney disease in a
+                                         large cohort of HIV-1 infected individuals initiating antiretroviral therapy in routine care. AIDS.
+                                         2012;26(15):1907–1915. [PubMed: 22824630]
+                                     46. Casado JL, Monsalvo M, Vizcarra P, Fontecha M, Serrano-Villar S, Moreno S. Evaluation of
+                                         kidney function in HIV-infected patients receiving an antiretroviral regimen containing one or
+                                         two inhibitors of the tubular secretion of creatinine. HIV Med. 2019;20(10):648–656. [PubMed:
+                                         31321875]
+                                     47. Zhao M, Sun S, Huang Z, Wang T, Tang H. Network meta-analysis of novel glucose-lowering
+
+
+
+
+Author Manuscript
+                                         drugs on risk of acute kidney injury. Clin J Am Soc Nephrol. 2021;16(1):70–78.
+                                     48. Jongs N, Chertow GM, Greene T, et al. Correlates and Consequences of an Acute Change in
+                                         eGFR in Response to the SGLT2 Inhibitor Dapagliflozin in Patients with CKD. J Am Soc Nephrol.
+                                         2022;33(11):2094–2107. [PubMed: 35977807]
+                                     49. Holec AD, Mandal S, Prathipati PK, Destache CJ. Nucleotide Reverse Transcriptase Inhibitors:
+                                         A Thorough Review, Present Status and Future Perspective as HIV Therapeutics. Curr HIV Res.
+                                         2017;15(6):100–106.
+
+
+
+
+Author Manuscript
+
+
+
+
+Author Manuscript
+
+
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                           Page 13
+
+
+
+
+Author Manuscript
+
+
+
+
+                                     Figure 1. Adjusted hazard ratios (aHRs) for ≥10% and ≥30% estimated glomerular filtration
+                                     rate (eGFR) decline within 6 months of sodium–glucose cotransporter-2 inhibitor (SGLT2i)
+                                     versus other antihyperglycemic class initiation among people with HIV (PWH) in a propensity
+                                     score–matched cohort (N=590).
+
+
+
+
+Author Manuscript
+                                     *Models were adjusted for diabetes status and baseline BMI due to residual imbalance after
+                                     matching (standardized mean difference >10%).
+                                     Abbreviations: SGLT2i, sodium–glucose cotransporter-2 inhibitor; eGFR, estimated
+                                     glomerular filtration rate; aHR, adjusted hazard ratio
+
+
+
+
+Author Manuscript
+
+
+
+
+Author Manuscript
+
+
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                            Page 14
+
+
+
+
+Author Manuscript
+
+
+
+
+Author Manuscript
+
+
+
+
+Author Manuscript
+
+
+
+
+                                     Figure 2. Kaplan-Meier curves for cumulative incidences of ≥10% (Panel A) and ≥30% (Panel B)
+
+
+
+
+Author Manuscript
+                                     eGFR decline within 6 Months of SGLT2 Inhibitors vs. other antihyperglycemic classes initiation
+                                     in propensity score-matched cohort of PWH (N=590).
+                                     Abbreviations: SGLT2i, sodium–glucose cotransporter-2 inhibitor; eGFR, estimated
+                                     glomerular filtration rate
+
+
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                             Page 15
+
+
+
+
+Author Manuscript
+
+
+
+
+Author Manuscript
+
+
+
+
+Author Manuscript
+                                     Figure 3. Change in eGFR over time following initiation of SGLT2i versus other
+                                     antihyperglycemic classes among PWH (on-treatment, N = 543), with reference to general
+                                     population clinical trial data.
+                                     LOWESS-smoothed eGFR trajectories over 24 months for PWH initiating SGLT2i (red line)
+                                     or other antihyperglycemic classes (blue line) are overlaid with dashed lines representing
+                                     approximate mean changes in eGFR reported in randomized controlled trials (RCTs) among
+                                     the general population (e.g. CREDENCE, DAPA-CKD, and EMPA-REG). The eGFR
+                                     trajectory in PWH follows a similar pattern to that observed in large, RCTs of SGLT2i from
+                                     the general population, with an initial decline during the acute phase (0–6 months) after
+                                     SGLT2i initiation, followed by partial recovery and stabilization with a crossover around
+                                     12–14 months, after which SGLT2i users exhibit a slower rate of eGFR decline compared
+                                     to controls. LOWESS plots illustrate the trend in eGFR changes over time and are for
+
+
+
+
+Author Manuscript
+                                     descriptive purposes only.
+                                     Abbreviations: SGLT2i, sodium–glucose cotransporter-2 inhibitor; eGFR, estimated
+                                     glomerular filtration rate; PWH, people with HIV; RCT, randomized controlled trial;
+                                     LOWESS, locally weighted scatterplot smoothing.
+
+
+
+
+                                    J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                                                    Page 16
+
+
+
+
+                                                                                     Table 1.
+                    Baseline Characteristics of People with HIV (PWH) Initiating SGLT2 Inhibitors vs. Other Antihyperglycemic
+                    Classes, Before and After Propensity Score (PS) Matching
+
+
+
+
+Author Manuscript
+                                                                    Before PS matching                               After PS matching
+
+                        Characteristic                  SGLT2 Inhibitors (n,       Other classes (n,    SGLT2 Inhibitors (n,     Other classes a   SMD b
+                                                               %)                        %)                    %)                   (n, %)         (%)
+                        N                                        299                     1255                    295                     295
+
+                        Age, years (Mean, SD)                   56 (10)                 53 (10)                56 (10)               57 (10)         5.5
+
+                        Sex
+                         Male                                  241 (81)                932 (74)                237 (80)             245 (83)         7.0
+
+                         Female                                 58 (19)                323 (26)                58 (20)               50 (17)
+
+                        Race
+                         Non-Hispanic White                    111 (37)                431 (34)                111 (38)             106 (36)         4.4
+
+
+
+
+Author Manuscript
+                         Non-Hispanic Black                    147 (49)                575 (46)                143 (49)             147 (50)
+
+                         Hispanic                               27 (9)                 194 (16)                 27 (9)               29 (10)
+
+                         Other                                  14 (5)                  55 (4)                  14 (5)               13 (4)
+
+                        eGFR, mL/min/1.73m2 (Mean,              69 (23)                 83 (23)                71 (23)               71 (23)         1.7
+                        SD)
+
+                        eGFR categories
+                         ≥ 90                                   70 (23)                537 (43)                70 (24)               71 (24)         8.3
+
+                         ≥ 60 to <90                           129 (43)                500 (40)                129 (44)             119 (40)
+
+                         ≥ 30 to <60                            91 (30)                197 (16)                87 (30)               97 (33)
+
+                         ≥ 15 to <30                             9 (3)                  21 (2)                  9 (3)                    8 (3)
+
+                        Diabetes                               203 (68)               1034 (82)                203 (69)             218 (74)        11.3
+
+                        Treated Hypertension                   227 (76)                845 (67)                223 (76)             230 (78)         5.6
+
+
+
+
+Author Manuscript
+                        CD4 Count, cells/mL (Mean,             676 (375)              724 (386)               675 (375)             665 (347)        2.7
+                        SD)
+
+                        VL <200, copies/mL                     273 (91)               1157 (92)                271 (92)             274 (93)         3.8
+
+                        BMI, kg/m2 (Mean, SD)                   31 (8)                  34 (8)                  31 (8)               33 (7)         24.0
+
+                        Concomitant Baseline Medications
+                         ART                                   291 (97)               1217 (97)                287 (97)             286 (97)         2.0
+
+                         TDF                                    44 (15)                302 (24)                44 (15)               42 (14)         1.9
+
+                         DTG                                   119 (40)                430 (34)                117 (40)             108 (37)         6.3
+
+                         RPV                                    28 (9)                 116 (12)                28 (10)               30 (10)         2.2
+
+                         COBI                                   29 (10)                152 (12)                29 (10)               37 (13)         8.6
+
+                         Insulin                                63 (21)                235 (19)                63 (21)               67 (23)         3.3
+
+                         Metformin                             115 (38)                669 (53)                112 (38)             124 (42)         8.3
+
+
+
+
+Author Manuscript
+                         Statins                               206 (69)                688 (55)                202 (69)             204 (69)         1.5
+
+                        Ever Smoker                            141 (47)                451 (36)                138 (47)             130 (44)         5.5
+
+                    Note:
+                    a
+                     Others group consists of GLP-1 RA (n=151), DPP-4 inhibitors (n=48), and sulfonylureas (n=96).
+
+
+
+
+                                          J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+                    Haidar et al.                                                                                                                        Page 17
+
+                    b
+                     SMD <10% indicates good balance between groups.
+                    Abbreviations: SMD: Standardized mean difference, SGLT2i: Sodium-glucose cotransporter-2 inhibitor, eGFR: Estimated glomerular filtration
+                    rate, VL: Viral load, BMI: Body mass index, ART: Antiretroviral therapy, TDF: Tenofovir disoproxil fumarate, DTG: Dolutegravir; RPV:
+                    Rilpivirine; COBI: Cobicistat.
+
+
+
+
+Author Manuscript
+
+
+
+
+Author Manuscript
+
+
+
+
+Author Manuscript
+
+
+
+
+Author Manuscript
+
+                                         J Acquir Immune Defic Syndr. Author manuscript; available in PMC 2026 June 01.
+
