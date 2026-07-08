@@ -1,0 +1,121 @@
+---
+title: "Finerenone, Serum Potassium, and Clinical Outcomes in Heart Failure With Mildly Reduced or Preserved Ejection Fraction"
+authors: "Orly Vardeny; Muthiah Vaduganathan; Brian L Claggett; Akshay S Desai; Pardeep S Jhund; Carolyn S P Lam; Michele Senni; Sanjiv J Shah; Adriaan A Voors; Faiez Zannad; Bertram Pitt; Shingo Matsumoto; Béla Merkely; Shelley Zieroth; Mehmet Birhan Yilmaz; James Lay-Flurrie; Prabhakar Viswanathan; Andrea Horvat-Broecker; Andrea Scalise; John J V McMurray; Scott D Solomon"
+year: 2025
+journal: "JAMA Cardiology"
+doi: "10.1001/jamacardio.2024.4539"
+pmid: "39550716"
+pmcid: "PMC11571067"
+source: "Europe PMC full-text XML (open access) — https://europepmc.org/articles/PMC11571067"
+content_verified: true
+---
+
+# Finerenone, Serum Potassium, and Clinical Outcomes in Heart Failure With Mildly Reduced or Preserved Ejection Fraction
+
+**Authors:** Orly Vardeny; Muthiah Vaduganathan; Brian L Claggett; Akshay S Desai; Pardeep S Jhund; Carolyn S P Lam; Michele Senni; Sanjiv J Shah; Adriaan A Voors; Faiez Zannad; Bertram Pitt; Shingo Matsumoto; Béla Merkely; Shelley Zieroth; Mehmet Birhan Yilmaz; James Lay-Flurrie; Prabhakar Viswanathan; Andrea Horvat-Broecker; Andrea Scalise; John J V McMurray; Scott D Solomon
+
+**Journal:** JAMA Cardiology (2025). DOI: 10.1001/jamacardio.2024.4539. PMID: 39550716. Secondary analysis of the FINEARTS-HF trial (NCT04435626).
+
+## Abstract
+
+**Question**
+What is the treatment effect of finerenone, relative to placebo, in patients with heart failure with mildly reduced or preserved ejection fraction based on postrandomization potassium levels?
+
+**Findings**
+Among 6001 patients in a clinical trial, finerenone increased potassium levels greater than 5.5 mmol/L and decreased potassium levels less than 3.5 mmol/L. Nevertheless, the risk of the primary outcome was generally lower in patients treated with finerenone compared to placebo, even in those for whom potassium level increased to greater than 5.5 mmol/L.
+
+**Meaning**
+With protocol-directed surveillance and dosage adjustment, the clinical benefit associated with finerenone relative to placebo was maintained even in those whose potassium level increased to greater than 5.5 mmol/L.
+
+## Introduction
+
+Mineralocorticoid receptor antagonists (MRAs) are a key component of guideline-directed medical therapy for heart failure with reduced ejection fraction and may be used in patients with heart failure with mildly reduced or preserved ejection fraction. The favorable mechanistic effects of MRAs on the heart, kidneys, and blood vessels are challenging to disconnect from their effects on electrolyte handling, because blockade of aldosterone universally leads to increases in serum potassium levels. Steroidal MRAs are underused in heart failure with reduced ejection fraction due in large part to the perceived risk of hyperkalemia, despite evidence that clinical efficacy is maintained even in the setting of modest elevations in potassium levels. Conversely, potassium levels less than 3.5 mmol/L are associated with an increased risk for adverse clinical outcomes in patients with heart failure, and MRAs mitigate the risk for hypokalemia.
+
+In the FINEARTS-HF trial, the nonsteroidal MRA finerenone reduced the risk of cardiovascular death and total worsening heart failure events in patients with symptomatic heart failure and left ventricular ejection fraction greater than or equal to 40%. This study investigated the frequency and predictors of serum potassium level greater than 5.5 mmol/L and less than 3.5 mmol/L and examined the treatment effect of the nonsteroidal MRA finerenone, relative to placebo, on clinical outcomes based on postrandomization potassium levels.
+
+## Methods
+
+FINEARTS-HF was an international, randomized, double-blind, placebo-controlled trial conducted in 634 sites in 37 countries testing the efficacy and safety of finerenone compared with placebo in patients with heart failure and mildly reduced or preserved ejection fraction. The trial design, conduct, and primary results were previously published. The protocol was approved by local ethics committees at each participating site, and each patient provided written informed consent in accordance with established guidelines. The trial protocol is shown in . The trial was reviewed by an independent monitoring committee. Consolidated Standards of Reporting Trials (CONSORT) reporting guidelines were followed.
+
+The study enrolled patients 40 years or older with symptomatic heart failure (New York Heart Association functional class II-IV) and a left ventricular ejection fraction greater than or equal to 40% within 12 months of enrollment, elevated levels of natriuretic peptides (N-terminal fragment of the prohormone brain natriuretic peptide [NT-proBNP] ≥300 pg/mL in those without atrial fibrillation or flutter or ≥900 pg/mL in those with atrial fibrillation), evidence of structural heart disease (left atrial enlargement or left ventricular hypertrophy), and use of diuretics for at least 30 days prior to enrollment. Individuals were excluded if they had estimated glomerular filtration rate (eGFR) less than 25 mL/min/1.73 m2 or serum potassium greater than 5.0 mmol/L at baseline. Those with a history of hyperkalemia or acute kidney failure during MRA treatment for more than 7 consecutive days, leading to permanent discontinuation of the MRA treatment, were also excluded.
+
+Participants were randomly assigned in a 1:1 ratio to receive finerenone (starting at 10 mg or 20 mg daily, depending on baseline eGFR ≤60 or >60 mL/min/1.73 m2, respectively) or matching placebo daily in addition to the patient’s current therapies or treatment (eFigure 1 in ). Four weeks after randomization, or any time thereafter, treatment doses were titrated to 20 mg or 40 mg daily (depending on eGFR ≤60 or >60 mL/min/1.73 m2) or matching placebo daily. Potassium levels were measured at baseline, 30 days after randomization, 90 days after randomization, and every 3 months for the first 12 months, then every 4 months thereafter. Per the protocol, if the postrandomization potassium level was greater than or equal to 5.5 mmol/L, investigators down-titrated or temporarily interrupted the study medication; if the potassium level was greater than or equal to 6.0 mmol/L, drug interruption was advised (). If the study medication was interrupted, investigators could reinitiate the lowest study medication dose if it was deemed medically acceptable without compromising safety.
+
+## Exposure and Outcomes
+
+The primary outcome of the trial was a composite of total (first and recurrent) worsening heart failure events and cardiovascular death. A worsening heart failure event was defined as either an unplanned heart failure hospitalization or a nonhospitalized, unscheduled urgent ambulatory or emergency department visit for heart failure. Secondary outcomes included total worsening heart failure events and all-cause mortality. Clinical outcomes were adjudicated by an independent, blinded end points committee.
+
+## Statistical Analyses
+
+Baseline characteristics were compared between participants who had potassium levels greater than 5.5 mmol/L and those who did not, as well as between participants who had potassium levels less than 3.5 mmol/L and those who did not at any scheduled or unscheduled visit after the baseline visit. Data were reported as means and SDs, medians and IQRs, or percentages and were compared using the χ2 test for categorical variables and Wilcoxon and *t* tests for nonnormal and normally distributed continuous variables, respectively. Potassium levels at baseline and at each scheduled visit after randomization by treatment assignment were compared.
+
+Cox proportional hazards regression models were used to examine associations between baseline characteristics and time to postbaseline potassium level greater than 5.5 mmol/L and less than 3.5 mmol/L, adjusting for treatment assignment and the following covariates: age, sex, race, diabetes, hypertension, history of myocardial infarction, New York Heart Association functional class, baseline potassium, eGFR, NT-proBNP level, systolic and diastolic blood pressure, and baseline medications (diuretic, angiotensin receptor neprilysin inhibitor, angiotensin-converting enzyme inhibitor or angiotensin receptor blocker, β-blocker, sodium-glucose cotransporter-2 inhibitor, digoxin, and potassium supplements). Treatment-specific Poisson regression models were used to conduct a landmark analysis 3 months after randomization, estimating via cubic spline models the rate of the primary outcome based on potassium levels observed at that scheduled study visit. Treatment-specific Poisson regression models were also used for a time-updated analysis using the most recent potassium measurement from a scheduled study visit prior to a primary outcome event. Hyperkalemia and hypokalemia adverse events were investigator-reported and did not incorporate potassium levels into the analyses.
+
+In an additional analysis, we estimated the risks observed in finerenone and placebo groups both before and after an observed potassium level greater than 5.5 mmol/L in time-updated Cox proportional hazards models on time to first cardiovascular death or worsening heart failure event, accounting for serial potassium levels. Patients were initially considered in a window of risk before experiencing a potassium level greater than 5.5 mmol/L. At the point that the potassium level was greater than 5.5 mmol/L, the patient was reclassified. We assessed for an interaction in estimated risks of finerenone and placebo before and after laboratory-measured potassium level greater than 5.5 mmol/L.
+
+Statistical testing was 2-sided, and *P *<.05 indicated statistical significance.
+
+## Results
+
+Among 6001 participants analyzed (mean age, 72 years; 2732 female participants), mean (SD) baseline potassium levels were similar between the finerenone (n = 3003) and placebo (n = 2998) groups (4.38 [0.48] vs 4.37 [0.47] mmol/L; *P* = .51). The mean (SD) doses of study medications were 15.6 (4.3) mg for finerenone and 16.7 (4.0) mg for placebo for the 20-mg daily dose strata and 32.3 (9.1) mg for finerenone and 34.5 (7.8) mg for placebo the 40-mg dose strata. Postrandomization serum potassium measurements in the finerenone and placebo group were 4.59 [0.48] vs 4.39 [0.47] mmol/L, respectively, at month 1 and 4.60 [0.47] vs 4.37 [0.46] mmol/L, respectively, at month 3 (*P* < .001 at both points). The increase in serum potassium was greater in the finerenone group than the placebo group at 1 month (median [IQR] difference, 0.19 [0.17-0.21] mmol/L) and 3 months (median [IQR] difference, 0.23 [0.21-0.25] mmol/L), which persisted for the remainder of trial follow-up ().
+
+The increase in serum potassium was greater in the finerenone group than the placebo group at 1 month (median [IQR] difference, 0.19 [0.17-0.21] mmol/L) and 3 months (median [IQR] difference, 0.23 [0.21-0.25] mmol/L), which persisted for the remainder of trial follow-up.
+
+Participants who received finerenone had an increased risk for potassium level greater than 5.5 mmol/L and greater than 6.0 mmol/L at any point relative to placebo (>5.5 mmol/L: hazard ratio [HR], 2.16 [95% CI, 1.83-2.56]; *P* < .001; >6.0 mmol/L: HR, 2.07 [95% CI, 1.4-3.0]; *P* < .001) and had a decreased risk for potassium level less than 3.5 mmol/L (HR, 0.46 [95% CI, 0.38-0.56]; *P* < .001). The risk for potassium elevation to greater than 5.5 mmol/L after randomization was similar across target dosing strata (20-mg strata: HR, 2.02 [95% CI, 1.63-2.50]; 40-mg strata: HR, 2.35 [95% CI, 1.80-3.05]; interaction *P* = .39) ().
+
+Dosing was based on estimated glomerular filtration rate (eGFR) >60 mL/min/1.73 m2 (target dose: 40 mg daily) or ≤ 60 mL/min/1.73 m2 (target dose: 20 mg daily) at study baseline.
+
+Regardless of treatment assignment, patients who had a potassium level greater than 5.5 mmol/L during follow-up were more likely to be men and have a history of diabetes, myocardial infarction, and recent worsening heart failure events; worse baseline kidney function; and higher baseline potassium levels (eTable 1 in ). Those who had a potassium level less than 3.5 mmol/L were more likely to be women and have a history of hospitalization for heart failure, history of atrial fibrillation, a higher baseline urine albumin:creatinine ratio, and lower baseline potassium levels (eTable 2 in ). Baseline characteristics that were associated with potassium level greater than 5.5 mmol/L in multivariable models included type 2 diabetes; higher baseline potassium, serum creatinine, urine albumin:creatinine ratio, and NT-proBNP levels; Asian race; and lower body mass index. Clinical characteristics that were associated with any potassium level less than 3.5 mmol/L were Asian race, lower baseline Kansas City Cardiomyopathy Questionnaire total symptom scores, lower baseline potassium levels, and higher NT-proBNP levels ().
+
+Abbreviations: BMI, body mass index (calculated as weight in kilograms divided by height in meters squared); KCCQ-TSS, Kansas City Cardiomyopathy Questionnaire total symptom score; NT-proBNP, N-terminal fragment of the prohormone brain natriuretic peptide; UACR, urine albumin:creatinine ratio.
+
+Race was included in the analysis for reporting transparency and for readers to assess generalizability of results. Race was determined by the participant based on fixed categories. “Other” included American Indian or Alaska Native, Native Hawaiian or Other Pacific Islander, multiple races, or not reported (n = 17).
+
+Hyperkalemia and hypokalemia adverse events leading to hospitalizations were infrequent (hyperkalemia events: 0.5% in the finerenone group vs 0.2% in the placebo group; hypokalemia events: 0.1% in the finerenone group vs 0.2% in the placebo group) and there were no hyperkalemia- or hypokalemia-related deaths in either group (). During a median follow-up of 2.6 years, 3-month potassium levels at both ends of the measurement spectrum (<3.5 and >5.5 mmol/L) were associated with increased subsequent risks of the primary outcome in both treatment groups. Nevertheless, finerenone was associated with lower risks compared with placebo (). In a time-updated model using the most recent potassium level, risk of the primary outcome was increased in those who had a potassium measurement greater than 5.5 mmol/L (HR, 1.64 [95% CI, 1.04-2.58]) or less than 3.5 mmol/L (HR, 2.49 [95% CI, 1.80-3.43]) compared with those whose potassium levels remained between 3.5 and 5.5 mmol/L (eFigure 2 in ).
+
+In an analysis that examined the incidence of cardiovascular death or first worsening heart failure event before and after a potassium measurement of greater than 5.5 mmol/L, finerenone was consistently associated with a lower risk compared with placebo in participants who did vs did not have a potassium level greater than 5.5 mmol/L during follow-up (HR, 0.84 [95% CI, 0.55-1.30] vs 0.83 [95% CI, 0.74-0.92]; interaction *P* = .72).
+
+## Discussion
+
+In this analysis of patients with heart failure and mildly reduced or preserved ejection fraction, patients randomized to receive finerenone had more frequent potassium elevation to greater than 5.5 mmol/L and less frequent potassium decrease to less than 3.5 mmol/L compared with individuals receiving placebo. The incidence of potassium level greater than 6.0 mmol/L was relatively infrequent, but was more commonly observed in the finerenone group. Hospitalizations due to hyperkalemia were uncommon, and there were no deaths related to hyperkalemia during the trial. Patients with potassium levels greater than 5.5 mmol/L or less than 3.5 mmol/L were both associated with a higher risk of adverse clinical outcomes regardless of treatment assignment, but the benefits associated with finerenone relative to placebo on worsening heart failure or cardiovascular death were maintained even in those with early increase (1 month after randomization) in potassium levels to greater than 5.5 mmol/L.
+
+Baseline characteristics associated with potassium level greater than 5.5 mmol/L included potassium levels at randomization, higher serum creatinine and urine albumin:creatinine ratio, and type 2 diabetes, while individuals of Asian descent were less likely to have hyperkalemia. These factors were consistent with those noted in previous trials of steroidal MRAs in patients with heart failure and in the FIDELIO-DKD study in patients with type 2 diabetes and chronic kidney disease. Importantly, finerenone dosing in the FINEARTS-HF trial was based on baseline kidney function, and those with eGFR less than or equal to 60 mL/min/1.73 m2 had their dose titrated to half the dose that patients with eGFR greater than 60 mL/min/1.73 m2 were receiving. Although the absolute incidences of potassium level greater than 5.5 mmol/L were higher among those with lower eGFR, the relative risk between finerenone and placebo were similar within each dose strata. As such, the magnified risk of elevated potassium with kidney dysfunction may be mitigated by appropriate target dosing of finerenone, mirroring the trial protocol approach. Notably, higher NT-proBNP levels were associated with both potassium levels greater than 5.5 mmol/L and less than 3.5 mmol/L, suggesting that potassium levels at both extremes of the spectrum may be, at least in part, reflective of worse disease severity.
+
+Although head-to-head comparisons of finerenone to steroidal MRAs at the doses used in the FINEARTS-HF study are not available, the mean placebo-corrected increase in potassium in FINEARTS-HF after dose titration was 0.23 mmol/L, and, in the TOPCAT-Americas study, the posttitration difference with spironolactone was 0.29 mmol/L. Differences in study populations and use of concomitant medications that could affect potassium were dissimilar between the studies, thus comparisons of potassium changes between steroidal and nonsteroidal MRAs are challenging. The findings of a preserved benefit associated with finerenone despite elevations in potassium levels are consistent with analyses from RALES and EMPHASIS-HF studies, in which the benefits associated with MRAs were maintained despite elevation in serum potassium. Similar findings were seen in a post hoc analysis of the TOPCAT-Americas study.
+
+Derangements in serum potassium levels are regularly encountered in patients with heart failure, and may result from disease progression, concomitant chronic kidney disease, and use of medications that alter potassium homeostasis (loop or thiazide diuretics, renin-angiotensin-system inhibitors, angiotensin receptor neprilysin inhibitors, β-blockers, and MRAs). Patients with HF are particularly susceptible to arrhythmias induced by hypokalemia or hyperkalemia, and potassium levels at both ends of the measurement spectrum have been shown to be associated with heightened risks of mortality. Although clinicians are particularly concerned about the risk of hyperkalemia, which often results in permanent discontinuation of life-saving guideline-directed medical therapy, there may be underappreciation of adverse sequelae resulting from hypokalemia. In FINEARTS-HF, the risk for a primary outcome event following a potassium level less than 3.5 mmol/L was higher than when the potassium level was greater than 5.5 mmol/L. This result is consistent with those from the PARAGON-HF study and in observational datasets. Thus, some of the benefits attributable to MRAs may relate to their reducing the risk for hypokalemia.
+
+Findings from this analysis should be viewed in the context of their limitations. First, this study excluded individuals with baseline potassium levels greater than 5.0 mmol/L and eGFR less than 25 mL/min/1.73 m2; thus, the generalizability of these data to a wider group of patients with heart failure with mildly reduced or preserved ejection fraction is uncertain. Second, the study offered protocolized recommendations for correcting potassium (by either dose reduction or temporary discontinuation) when the laboratory measurement was greater than or equal to 5.5 mmol/L, but prompt correction of potassium was not mandated when potassium levels were less than 3.5 mmol/L during the trial. Third, the granular reasons for permanent study medication discontinuation were not captured, and it was not possible to definitively determine the percentage of patients who discontinued the study medication due to increased potassium levels.
+
+## Conclusion
+
+In patients with heart failure with mildly reduced or preserved ejection fraction, finerenone resulted in early modest increases in potassium levels. However, the clinical benefit associated with finerenone was maintained even in the setting of elevated potassium, and the risk of hypokalemia was reduced with finerenone. Appropriate dose selection according to baseline kidney function and dose adjustments in response to potassium levels while receiving treatment, in keeping with the trial protocol, may mitigate risks of serious hyperkalemia and optimize treatment continuation in clinical practice. These data suggest a favorable risk to benefit ratio for the use of finerenone in select patients with heart failure with mildly reduced or preserved ejection fraction in the setting of protocolized surveillance and follow-up.
+
+Trial Protocol and Statistical Analysis Plan
+
+eFigure 1. Patient Flow
+
+eTable 1. Patients experiencing postrandomization potassium levels above 5.5 mmol/l
+
+eTable 2. Patients Experiencing postrandomization Potassium Levels below 3.5 mmol/l
+
+eFigure 2. Rates of cardiovascular death or total worsening heart failure across a range of time-updated potassium levels postrandomization by treatment
+
+Data Sharing Statement
+
+## References
+
+## Associated Data
+
+Trial Protocol and Statistical Analysis Plan
+
+eFigure 1. Patient Flow
+
+eTable 1. Patients experiencing postrandomization potassium levels above 5.5 mmol/l
+
+eTable 2. Patients Experiencing postrandomization Potassium Levels below 3.5 mmol/l
+
+eFigure 2. Rates of cardiovascular death or total worsening heart failure across a range of time-updated potassium levels postrandomization by treatment
+
+Data Sharing Statement
+
