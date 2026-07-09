@@ -50,7 +50,7 @@ ASI（baxdrostat、lorundrostat、vicadrostat/BI 690517、dexfadrostat 等）與
 - Lorundrostat：t½ 約 10–12 h；單劑 100–200 mg 降醛固酮達 **40%**，400–800 mg 達 **70%**；無基礎或 cosyntropin 刺激 cortisol 抑制[asi_pharmacology_Shimizu_2024]。
 - 系統性回顧綜論：ASI 使血漿醛固酮下降 **50–70%**，與 MRA「反而升高循環醛固酮」形成鮮明對比[asi_pharmacology_Rasmussen_2025]。
 
-**兩個未解的機轉隱憂（🔴，放大到 §4 討論）**：(a) **aldosterone breakthrough**——ASI 降醛固酮後代償性 renin 上升（BaxHTN 觀察到 PRA 上升）[asi_pharmacology_Flack_2025]；(b) **CYP11B1 off-target / 前驅物累積**——理論上抑制合成酶會使共同前驅物 11-deoxycorticosterone（本身具鹽皮質活性）分流累積，只有在超治療劑量才明顯[asi_pharmacology_Bogman_2017][asi_pharmacology_Judge_2025]。
+**兩個未解的機轉隱憂（🔴，詳見 §4.3）**：(a) **aldosterone breakthrough／renin 代償上升**——ASI 降醛固酮後，RAAS 可能以 PRA 上升回饋；BaxHTN 已觀察到 aldosterone 下降伴隨 PRA 上升，但這仍是探索性訊號，不等於已證實療效會衰退[asi_pharmacology_Flack_2025]；(b) **CYP11B1 off-target／前驅物累積**——CYP11B2 與 CYP11B1 高度同源，理論上可能導致 cortisol-axis 影響，或使共同前驅物 11-deoxycorticosterone（本身具鹽皮質活性）累積而抵銷降 aldosterone 的淨效益；新一代高選擇性 ASI 目前主要在超治療暴露或選擇性不足時才看見明顯前驅物問題[asi_pharmacology_Bogman_2017][asi_pharmacology_Judge_2025]。
 
 ### 2.2 Finerenone：受體端、非類固醇、低 CNS 穿透
 
@@ -116,6 +116,28 @@ finerenone 的 hard cardiorenal 效益已確立：
 FIDELIO 原文明白寫道：各成分事件在 finerenone 組皆較低，**「唯獨 nonfatal stroke，兩組發生率相近」**[FIDELIO-DKD_NEJMoa2025845]。FIDELITY 次分析亦指出，複合 CV 效益主要由 **HHF（HR 0.78, 0.66–0.92）** 驅動；一旦**侷限於 ASCVD 事件（MI 與 stroke），相對風險下降未達統計顯著**，且明言「nsMRA 是否能修飾 ASCVD 事件風險尚未確立、需進一步研究」[cerebrovascular_mr_aldosterone_Agarwal_2021][cerebrovascular_mr_aldosterone_Agarwal_2023]。
 
 **這正是本主題最重要的一句話**：finerenone 在 T2D-CKD 族群**沒有展現 stroke 益處**——這與「finerenone 不過 BBB、對中樞/腦血管 MR 無直接作用」的藥理特徵在方向上一致（🔴 為機轉外推，非因果證明）[finerenone_bbb_cns_Agarwal_2021]。它同時提醒我們：finerenone 的 hard-outcome 招牌，主要建立在 HHF 與腎臟終點，而非腦血管。
+
+### 4.3 ASI 的兩個未解機轉隱憂：降 ligand 之後，系統會不會反撲？（🔴）
+
+ASI 的核心吸引力是「從合成端降低 aldosterone ligand」。這使 ASI 理論上比 finerenone 更上游：不只降低 MR 的 ligand 供應，也可能降低 MR-independent／非基因體醛固酮效應。但這個優勢成立有一個前提：**steroidogenesis–RAAS 系統不能用其他路徑把鹽皮質活性補回來**。目前最需要追蹤的兩個反向機轉，是 **aldosterone breakthrough／renin 代償上升**與 **CYP11B1 off-target／11-deoxycorticosterone（11-DOC）前驅物累積**。
+
+#### (a) Aldosterone breakthrough／renin 代償上升：不是「ASI 已失效」，而是「長期 ligand-lowering 能否維持」的問題
+
+ASI 抑制 CYP11B2 後，aldosterone 下降，遠端腎小管鈉重吸收降低，natriuresis 增加；有效循環量與 macula densa / juxtaglomerular feedback 會促使 renin、PRA 上升。BaxHTN 的探索性藥效資料即觀察到 **aldosterone 下降伴隨 PRA 上升**；作者推測，這可能代表 baxdrostat 在已有利尿劑背景下仍能進一步促進尿鈉排泄，也提示 hard-to-control BP 族群中仍存在 residual aldosterone activity / breakthrough[asi_pharmacology_Flack_2025]。
+
+這裡要避免過度解讀：**PRA 上升本身不是壞事，也不等於 aldosterone 已經回升；它是下游鹽皮質訊號被壓低後的預期回饋。**真正未解的是慢性治療時，高 renin / angiotensin II、血鉀、ACTH 與 zona glomerulosa 適應性變化，會不會逐漸把 CYP11B2 活性或 aldosterone 生成推回來，造成「降 aldosterone 幅度變小、BP/UACR 效果衰退、或需要更高劑量」。因此 ASI 的短期 BP/UACR 成功，仍不能直接外推為長期 hard outcome 成功；必須在長期試驗中同時看 aldosterone、PRA、鉀、鈉、eGFR dip 與療效是否隨時間衰減。
+
+#### (b) CYP11B1 off-target／11-DOC 前驅物累積：不是「所有 ASI 都會 cortisol failure」，而是「選擇性窗口夠不夠寬」的問題
+
+CYP11B2 與 CYP11B1 高度同源，且 aldosterone 與 cortisol 合成都使用相鄰的 steroidogenic 前驅物。理想 ASI 應只抑制 CYP11B2，使 11-DOC 往 aldosterone 的轉換下降，而不抑制 CYP11B1 的 cortisol 合成。若選擇性不足，會出現兩層風險：第一，**CYP11B1 off-target** 造成 11-deoxycortisol 累積、cortisol 生成受損與 ACTH stimulation response 變鈍；這正是早期 ASI / osilodrostat 在高血壓開發中失利、轉向 Cushing syndrome 的主要教訓[asi_pharmacology_Bogman_2017][asi_pharmacology_Judge_2025]。第二，即使 CYP11B1 沒有明顯被抑制，單純堵住 CYP11B2 也可能使共同前驅物 **11-DOC 上升**；而 11-DOC 本身具鹽皮質活性，理論上可部分補回 sodium-retaining / potassium-wasting 效應，抵銷「降 aldosterone ligand」的淨效益[asi_pharmacology_Bogman_2017][asi_pharmacology_Judge_2025]。
+
+目前證據應寫得精準：**新一代高選擇性 ASI 在治療劑量下，cortisol 抑制與 11-DOC 顯著累積尚未成為主要臨床訊號；明顯前驅物累積多見於超治療暴露或選擇性不足時。**Bogman 的 RO6836191 早期人體資料顯示，10 mg 已可達最大 aldosterone 抑制，但 11-DOC 與 11-deoxycortisol 的增加主要在 ≥90 mg 才出現；vicadrostat 亦強調 250-fold CYP11B2:CYP11B1 選擇性，phase II CKD 試驗未見平均 cortisol 有意義下降，但 EASi-KIDNEY 仍把 corticosteroid pathway、cortisol 與其前驅物監測列為安全性重點[asi_pharmacology_Bogman_2017][asi_pharmacology_Judge_2025]。
+
+#### 對讀 finerenone：ASI 的優勢與弱點剛好同源
+
+finerenone 的弱點是受體端阻斷：它不能降低 circulating aldosterone，也無法覆蓋 MR-independent ligand effect；但它也不會直接造成 steroidogenesis 前驅物分流或 CYP11B1 off-target。ASI 的弱點剛好相反：它的機轉覆蓋面可能更廣，但必須證明「降 ligand」能長期維持，且不被 PRA 代償、aldosterone breakthrough、11-DOC 前驅物累積或 cortisol-axis 安全性問題抵銷。
+
+因此，ASI vs finerenone 的真正未知，不是單純「誰降 BP / UACR 比較多」，而是：**合成端阻斷的廣覆蓋機轉，能否在長期 hard outcome 中保留淨效益，而不是被內分泌回饋與前驅物分流吃掉。**這也是為何 EASi-KIDNEY 這類大型 hard-outcome 試驗，必須同時看 cardiorenal outcome 與 steroidogenesis safety，而不能只看短期 UACR 或 BP[asi_pharmacology_Judge_2025]。
 
 ---
 
