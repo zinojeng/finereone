@@ -1,0 +1,399 @@
+<style>
+  :root{
+    --bg:#e9eef2; --surface:#ffffff; --surface2:#f3f7f9; --ink:#0f1e29; --muted:#54697a;
+    --line:#d0dbe3; --accent:#0c6f7e; --accent-soft:#0c6f7e22;
+    --sglt2i:#2c7a52; --steroid:#a2650f; --caution:#b43526; --ns:#7a8b98;
+    --fin:#0c6f7e;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    --sans:-apple-system,"Segoe UI Variable","Segoe UI",system-ui,Roboto,sans-serif;
+    --serif:Georgia,"Iowan Old Style","Times New Roman",serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#0a1218; --surface:#111d26; --surface2:#0e1a22; --ink:#e8f1f5; --muted:#93a7b4;
+      --line:#22333f; --accent:#3ab4c3; --accent-soft:#3ab4c322;
+      --sglt2i:#57bd83; --steroid:#d29a48; --caution:#e8735f; --ns:#7e93a1; --fin:#3ab4c3;
+    }
+  }
+  :root[data-theme="light"]{
+    --bg:#e9eef2; --surface:#ffffff; --surface2:#f3f7f9; --ink:#0f1e29; --muted:#54697a;
+    --line:#d0dbe3; --accent:#0c6f7e; --accent-soft:#0c6f7e22;
+    --sglt2i:#2c7a52; --steroid:#a2650f; --caution:#b43526; --ns:#7a8b98; --fin:#0c6f7e;
+  }
+  :root[data-theme="dark"]{
+    --bg:#0a1218; --surface:#111d26; --surface2:#0e1a22; --ink:#e8f1f5; --muted:#93a7b4;
+    --line:#22333f; --accent:#3ab4c3; --accent-soft:#3ab4c322;
+    --sglt2i:#57bd83; --steroid:#d29a48; --caution:#e8735f; --ns:#7e93a1; --fin:#3ab4c3;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;line-height:1.5}
+  .deck{height:100vh;width:100%;position:relative;overflow:hidden}
+  .slide{position:absolute;inset:0;display:none;flex-direction:column;
+    padding:clamp(20px,4vw,64px);opacity:0;transition:opacity .35s ease}
+  .slide.on{display:flex;opacity:1}
+  .wrap{max-width:1060px;margin:0 auto;width:100%;height:100%;display:flex;
+    flex-direction:column;justify-content:center;gap:clamp(12px,1.8vh,26px)}
+  .eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--accent);font-weight:600}
+  h1{font-size:clamp(2rem,5.2vw,4rem);line-height:1.02;margin:0;font-weight:800;
+    letter-spacing:-.028em;text-wrap:balance}
+  h2{font-size:clamp(1.5rem,3.4vw,2.5rem);line-height:1.06;margin:0;font-weight:800;
+    letter-spacing:-.022em;text-wrap:balance}
+  h3{font-size:1.02rem;margin:0;font-weight:700;letter-spacing:-.01em}
+  p{margin:0;color:var(--muted)}
+  .lead{font-size:clamp(1rem,1.5vw,1.18rem);color:var(--muted);max-width:60ch}
+  .q{font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,2vw,1.5rem);
+    color:var(--ink);line-height:1.3;border-left:3px solid var(--accent);
+    padding:.1em 0 .1em 1rem;text-wrap:balance}
+  .mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+  .hr{font-family:var(--mono);font-weight:600;font-variant-numeric:tabular-nums}
+  .grid{display:grid;gap:14px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;
+    padding:clamp(14px,1.8vw,22px);display:flex;flex-direction:column;gap:8px}
+  .tag{display:inline-flex;align-items:center;gap:.4em;font-family:var(--mono);font-size:.68rem;
+    letter-spacing:.06em;text-transform:uppercase;padding:.28em .6em;border-radius:999px;font-weight:600}
+  .t-app{background:color-mix(in srgb,var(--sglt2i) 16%,transparent);color:var(--sglt2i)}
+  .t-exp{background:color-mix(in srgb,var(--steroid) 18%,transparent);color:var(--steroid)}
+  .t-hyp{background:color-mix(in srgb,var(--ns) 20%,transparent);color:var(--ns)}
+  .t-cau{background:color-mix(in srgb,var(--caution) 16%,transparent);color:var(--caution)}
+  table{border-collapse:collapse;width:100%;font-size:clamp(.74rem,1.05vw,.92rem)}
+  th,td{text-align:left;padding:.5em .7em;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-family:var(--mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--muted);font-weight:600}
+  td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+  .fin{color:var(--fin)} .sg{color:var(--sglt2i)} .st{color:var(--steroid)} .cau{color:var(--caution)}
+  /* forest */
+  .forest{display:flex;flex-direction:column;gap:9px}
+  .frow{display:grid;grid-template-columns:minmax(130px,1.1fr) 2.4fr minmax(96px,auto);
+    align-items:center;gap:12px}
+  .flabel{font-size:.82rem;font-weight:600}
+  .flabel small{display:block;color:var(--muted);font-weight:400;font-size:.7rem;font-family:var(--mono)}
+  .track{position:relative;height:26px}
+  .track::before{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:var(--line)}
+  .unity{position:absolute;top:-3px;bottom:-3px;width:1px;background:var(--muted);opacity:.55}
+  .ci{position:absolute;top:50%;height:3px;transform:translateY(-50%);border-radius:2px;opacity:.5}
+  .pt{position:absolute;top:50%;width:12px;height:12px;border-radius:50%;transform:translate(-50%,-50%)}
+  .fval{font-family:var(--mono);font-size:.78rem;font-variant-numeric:tabular-nums;text-align:right}
+  .axis{display:grid;grid-template-columns:minmax(130px,1.1fr) 2.4fr minmax(96px,auto);gap:12px;
+    font-family:var(--mono);font-size:.66rem;color:var(--muted)}
+  .axis .ticks{position:relative;height:14px}
+  .axis .ticks span{position:absolute;transform:translateX(-50%)}
+  /* reverse signal viz */
+  .rev{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:760px){.rev{grid-template-columns:1fr}}
+  .factor{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;background:var(--surface);
+    border:1px solid var(--line);border-radius:12px}
+  .fnum{font-family:var(--mono);font-weight:700;color:var(--caution);font-size:1.1rem;line-height:1.2}
+  .reality{background:color-mix(in srgb,var(--fin) 8%,var(--surface));border-color:color-mix(in srgb,var(--fin) 40%,var(--line))}
+  .bignum{font-family:var(--mono);font-weight:800;font-size:clamp(1.6rem,3vw,2.4rem);
+    letter-spacing:-.02em;line-height:1;font-variant-numeric:tabular-nums}
+  .row{display:flex;gap:14px;flex-wrap:wrap}
+  .kpi{flex:1;min-width:150px;background:var(--surface);border:1px solid var(--line);
+    border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+  .kpi .lab{font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  ul.deep{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+  ul.deep li{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:baseline}
+  ul.deep .n{font-family:var(--mono);font-weight:700;color:var(--accent);font-size:.9rem}
+  ul.deep b{color:var(--ink)}
+  .foot{font-size:.72rem;color:var(--muted);font-family:var(--mono)}
+  /* nav */
+  .nav{position:fixed;left:0;right:0;bottom:0;height:52px;display:flex;align-items:center;
+    justify-content:space-between;padding:0 clamp(14px,3vw,34px);gap:14px;
+    background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(8px);
+    border-top:1px solid var(--line);z-index:20}
+  .progress{position:absolute;top:0;left:0;height:2px;background:var(--accent);transition:width .35s ease}
+  .nav .title{font-family:var(--mono);font-size:.72rem;color:var(--muted);letter-spacing:.04em;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .nav button{font-family:var(--mono);font-size:.8rem;background:var(--surface);color:var(--ink);
+    border:1px solid var(--line);border-radius:8px;padding:.42em .8em;cursor:pointer}
+  .nav button:hover{border-color:var(--accent);color:var(--accent)}
+  .nav button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .count{font-family:var(--mono);font-size:.78rem;color:var(--muted);font-variant-numeric:tabular-nums}
+  .navgrp{display:flex;align-items:center;gap:10px}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;font-family:var(--mono);font-size:.72rem;color:var(--muted)}
+  .legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
+  @media (prefers-reduced-motion:reduce){.slide{transition:none}.progress{transition:none}}
+</style>
+
+<div class="deck" id="deck">
+
+  <!-- 1 TITLE -->
+  <section class="slide on">
+    <div class="wrap">
+      <div class="eyebrow">深度解析 · 專科醫師版 · Companion to 主題六</div>
+      <h1>超越 T2D 的心腎版圖</h1>
+      <p class="lead">Finerenone 從糖尿病腎病走向 cardiovascular-kidney-metabolic (CKM) platform 的證據臨界點——逐篇試驗的核心問題、關鍵數據，與<strong style="color:var(--ink)">非-finerenone 相似試驗</strong>的深度對讀。</p>
+      <div class="row" style="margin-top:6px">
+        <div class="kpi"><span class="lab">六張深度解析卡</span><span class="bignum">6</span><span class="foot">FINE-ONE · FIND-CKD · glomerular · FINEARTS · FINE-HEART · INFINITY</span></div>
+        <div class="kpi"><span class="lab">跨試驗對讀</span><span class="bignum">9</span><span class="foot">DAPA-CKD · EMPA-KIDNEY · TOPCAT · DELIVER · PROTECT · captopril</span></div>
+        <div class="kpi"><span class="lab">最大合池 N</span><span class="bignum">18,991</span><span class="foot">FINE-HEART（FIDELIO+FIGARO+FINEARTS）</span></div>
+      </div>
+      <p class="foot">資料基準 2026-07-08。所有數字均可回溯本地全文；📌=僅 abstract，不作全文級斷言。</p>
+    </div>
+  </section>
+
+  <!-- 2 CORE TENSION + EVIDENCE LADDER -->
+  <section class="slide">
+    <div class="wrap">
+      <div class="eyebrow">核心張力</div>
+      <h2>問題不是「有沒有效」，而是——效益到底是不是 T2D-specific？</h2>
+      <p class="lead">MR 過度活化驅動的發炎與纖維化並非糖尿病專屬。2024–2026 的四個新板塊逐一檢驗「跨病因」假說，但證據位階差異極大。</p>
+      <div class="tblwrap">
+        <table>
+          <thead><tr><th>族群</th><th>代表證據</th><th>N</th><th>主要終點</th><th>關鍵結果</th><th>核准狀態</th></tr></thead>
+          <tbody>
+            <tr><td><b>T2D-CKD</b></td><td>FIDELIO/FIGARO/FIDELITY</td><td class="num">13,026</td><td>硬性 腎/CV 複合</td><td class="num">腎 0.77 · CV 0.86</td><td><span class="tag t-app">✓ 已核准 2021</span></td></tr>
+            <tr><td><b>HFpEF/HFmrEF</b></td><td>FINEARTS-HF</td><td class="num">6,001</td><td>硬性 CV死亡+惡化HF</td><td class="num">RR 0.84（跨EF一致）</td><td><span class="tag t-app">✓ 已核准 2025/07</span></td></tr>
+            <tr><td><b>T1D-CKD</b></td><td>FINE-ONE</td><td class="num">242</td><td>替代（6mo UACR）</td><td class="num">UACR −25%</td><td><span class="tag t-exp">FDA priority review</span></td></tr>
+            <tr><td><b>非糖尿病 CKD</b></td><td>FIND-CKD</td><td class="num">1,584</td><td>替代（eGFR slope）</td><td class="num">slope 差 0.7 · HR 0.77</td><td><span class="tag t-exp">證據擴張</span></td></tr>
+            <tr><td><b>腎絲球疾病</b></td><td>FIND-CKD 亞群</td><td class="num">903</td><td>exploratory</td><td class="num">UACR −42% · HR 0.74</td><td><span class="tag t-hyp">exploratory</span></td></tr>
+            <tr><td><b>整體 CKM</b></td><td>FINE-HEART / INFINITY</td><td class="num">18,991 / 14,574</td><td>pooled</td><td class="num">死亡 0.91 · HHF 0.83 · 腎 0.80</td><td><span class="tag t-hyp">概念層次</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="foot">綠=已核准（硬終點）· 琥珀=證據擴張（replace/surrogate）· 灰=exploratory/概念</p>
+    </div>
+  </section>
+
+  <!-- 3 FOREST: renal + CV -->
+  <section class="slide">
+    <div class="wrap">
+      <div class="eyebrow">跨試驗森林圖 · 腎/心血管複合</div>
+      <h2>非糖尿病的點估計與糖尿病一致——但 CV 益處只在 pooled 才收斂</h2>
+      <div class="legend">
+        <span><i style="background:var(--fin)"></i>糖尿病錨點（FIDELITY）</span>
+        <span><i style="background:var(--steroid)"></i>非糖尿病單一試驗</span>
+        <span><i style="background:var(--accent)"></i>IPD 合池（INFINITY）</span>
+      </div>
+      <h3 style="margin-top:4px">腎臟複合終點</h3>
+      <div class="forest" id="forest-renal"></div>
+      <h3 style="margin-top:8px">心血管複合終點</h3>
+      <div class="forest" id="forest-cv"></div>
+      <div class="axis"><span></span><div class="ticks" id="ticks-a"></div><span></span></div>
+      <p class="foot">點=HR，橫線=95% CI，縱線=HR 1.0（無效）。FIND-CKD 的 CV 複合 CI 極寬且跨越 1（事件少）。</p>
+    </div>
+  </section>
+
+  <!-- 4 CROSS-CLASS -->
+  <section class="slide">
+    <div class="wrap">
+      <div class="eyebrow">跨藥理類別對比</div>
+      <h2>Finerenone vs SGLT2i vs 類固醇型 MRA</h2>
+      <div class="tblwrap">
+        <table>
+          <thead><tr><th>情境</th><th class="fin">非類固醇 MRA · finerenone</th><th class="sg">SGLT2i</th><th class="st">類固醇型 MRA</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><b>非糖尿病 CKD</b></td>
+              <td class="num fin">FIND-CKD<br>slope 0.7 · HR 0.77</td>
+              <td class="num sg">DAPA-CKD 非DM<br>HR 0.50 (0.35–0.72)</td>
+              <td class="num st">無大型註冊 RCT</td>
+            </tr>
+            <tr>
+              <td><b>HFpEF/HFmrEF</b></td>
+              <td class="num fin">FINEARTS-HF<br>RR 0.84 (0.74–0.95)</td>
+              <td class="num sg">DELIVER<br>HR 0.82 (0.73–0.92)</td>
+              <td class="num st">TOPCAT 主試驗 NS<br>僅美洲亞群顯著</td>
+            </tr>
+            <tr>
+              <td><b>IgAN / 腎絲球</b></td>
+              <td class="num fin">glomerular 亞群<br>UACR −42% · HR 0.74</td>
+              <td class="num sg">DAPA-CKD IgAN<br>HR 0.29 · UACR −26%</td>
+              <td class="num st">無 IgAN 終點資料<br>（cf. sparsentan −42.8%）</td>
+            </tr>
+            <tr>
+              <td><b>機轉定位</b></td>
+              <td class="fin">MR→抗發炎/抗纖維化；<br>acute dip 可逆</td>
+              <td class="sg">管球回饋+代謝；益處<br>不隨 dip 大小而異</td>
+              <td class="st">選擇性低→高血鉀/<br>肌酐上升限制實用</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="foot">SGLT2i 走「事件驅動、大效應量」；finerenone 走「slope 驅動、達標且與 T2D 一致」——互補而非互斥。</p>
+    </div>
+  </section>
+
+  <!-- 5 FINE-ONE card -->
+  <section class="slide">
+    <div class="wrap">
+      <div class="eyebrow">卡 A · FINE-ONE · T1D-CKD</div>
+      <p class="q">在 T1D 合併蛋白尿型 CKD、且已用足 ACEi/ARB 的病人，加上 finerenone 能否再壓低白蛋白尿？</p>
+      <div class="row">
+        <div class="kpi"><span class="lab">安慰劑校正 UACR</span><span class="bignum fin">−25%</span><span class="foot">GMR 0.75（0.65–0.87）P&lt;0.001</span></div>
+        <div class="kpi"><span class="lab">高血鉀</span><span class="bignum cau">10.1%</span><span class="foot">vs 3.3%（停藥 1.7% vs 0）</span></div>
+        <div class="kpi"><span class="lab">6mo eGFR dip</span><span class="bignum">−2.9</span><span class="foot">washout 後回基線（可逆）</span></div>
+      </div>
+      <div class="card">
+        <h3>對讀 · FINE-ONE ↔ Lewis 1993（captopril）</h3>
+        <p>Lewis 用「三年、硬終點（Cr 加倍降 48%）」確立 ACEi 為 T1D 腎病基石；FINE-ONE 在同一族群只用「6 個月、UACR 替代終點、N=242」就完成註冊路徑。<b style="color:var(--ink)">這不是試驗品質退步，而是 surrogate endpoint 30 年成熟的結果</b>——finerenone 定位為 RASi 基石之上的增量加藥，兩者回答不同世代的問題。</p>
+      </div>
+      <p class="foot">全部數字來自 abstract/結構式摘要（NEJM 全文付費牆）📌。</p>
+    </div>
+  </section>
+
+  <!-- 6 FIND-CKD card -->
+  <section class="slide">
+    <div class="wrap">
+      <div class="eyebrow">卡 B · FIND-CKD · 非糖尿病 CKD</div>
+      <p class="q">把腎臟保護從「T2D-CKD」擴張到「非糖尿病 CKD」，能否用 eGFR slope 證明？</p>
+      <div class="row">
+        <div class="kpi"><span class="lab">total slope 差</span><span class="bignum fin">0.7</span><span class="foot">−3.3 vs −4.0 mL/min/yr（P&lt;0.001）</span></div>
+        <div class="kpi"><span class="lab">腎/CV 複合</span><span class="bignum fin">0.77</span><span class="foot">HR（0.60–0.99）P=0.04</span></div>
+        <div class="kpi"><span class="lab">高血鉀</span><span class="bignum cau">17.0%</span><span class="foot">vs 13.3%</span></div>
+      </div>
+      <div class="card">
+        <h3>為何選 total eGFR slope 當主要終點？</h3>
+        <p>高 eGFR、慢進展的非糖尿病 CKD 中硬終點太稀少。Inker 2019（47 RCT/60,620 人）顯示 total slope 對硬終點 <span class="mono">R²=0.97</span>，且 <b style="color:var(--ink)">≥0.75 mL/min/yr 的 slope 效應以 ≥96% 機率預測獲益</b>——FIND-CKD 的 0.7 恰在「剛好夠格」門檻。用 month-3 change point 拆 acute / chronic slope，正是 Greene 2019 警告的「有急性效應的藥，total slope 會誤導」的防呆設計。</p>
+      </div>
+      <p class="foot">對讀：SGLT2i 非糖尿病走「事件驅動、HR 0.50 大效應」；finerenone 走「slope 驅動、溫和但一致」。📄 NEJM 全文可稽核。</p>
+    </div>
+  </section>
+
+  <!-- 7 HR 1.33 reverse signal -->
+  <section class="slide">
+    <div class="wrap">
+      <div class="eyebrow">卡 D · FINEARTS-HF 腎臟結果（Mc Causland 2025）· 本主題最值得咀嚼的一點</div>
+      <h2>那個「HR <span class="cau">1.33</span>」反向訊號——不是傷腎，是統計假象</h2>
+      <p class="lead">在 HFmrEF/HFpEF、<span class="mono">median UACR 僅 18</span>、<span class="mono">eGFR 62</span> 的低白蛋白尿族群，腎複合終點 75 vs 55 事件、HR 1.33（0.94–1.89）。三個因素疊加：</p>
+      <div class="rev">
+        <div class="factor"><span class="fnum">1</span><div><h3>acute dip 被計入複合終點</h3><p>治療初期 −2.9 mL/min 的血流動力學下降，觸發短期「≥50% 下降」被過度計數。</p></div></div>
+        <div class="factor"><span class="fnum">2</span><div><h3>低事件背景放大</h3><p>低白蛋白尿、腎功能保存 → 慢性進展事件本就稀少（總量低），少數 dip 事件即推 HR 過 1。</p></div></div>
+        <div class="factor"><span class="fnum">3</span><div><h3>total-based 終點框架</h3><p>Greene 2019：有急性效應的藥用 total-based 腎終點會產生偽陽性——此處是偽「有害」。</p></div></div>
+        <div class="factor reality"><span class="fnum" style="color:var(--fin)">✓</span><div><h3 class="fin">真相：chronic slope 無害 + UACR 改善</h3><p>month-3 後 chronic slope <b style="color:var(--ink)">+0.2（無差異）</b>；UACR 降 30%；新發 macroalbuminuria <b style="color:var(--ink)">HR 0.62</b>。若真傷腎，白蛋白尿應升而非降。</p></div></div>
+      </div>
+      <p class="foot">「同一數字在不同終點框架下講出相反故事」的經典教材。📄 HAL 全文可稽核。</p>
+    </div>
+  </section>
+
+  <!-- 8 FINE-HEART CV death vs all-cause -->
+  <section class="slide">
+    <div class="wrap">
+      <div class="eyebrow">卡 E · FINE-HEART pooled（N=18,991）</div>
+      <h2>主要終點 CV 死亡未達顯著——為何作者更相信全因死亡？</h2>
+      <div class="row">
+        <div class="kpi" style="border-color:var(--ns)"><span class="lab">主要終點 · CV 死亡</span><span class="bignum" style="color:var(--ns)">0.89</span><span class="foot">(0.78–1.01) P=0.076 · 未達顯著</span></div>
+        <div class="kpi"><span class="lab">＋undetermined death</span><span class="bignum">0.88</span><span class="foot">(0.79–0.98) P=0.025 · 翻轉</span></div>
+        <div class="kpi" style="border-color:var(--fin)"><span class="lab">全因死亡</span><span class="bignum fin">0.91</span><span class="foot">(0.84–0.99) P=0.027 · robust</span></div>
+      </div>
+      <div class="card">
+        <h3>競爭風險與 endpoint hierarchy</h3>
+        <p><b style="color:var(--ink)">CV 死亡對「未定死因」如何歸類極度敏感</b>：把 undetermined death 算進去，P 就從 0.076 變 0.025。當死因裁定的分類邊界會翻轉統計結論時，競爭風險少、分類爭議小的<b style="color:var(--ink)">全因死亡反而更 robust</b>。讀者不應因「主要終點未達標」就否定整體死亡獲益——這是低頻終點的常態，也是 SGLT2i（DELIVER CV 死亡 HR 0.88，單試驗亦未顯著）的共同教訓。</p>
+      </div>
+      <p class="foot">合池的詮釋限制：三試驗族群/終點定義不同；腎益處幾乎全由 FIDELIO/FIGARO 驅動；未校正多重比較。📄 Nat Med 全文。</p>
+    </div>
+  </section>
+
+  <!-- 9 six deep points -->
+  <section class="slide">
+    <div class="wrap">
+      <div class="eyebrow">方法學收斂</div>
+      <h2>臨床試驗解讀的六個深層看點</h2>
+      <ul class="deep">
+        <li><span class="n">01</span><span><b>Surrogate endpoint hierarchy。</b> 硬終點 → GFR slope → 白蛋白尿，替代性遞減、速度遞增。Inker 2019（slope R²=0.97）與 Heerspink 2019（白蛋白尿基線高時 R² 0.72）是 FIND-CKD/FINE-ONE 註冊的靠山。</span></li>
+        <li><span class="n">02</span><span><b>Acute dip vs chronic slope 必須分段讀。</b> MRA/SGLT2i/RASi 皆有可逆急性下降；Greene 2019：有急性效應時 total slope 會誤導，應看 chronic slope。</span></li>
+        <li><span class="n">03</span><span><b>FINEARTS HR 1.33 的三因子拆解。</b> acute dip × 低事件背景 × total-based 終點 = 偽有害；chronic slope 無差異 + UACR −30% 反證無真實腎損傷。</span></li>
+        <li><span class="n">04</span><span><b>CV 死亡未達顯著 → 全因死亡。</b> 低頻終點對死因裁定敏感；競爭風險小的全因死亡更 robust。「主要終點失手 ≠ 無效」。</span></li>
+        <li><span class="n">05</span><span><b>IPD / 合池 meta 的詮釋限制。</b> FINE-HEART（含 HF）與 INFINITY（純 CKD）問的問題不同；腎益處多由 FIDELIO/FIGARO 驅動；CI 常擦邊（INFINITY CV 死亡上限 0.999）。</span></li>
+        <li><span class="n">06</span><span><b>HTE 的正確讀法。</b> 「無顯著交互作用」只代表未偵測到異質、受各次族群 power 限制，不等於效應量真的相同（cf. TOPCAT 區域異質決定成敗）。</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 10 take-home -->
+  <section class="slide">
+    <div class="wrap">
+      <div class="eyebrow">Take-home · 把興奮轉為處置須分三層</div>
+      <h2>不是「脫離 T2D」，而是逼近一個更廣的 platform</h2>
+      <div class="grid" style="grid-template-columns:1fr">
+        <div class="card" style="border-left:4px solid var(--sglt2i)">
+          <div style="display:flex;align-items:center;gap:10px"><span class="tag t-app">✓ 已核准 · 可即時 practice</span></div>
+          <p><b style="color:var(--ink)">T2D-CKD（2021）與 HFpEF/HFmrEF LVEF≥40%（2025/07）。</b> 硬終點、指引常規。在你的診間唯一已可依標籤處方的擴張是 HFpEF/HFmrEF。</p>
+        </div>
+        <div class="card" style="border-left:4px solid var(--steroid)">
+          <div style="display:flex;align-items:center;gap:10px"><span class="tag t-exp">可外推 / 受理中 · 謹慎個案化</span></div>
+          <p><b style="color:var(--ink)">T1D-CKD 已獲 FDA Priority Review 受理（UACR surrogate，尚未核准）；非糖尿病與腎絲球疾病</b>有一致方向訊號，但主終點為 slope、glomerular 為 exploratory——適合與腎臟科共同決策的 hypothesis，而非常規。</p>
+        </div>
+        <div class="card" style="border-left:4px solid var(--ns)">
+          <div style="display:flex;align-items:center;gap:10px"><span class="tag t-hyp">尚待驗證 · 僅概念</span></div>
+          <p><b style="color:var(--ink)">整體「CKM platform」概念由 pooled 支撐，但 CV 死亡 pooled 未達顯著、HF 族群腎益處不成立、多屬 surrogate/exploratory。</b> 這是 research agenda，不是 label。無論走到哪一格，高血鉀監測都必須同步升級。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<nav class="nav">
+  <div class="progress" id="prog"></div>
+  <div class="navgrp"><button id="prev" aria-label="上一張">← Prev</button><button id="next" aria-label="下一張">Next →</button></div>
+  <div class="title" id="slidetitle"></div>
+  <div class="count"><span id="cur">1</span> / <span id="total">10</span></div>
+</nav>
+
+<script>
+(function(){
+  var slides=[].slice.call(document.querySelectorAll('.slide'));
+  var titles=["扉頁","核心張力","跨試驗森林圖","跨藥類對比","FINE-ONE","FIND-CKD","HR 1.33 反向訊號","FINE-HEART 死亡終點","六個深層看點","三層 Take-home"];
+  var i=0;
+  var cur=document.getElementById('cur'),tot=document.getElementById('total'),
+      prog=document.getElementById('prog'),st=document.getElementById('slidetitle');
+  tot.textContent=slides.length;
+  function show(n){
+    i=Math.max(0,Math.min(slides.length-1,n));
+    slides.forEach(function(s,k){s.classList.toggle('on',k===i)});
+    cur.textContent=i+1;
+    prog.style.width=((i+1)/slides.length*100)+'%';
+    st.textContent=titles[i]||'';
+  }
+  document.getElementById('next').onclick=function(){show(i+1)};
+  document.getElementById('prev').onclick=function(){show(i-1)};
+  document.addEventListener('keydown',function(e){
+    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();show(i+1)}
+    else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();show(i-1)}
+    else if(e.key==='Home'){show(0)} else if(e.key==='End'){show(slides.length-1)}
+  });
+
+  // forest plots
+  var LO=0.2, HI=1.6;
+  function s(x){return (x-LO)/(HI-LO)*100}
+  function renderForest(elId,rows){
+    var el=document.getElementById(elId); if(!el)return;
+    var unity=s(1);
+    rows.forEach(function(r){
+      var row=document.createElement('div');row.className='frow';
+      var lo=s(r.lo),hi=s(r.hi),pt=s(r.hr);
+      row.innerHTML=
+        '<div class="flabel">'+r.label+'<small>'+r.sub+'</small></div>'+
+        '<div class="track"><span class="unity" style="left:'+unity+'%"></span>'+
+          '<span class="ci" style="left:'+lo+'%;width:'+(hi-lo)+'%;background:'+r.c+'"></span>'+
+          '<span class="pt" style="left:'+pt+'%;background:'+r.c+'"></span></div>'+
+        '<div class="fval">'+r.hr.toFixed(2)+' <span style="opacity:.6">('+r.lo.toFixed(2)+'–'+r.hi.toFixed(2)+')</span></div>';
+      el.appendChild(row);
+    });
+  }
+  var FIN=getComputedStyle(document.documentElement).getPropertyValue('--fin').trim()||'#0c6f7e';
+  var STE=getComputedStyle(document.documentElement).getPropertyValue('--steroid').trim()||'#a2650f';
+  var ACC=getComputedStyle(document.documentElement).getPropertyValue('--accent').trim()||'#0c6f7e';
+  renderForest('forest-renal',[
+    {label:'FIDELITY',sub:'T2D · 硬終點',hr:0.77,lo:0.67,hi:0.88,c:FIN},
+    {label:'FIND-CKD',sub:'非DM · cardiorenal',hr:0.77,lo:0.60,hi:0.99,c:STE},
+    {label:'Glomerular',sub:'非DM · exploratory',hr:0.74,lo:0.57,hi:0.97,c:STE},
+    {label:'INFINITY',sub:'DM+非DM · IPD 合池',hr:0.76,lo:0.68,hi:0.86,c:ACC}
+  ]);
+  renderForest('forest-cv',[
+    {label:'FIDELITY',sub:'T2D',hr:0.86,lo:0.78,hi:0.95,c:FIN},
+    {label:'FIND-CKD',sub:'非DM · 事件少',hr:0.60,lo:0.27,hi:1.33,c:STE},
+    {label:'INFINITY',sub:'DM+非DM 合池',hr:0.80,lo:0.70,hi:0.91,c:ACC}
+  ]);
+  var ticks=document.getElementById('ticks-a');
+  [0.3,0.5,0.7,1.0,1.3].forEach(function(t){
+    var sp=document.createElement('span');sp.style.left=s(t)+'%';sp.textContent=t.toFixed(1);ticks.appendChild(sp);
+  });
+
+  show(0);
+})();
+</script>
