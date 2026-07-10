@@ -5,11 +5,18 @@
 ## 僅 abstract（📌）— 付費牆/無 OA,只用結構式 abstract 數字
 | Paper | DOI / PMID | 內容 |
 |-------|-----------|------|
-| FINE-ONE NEJM 本體（Heerspink 2026） | **10.1056/NEJMoa2512854** / PMID 41780000 | T1D+CKD, UACR −25%, 高血鉀 10.1% vs 3.3% |
-| Beernink 2026（HbA1c 次組, Diabetes Care） | **10.2337/dc26-0882** / PMID 42258447 | 背景/次要,未作具體數字擴張 |
-| FINE-ONE 設計（Heerspink 2023, Diabetes Res Clin Pract） | **10.1016/j.diabres.2023.110908** / PMID 37805000 | 背景/次要,未作具體數字擴張 |
+| （本輪 T1D/FINE-ONE 三篇已全部升級為本地全文,詳見下方「## 已補全文（本輪升級,round 2）」小節） | — | — |
 
-## 已補全文（本輪升級）
+## 已補全文（本輪升級,round 2）
+以下三篇 FINE-ONE 相關論文由**使用者上傳之本地 PDF,經 LlamaParse 轉為 Markdown** 落地為本地全文（status: full_text,📄 可 grep 稽核）,本輪自上方「僅 abstract（📌）」表移除;正文對應句之 📌 已逐一 grep 驗證數字後改為 📄。
+
+| Paper（本地 MD 檔） | DOI / PMID | 正文已升級之關鍵數字（均 grep 命中） |
+|-------|-----------|------|
+| fine_one_t1d_Heerspink_2026.md（FINE-ONE NEJM 本體） | **10.1056/NEJMoa2512854** / PMID 41780000 | n=242、UACR −34%（GMR 0.66,0.60–0.73）/placebo −12%（0.88,0.79–0.98）/placebo-corrected −25%（GMR 0.75,0.65–0.87,P<0.001）、高血鉀 10.1%(12) vs 3.3%(4)、停藥 1.7%(2)、eGFR −5.6 vs −2.7（差 −2.9,−5.1 至 −0.7）;新補 responder ≥30%/≥50%:54.3%/28.4% vs 32.7%/21.8% |
+| fine_one_t1d_Beernink_2026.md（HbA1c/病程次組, Diabetes Care） | **10.2337/dc26-0882** / PMID 42258447 | HbA1c 三分位 Pint=0.41、病程三分位 Pint=0.70、6 月 HbA1c 組間差 +0.04%（P=0.74）、placebo-corrected −25% |
+| fine_one_t1d_Heerspink_2023.md（FINE-ONE 設計, Diabetes Res Clin Pract） | **10.1016/j.diabres.2023.110908** / PMID 37805000 | primary=6 月 UACR 相對變化、UACR 作 bridging biomarker、經 regulatory authority feedback 同意作 T1D 註冊橋接、NCT05901831 |
+
+## 已補全文（前輪升級）
 以下論文由**使用者上傳之本地 PDF,經 LlamaParse 轉為 Markdown** 落地為本地全文（status: full_text,📄 可 grep 稽核）。原先列於「僅 abstract（📌）」者已自上表移除,正文對應句之 📌 已逐一 grep 驗證數字後改為 📄。
 
 | Paper（本地 MD 檔） | 正文已升級之關鍵數字（均 grep 命中） |

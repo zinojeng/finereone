@@ -8,6 +8,10 @@
 | `mra_vs_asi_mechanism_Vibhatavata_2026`（Emerging Medical Therapies for Primary Aldosteronism, Hypertension） | **10.1161/HYPERTENSIONAHA.126.26229** / PMID 41685462 | 機制 narrative 佐證,無具體數字 |
 | `finerenone_bbb_cns_Geraci_2026`（Finerenone in Cardiorenal Disease narrative review, Cardiovasc Drugs Ther） | **10.1007/s10557-026-07890-7** / PMID 42171960 | BBB/ASI 對比 narrative;內文 grep 未取得可靠 BBB/ASI 對比數字,僅列 narrative |
 
+## 已補全文（round 2；使用者上傳本地 PDF 經 LlamaParse 轉檔）
+- `r2_Agarwal_2025`（CONFIDENCE NEJM 本文，finerenone + empagliflozin；DOI 10.1056/NEJMoa2410659 / PMID 40470996）原為 abstract-only，本輪升級為本地全文（status: full_text）。本主題正文未引用其數字，列此備查。
+- `finerenone_bbb_cns_Geraci_2026`（DOI 10.1007/s10557-026-07890-7）本已為 Springer OA 本地全文；使用者上傳之對應 PDF 內容一致，未變更（正文仍僅作 narrative 引用）。
+
 ## 未納入引用（資料重疊或超出焦點，已有更直接全文覆蓋）
 Cicero_2025、Falodia_2026、CorreaRotter_2026、Liu_2026、Arterburn_2023、Ennis_2020、Lahera_2006、Viengchareun_2007、Polenus_2025、Hundemer_2024、Vecchiola_2024、Moss_2019、Li_2023、Xue_2011、Nakagaki_2012、De_2026、Markus_2025、Lin_2021、Jing_2021、Monticone/Pitt/Vaidya/Ungvari（短檔）,以及各 <5KB abstract-only 檔（Azizi、Calhoun、Mulatero、Pignatti、Weldon、Merlo、Gashaw、Laffin_2025、Kolkhof、GomezSanchez、Brücker、Bomback、Solomon_2024、Tuttle_2024、Agarwal_2025、Rossing_2025）。依硬規則不對其做數字斷言。
 

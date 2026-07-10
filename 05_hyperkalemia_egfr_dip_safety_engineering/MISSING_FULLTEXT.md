@@ -10,7 +10,18 @@
 | `pooled_safety_hyperkalemia_Bakris_2020`（FIDELIO 主文, NEJM） | **10.1056/NEJMoa2025845** / PMID 33264825 | FIDELIO 安全數字改由已核實的 Agarwal 2022 與 EMA/FDA label 提供（另有本地全文 `FIDELIO-DKD_NEJMoa2025845.md`） |
 | CONFIDENCE 主結果（NEJM Agarwal 2025） | **10.1056/NEJMoa2410659** / PMID 40470996 | 本地無全文;combination vs 單藥高血鉀改用已讀之 Vaduganathan 2025（NDT）Table 2 與 Agarwal 2025（GLP-1 次分析）實際數字 |
 | `pooled_safety_hyperkalemia_Mentz_2025`（EJHF） | **10.1002/ejhf.3569** / PMID 39823276 | abstract-only,未使用 |
-| `egfr_dip_reversibility_Oshima_2021`（Kidney Int, CREDENCE eGFR dip） | **10.1016/j.kint.2020.10.042** / PMID 33316282 | abstract-only,未使用 |
+
+## 已補全文（round 2；使用者上傳本地 PDF 經 LlamaParse 轉檔）
+以下原為 abstract-only（📌）或資料夾內未讀取者，本輪升級為本地全文（status: full_text，grep 可驗）：
+
+| Paper | DOI / PMID | 本地檔 |
+|-------|-----------|--------|
+| Bakris 2023（Kidney Int, FIDELITY 腎臟探索性分析） | 10.1016/j.kint.2022.08.040 / PMID 36367466 | `pooled_safety_hyperkalemia_Bakris_2023.md` |
+| Agarwal 2026（JACC, Empagliflozin+Finerenone 高血鉀次分析） | 10.1016/j.jacc.2025.10.049 / PMID 41493296 | `label_guideline_safety_Agarwal_2026.md` |
+| Solomon 2024（FINEARTS-HF, NEJM 本體） | 10.1056/NEJMoa2407107 / PMID 39225278 | `hf_renal_safety_Solomon_2024.md` |
+| Oshima 2021（Kidney Int, CREDENCE eGFR dip） | 10.1016/j.kint.2020.10.042 / PMID 33316282 | `egfr_dip_reversibility_Oshima_2021.md` |
+
+（`r2_Holtkamp_2011`、`pooled_safety_hyperkalemia_Bakris_2020`(FIDELIO)、`egfr_dip_reversibility_Oh_2026` 本已為本地全文，使用者上傳之對應 PDF 內容一致，未變更。）
 
 ## 已補全文（本輪升級）
 
