@@ -11,6 +11,15 @@
 
 FIND-CKD 細部數字改引本地全文擷取檔 `note_find_ckd_extract.md`（📄）與 `FIND-CKD_NEJMoa2604625.md`（📄）。
 
+## 已補全文（本輪升級）
+以下論文本輪由「僅 abstract（📌）」升級為本地全文（📄，status: full_text）。來源均為**使用者上傳之本地 PDF 經 LlamaParse 轉檔**，內容現已可 grep 交叉驗證。
+
+| Paper | 本地檔 | DOI/PMID | 說明 |
+|-------|--------|----------|------|
+| Heerspink HJL et al. Finerenone in Persons with CKD without Diabetes (FIND-CKD). N Engl J Med. 2026. | `find_ckd_nondiab_Heerspink_2026` | 10.1056/NEJMoa2604625 / PMID 42246672 | FIND-CKD NEJM **主文**全文；與既有 `FIND-CKD_NEJMoa2604625.md` 為同一論文（重複全文）。主文 §4.4 之 FIND-CKD 數字仍主要引 `note_find_ckd_extract.md`。 |
+| Neuen BL et al. Finerenone in Patients With CKD Due to Glomerular Diseases: A RCT. JAMA. 2026. | `find_ckd_nondiab_Neuen_2026` | 10.1001/jama.2026.9923 / PMID 42246414 | FIND-CKD 之 glomerular-disease 預設次組分析（IgA/FSGS/膜性等）。**本輪新引入主文 §4.4**（total slope diff 0.73、alb −42%、HR 0.74 等，均已 grep 命中）。 |
+| Neuen BL et al. Efficacy and safety of finerenone in CKD: an IPD pooled analysis (INFINITY). Lancet. 2026;407(10546):2375–86. | `find_ckd_nondiab_INFINITY_Neuen_2026` | 10.1016/S0140-6736(26)01009-3 / PMID 42248158 | FIDELIO-DKD+FIGARO-DKD+FIND-CKD 三試驗 IPD pooled。**本輪新引入主文 §4.4**（跨病因一致性，qualitative；此檔數字採 Lancet 中點小數 0·76 格式，故僅引可 grep 之定性語句，未嵌入 period-decimal 數字以維持稽核）。 |
+
 ## Polluted PDF（下載污染，已棄用）
 | Paper | Reason |
 |-------|--------|

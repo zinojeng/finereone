@@ -97,6 +97,8 @@ FIND-CKD(N=1,584,非糖尿病 CKD,eGFR 25–<90、UACR 200–≤3500 mg/g,均已
 
 **次要硬終點(hierarchical)**:composite kidney–CV HR 0.77(95% CI 0.60–0.99;P=0.04);composite kidney HR 0.78(0.60–1.01);composite CV HR 0.60(0.27–1.33,事件數少)[📄 note_find_ckd_extract]。**探索性 UACR**:第 6 個月相對變化 −41.3% vs −9.1%(相對差 35.4%);≥30% UACR 降幅 56.0% vs 24.4%,OR 3.99(3.22–4.95)[📄 note_find_ckd_extract]。
 
+**跨病因延伸(本輪新增全文)**:FIND-CKD 的預先設定 glomerular-disease 次組分析(Neuen 2026,JAMA)顯示,1584 名受試者中 903 人(57.0%)有 investigator-reported glomerular disease,以 IgA nephropathy 最多(416 人,46.1%)、FSGS 次之(215 人,23.8%);在此族群 finerenone 的 total eGFR slope −3.50 vs placebo −4.23 ml/min/1.73 m²/年(difference 0.73,95% CI 0.22–1.24),第 12 個月 albuminuria 降 42%(95% CI 35%–48%),且 kidney failure 或 ≥40% eGFR 下降之風險 HR 0.74(0.57–0.97)[📄 find_ckd_nondiab_Neuen_2026]。更廣的 INFINITY 個體資料 pooled 分析(Neuen 2026,Lancet;合併 FIDELIO-DKD、FIGARO-DKD、FIND-CKD 三試驗)進一步顯示,finerenone 對 composite kidney outcome 的益處「consistent irrespective of glycaemic status, CKD aetiology」——即不因血糖狀態、CKD 病因、eGFR 與 albuminuria 而異,呼應 §3.1「限白蛋白尿族群、但跨病因一致」的定位 [📄 find_ckd_nondiab_INFINITY_Neuen_2026]。
+
 > **意義**:FIND-CKD 一次做到三件事——(1)把 finerenone 益處延伸到**非糖尿病 CKD**(含 IgA nephropathy、FSGS 等);(2)在 hard composite 事件數不足以單獨定案的族群,用 **total eGFR slope** 提供 primary 級證據;(3)完整重現 acute-dip / chronic-slope 的雙相結構。這是 surrogate-based 適應症擴張的範例。
 
 ---
@@ -219,6 +221,8 @@ finerenone 的擴張版圖同時使用不同「硬度」的終點:FIND-CKD 用 t
 18. Matyjek A, Fernández-Fernández B. Validation of albuminuria as a surrogate endpoint in chronic kidney disease: clinical context and implications. Clin Kidney J. 2026;19(5):sfag054. doi:10.1093/ckj/sfag054.
 19. Taylor RS, Heerspink HJL, Buyse M, Ciani O, Detournay B, Gallego D, et al. Use of surrogate endpoints in health technology assessment and reimbursement of treatments for the management of chronic kidney disease. eClinicalMedicine. 2025;88:103465. doi:10.1016/j.eclinm.2025.103465. [本地檔:egfr_slope_surrogate_Taylor_2025]
 20. Holtkamp FA, de Zeeuw D, Thomas MC, Cooper ME, de Graeff PA, Hillege HJL, et al. An acute fall in estimated glomerular filtration rate during treatment with losartan predicts a slower decrease in long-term renal function. Kidney Int. 2011;80(3):282–7. doi:10.1038/ki.2011.79.
+21. Neuen BL, Perkovic V, Agarwal R, Cherney DZI, Lam CSP, Wanner C, et al. Finerenone in patients with chronic kidney disease due to glomerular diseases: a randomized clinical trial. JAMA. 2026. doi:10.1001/jama.2026.9923. [本地檔:find_ckd_nondiab_Neuen_2026]
+22. Neuen BL, Heerspink HJL, Perkovic V, Cherney DZI, Lam CSP, Tuttle KR, et al. Efficacy and safety of finerenone in patients with chronic kidney disease: an individual participant data pooled analysis (INFINITY). Lancet. 2026;407(10546):2375–86. doi:10.1016/S0140-6736(26)01009-3. [本地檔:find_ckd_nondiab_INFINITY_Neuen_2026]
 
 *(其他稽核用本地檔:egfr_slope_surrogate_Greene_2019、Collier_2023、Collier_2024、Coresh_2014、r2_Grams_2023;FIDELITY_Agarwal_2022;biomarker_Rossing_2022。)*
 
@@ -228,5 +232,6 @@ finerenone 的擴張版圖同時使用不同「硬度」的終點:FIND-CKD 用 t
 
 - **Ortiz A, Fernández-Fernández B.《Finerenone: kidney protection beyond type 2 diabetes》Lancet 2026;407(10546):2348–50**(brief 指定的「2026 Lancet editorial」)——本地檔 `find_ckd_nondiab_Ortiz_2026.md` 標記 status: FAILED,下載回傳為污染 PDF(不同論文),**全文與 abstract 均未取得**,故本文改以 Matyjek 2026(Clinical Kidney Journal editorial)承擔方法學/臨床對讀角色。
 - **Agarwal 2023 mediation(Ann Intern Med)** —— 核心 mediation 論文,僅取得結構化 abstract(全文封閉取用),數字均標 📌 並加保留註記。
-- **Agarwal 2026(NDT)、Mc Causland 2025 FINEARTS-HF(NDT abstract #3019)、Heerspink 2025 Nat Med albuminuria surrogate、FIND-CKD NEJM 主文** —— 均為 abstract-only 或付費牆;FIND-CKD 之細部數字改引本地全文擷取檔 `note_find_ckd_extract.md`。
+- **Agarwal 2026(NDT)、Mc Causland 2025 FINEARTS-HF(NDT abstract #3019)、Heerspink 2025 Nat Med albuminuria surrogate** —— 均為 abstract-only 或付費牆。
+- **FIND-CKD NEJM 主文(Heerspink 2026)** —— 本輪已取得本地全文(`find_ckd_nondiab_Heerspink_2026`,與既有 `FIND-CKD_NEJMoa2604625` 為同一 NEJM 論文);其細部數字仍主要引本地全文擷取檔 `note_find_ckd_extract.md`。另本輪新增兩篇 FIND-CKD 家族全文:glomerular-disease 次組(Neuen 2026,JAMA)與 INFINITY 三試驗 IPD pooled(Neuen 2026,Lancet),已於 §4.4 引用。
 - **FINE-ONE(第 1 型糖尿病 finerenone,UACR 終點)** —— 無本地全文,本文僅於終點方法學層級提及,未作任何具體數字斷言。
