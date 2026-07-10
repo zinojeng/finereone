@@ -1,11 +1,11 @@
 # MISSING FULLTEXT — 主題候選三
 
 ## 僅 abstract（📌）— 其專有數字改由全文次級來源交叉引用,未直接斷言
-| Paper | 內容 | Reason | 處理方式 |
-|-------|------|--------|----------|
-| `confidence_trial_Agarwal_2025`（NEJM CONFIDENCE 主文） | Day 180 UACR 52%/29%/32% | NEJM 付費牆,僅 Europe PMC abstract metadata | 52%/29%/32% 等數字改由全文 Cheng 2025、Georgianos 2025、Vaduganathan 2025、Singh 2026 引述佐證 |
-| `confidence_egfr_mediation_Agarwal_2026`（JASN, eGFR mediation） | eGFR-mediated fraction 28% / 5.2% | abstract only | 中介比例（28%、5.2%）取自結構化 abstract 逐字（grep 可回),定性結論交叉佐證 |
-| `confidence_trial_Agarwal_2026`（JACC 高血鉀） | 15.3% vs 18.6%；P=0.91/0.85 | abstract only | 專有 P 值不直接斷言;定性結論由 Sinclair editorial 轉述,15.3% vs 18.6% 由 Cheng 全文引用 |
+| Paper | DOI / PMID | 內容 | Reason | 處理方式 |
+|-------|-----------|------|--------|----------|
+| `confidence_trial_Agarwal_2025`（NEJM CONFIDENCE 主文） | **10.1056/NEJMoa2410659** / PMID 40470996 | Day 180 UACR 52%/29%/32% | NEJM 付費牆,僅 Europe PMC abstract metadata | 52%/29%/32% 等數字改由全文 Cheng 2025、Georgianos 2025、Vaduganathan 2025、Singh 2026 引述佐證 |
+| `confidence_egfr_mediation_Agarwal_2026`（JASN, eGFR mediation） | **10.1681/ASN.0000001071** / PMID 41905767 | eGFR-mediated fraction 28% / 5.2% | abstract only | 中介比例（28%、5.2%）取自結構化 abstract 逐字（grep 可回),定性結論交叉佐證 |
+| `confidence_trial_Agarwal_2026`（JACC 高血鉀） | **10.1016/j.jacc.2025.10.049** / PMID 41493296 | 15.3% vs 18.6%；P=0.91/0.85 | abstract only | 專有 P 值不直接斷言;定性結論由 Sinclair editorial 轉述,15.3% vs 18.6% 由 Cheng 全文引用 |
 
 ## 已補全文（本輪升級）
 本輪由使用者上傳本地 PDF、經 LlamaParse 轉為 Markdown 而新增之全文（先前本主題無此獨立檔）：

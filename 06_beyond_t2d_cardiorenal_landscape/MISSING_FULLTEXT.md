@@ -3,10 +3,11 @@
 本主題多為 2026 年新發表、付費牆/無 OA 論文,故 📌（abstract-only）比例偏高;所有 abstract-only 數字均取自已比對 title/DOI/PMID 的結構化 abstract,未對未載內容作斷言。
 
 ## 僅 abstract（📌）— 付費牆/無 OA,只用結構式 abstract 數字
-| Paper | 內容 |
-|-------|------|
-| FINE-ONE NEJM 本體（Heerspink 2026） | T1D+CKD, UACR −25%, 高血鉀 10.1% vs 3.3% |
-| Beernink 2026、FINE-ONE 設計（2023） | 背景/次要,未作具體數字擴張 |
+| Paper | DOI / PMID | 內容 |
+|-------|-----------|------|
+| FINE-ONE NEJM 本體（Heerspink 2026） | **10.1056/NEJMoa2512854** / PMID 41780000 | T1D+CKD, UACR −25%, 高血鉀 10.1% vs 3.3% |
+| Beernink 2026（HbA1c 次組, Diabetes Care） | **10.2337/dc26-0882** / PMID 42258447 | 背景/次要,未作具體數字擴張 |
+| FINE-ONE 設計（Heerspink 2023, Diabetes Res Clin Pract） | **10.1016/j.diabres.2023.110908** / PMID 37805000 | 背景/次要,未作具體數字擴張 |
 
 ## 已補全文（本輪升級）
 以下論文由**使用者上傳之本地 PDF,經 LlamaParse 轉為 Markdown** 落地為本地全文（status: full_text,📄 可 grep 稽核）。原先列於「僅 abstract（📌）」者已自上表移除,正文對應句之 📌 已逐一 grep 驗證數字後改為 📄。

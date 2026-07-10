@@ -4,10 +4,10 @@
 | Paper | DOI/PMID | Reason | 處理方式 |
 |-------|----------|--------|----------|
 | **Agarwal R et al. Impact of Finerenone-Induced Albuminuria Reduction on CKD Outcomes in T2D: A Mediation Analysis. Ann Intern Med. 2023;176(12):1606-1616.** | 10.7326/M23-1023 / PMID 38048573 | 封閉取用（Unpaywall 陰性、無 PMCID、Sci-Hub 失敗）；本地僅 Europe PMC 結構化 abstract | **本主題核心 mediation 論文**。其關鍵中介比例（如 UACR ≥30% 降幅 finerenone vs placebo、mediation 84%/37%、64%/26% 等）取自「已比對 title/作者/DOI/PMID 的結構化 abstract」逐字轉錄，全部標 📌 並加保留註記。此為與硬規則「僅 abstract 者不得做具體數字斷言」之間的折衷：數字確實存在於已驗證 abstract、非幻覺，但明確降級標示、未做全文交叉驗證。若需嚴格化可移除具體數字、只留定性敘述。 |
-| Agarwal R et al. 2026 (NDT) | — | abstract-only / 付費牆 | 僅設計/背景引用 |
-| Mc Causland FR et al. FINEARTS-HF (renal/UACR) 2025 | — | abstract-only | 僅設計層級提及 |
-| Heerspink HJL et al. 2025 Nat Med | — | 付費牆 | 未做具體數字斷言 |
-| FINE-ONE（T1D, UACR 終點） | — | 無本地全文 | 僅於爭議二做終點方法學層級提及，無具體數字 |
+| Agarwal R et al. SBP and albuminuria reduction mediate CV benefit (NDT) 2026 | **10.1093/ndt/gfag150** / PMID 42360710 | abstract-only / 付費牆 | 僅設計/背景引用 |
+| Mc Causland FR et al. FINEARTS-HF (renal/UACR) 2025 | **10.1093/ndt/gfaf116.0475**（ERA congress abstract #3019） | abstract-only | 僅設計層級提及 |
+| Heerspink HJL et al. 2025 Nat Med | **10.1038/s41591-025-04057-z** / PMID 41198855 | 付費牆 | 未做具體數字斷言 |
+| FINE-ONE（T1D, UACR 終點；Heerspink 2026 NEJM 本體） | **10.1056/NEJMoa2512854** / PMID 41780000 | 無本地全文（本主題）；topic 06 有 `fine_one_t1d_Heerspink_2026` abstract 檔 | 僅於爭議二做終點方法學層級提及，無具體數字 |
 
 FIND-CKD 細部數字改引本地全文擷取檔 `note_find_ckd_extract.md`（📄）與 `FIND-CKD_NEJMoa2604625.md`（📄）。
 

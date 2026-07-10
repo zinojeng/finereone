@@ -3,12 +3,14 @@
 主文 22 篇引用**全部 📄（本地全文，grep 可驗）**。以下為資料夾內存在但本輪未讀取內文/未引用者，以維持「全文可追溯」原則。
 
 ## 未讀取內文 → 未引用（避免自創數字）
-| Paper | 處理 |
-|-------|------|
-| `egfr_dip_reversibility_Oh_2026`（RAAS 因果 eGFR）、`r2_Holtkamp_2011`（losartan eGFR dip 預後） | 資料夾有檔但未讀內文;eGFR dip 預後論點改以已讀之 Ku 2024、Matsumoto 2025 支撐 |
-| `pooled_safety_hyperkalemia_Bakris_2020`（FIDELIO 主文） | 未讀全文;FIDELIO 安全數字改由已核實的 Agarwal 2022 與 EMA/FDA label 提供 |
-| CONFIDENCE 主結果（NEJM Agarwal 2025, NEJMoa2410659） | 本地無全文;combination vs 單藥高血鉀改用已讀之 Vaduganathan 2025（NDT）Table 2 與 Agarwal 2025（GLP-1 次分析）實際數字 |
-| abstract-only 檔（Mentz_2025、Oshima_2021 等） | 未使用 |
+| Paper | DOI / PMID | 處理 |
+|-------|-----------|------|
+| `egfr_dip_reversibility_Oh_2026`（RAAS 因果 eGFR） | **10.1111/cts.70533** / PMID 41876398 | 資料夾有檔但未讀內文;eGFR dip 預後論點改以已讀之 Ku 2024、Matsumoto 2025 支撐 |
+| `r2_Holtkamp_2011`（losartan eGFR dip 預後, Kidney Int） | **10.1038/ki.2011.79** / PMID 21562470 | 同上（本輪已有本地全文 status: full_text，但正文仍以 Ku 2024/Matsumoto 2025 承擔預後論點） |
+| `pooled_safety_hyperkalemia_Bakris_2020`（FIDELIO 主文, NEJM） | **10.1056/NEJMoa2025845** / PMID 33264825 | FIDELIO 安全數字改由已核實的 Agarwal 2022 與 EMA/FDA label 提供（另有本地全文 `FIDELIO-DKD_NEJMoa2025845.md`） |
+| CONFIDENCE 主結果（NEJM Agarwal 2025） | **10.1056/NEJMoa2410659** / PMID 40470996 | 本地無全文;combination vs 單藥高血鉀改用已讀之 Vaduganathan 2025（NDT）Table 2 與 Agarwal 2025（GLP-1 次分析）實際數字 |
+| `pooled_safety_hyperkalemia_Mentz_2025`（EJHF） | **10.1002/ejhf.3569** / PMID 39823276 | abstract-only,未使用 |
+| `egfr_dip_reversibility_Oshima_2021`（Kidney Int, CREDENCE eGFR dip） | **10.1016/j.kint.2020.10.042** / PMID 33316282 | abstract-only,未使用 |
 
 ## 已補全文（本輪升級）
 

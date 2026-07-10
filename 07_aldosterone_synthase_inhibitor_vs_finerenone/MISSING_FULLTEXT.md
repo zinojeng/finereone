@@ -3,10 +3,10 @@
 主文 31 篇引用皆為本地全文可 grep(數值句末附 `[本地MD檔名]`)。以下為 abstract-only 或未納入者。
 
 ## 僅 abstract（📌）— 未對其做具體數字斷言
-| Paper | 用途 |
-|-------|------|
-| `mra_vs_asi_mechanism_Vibhatavata_2026` | 機制 narrative 佐證,無具體數字 |
-| `finerenone_bbb_cns_Geraci_2026` | BBB/ASI 對比 narrative;內文 grep 未取得可靠 BBB/ASI 對比數字,僅列 narrative |
+| Paper | DOI / PMID | 用途 |
+|-------|-----------|------|
+| `mra_vs_asi_mechanism_Vibhatavata_2026`（Emerging Medical Therapies for Primary Aldosteronism, Hypertension） | **10.1161/HYPERTENSIONAHA.126.26229** / PMID 41685462 | 機制 narrative 佐證,無具體數字 |
+| `finerenone_bbb_cns_Geraci_2026`（Finerenone in Cardiorenal Disease narrative review, Cardiovasc Drugs Ther） | **10.1007/s10557-026-07890-7** / PMID 42171960 | BBB/ASI 對比 narrative;內文 grep 未取得可靠 BBB/ASI 對比數字,僅列 narrative |
 
 ## 未納入引用（資料重疊或超出焦點，已有更直接全文覆蓋）
 Cicero_2025、Falodia_2026、CorreaRotter_2026、Liu_2026、Arterburn_2023、Ennis_2020、Lahera_2006、Viengchareun_2007、Polenus_2025、Hundemer_2024、Vecchiola_2024、Moss_2019、Li_2023、Xue_2011、Nakagaki_2012、De_2026、Markus_2025、Lin_2021、Jing_2021、Monticone/Pitt/Vaidya/Ungvari（短檔）,以及各 <5KB abstract-only 檔（Azizi、Calhoun、Mulatero、Pignatti、Weldon、Merlo、Gashaw、Laffin_2025、Kolkhof、GomezSanchez、Brücker、Bomback、Solomon_2024、Tuttle_2024、Agarwal_2025、Rossing_2025）。依硬規則不對其做數字斷言。
