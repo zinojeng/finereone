@@ -6,6 +6,9 @@
 
 ---
 
+
+> 📊 **統計深度解讀**：本主題重要文獻結果的統計迷思與臨床轉換亮點，見獨立檔 [`statistical_insights_myths.md`](statistical_insights_myths.md)。
+
 ## 1. 核心臨床問題:UACR 是陪襯,還是替代?
 
 finerenone 的三期試驗全部以「白蛋白尿」作為納入條件,並在治療 4 個月內即產生穩定的 UACR 下降——FIDELITY 匯總分析中,finerenone 使第 4 個月 UACR 相對 placebo 下降約 32%(least-squares mean 比值 0.68,95% CI 0.66–0.70),且此效應在試驗期間持續維持 [📄 albuminuria_mediation_Agarwal_2022]。問題在於:這個早期 UACR 訊號,對長期硬終點(kidney failure、eGFR 持續下降、CV death/HHF)究竟只是「同時發生的伴隨變化」,還是「效應必經之路」?

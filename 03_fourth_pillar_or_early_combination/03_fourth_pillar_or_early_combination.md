@@ -4,6 +4,9 @@
 
 ---
 
+
+> 📊 **統計深度解讀**：本主題重要文獻結果的統計迷思與臨床轉換亮點，見獨立檔 [`statistical_insights_myths.md`](statistical_insights_myths.md)。
+
 ## 1. 背景:從「四支柱」到「加藥節奏」的真問題(約 30%)
 
 對本文讀者而言,finerenone 的基本心腎益處已無需複述。FIDELITY 匯總分析(13,026 名 T2D+CKD、全部在最大耐受 RASi 背景下)顯示心血管複合終點 HR 0.86(95% CI 0.78–0.95)、腎臟複合終點 HR 0.77(95% CI 0.67–0.88),第 4 個月 UACR 較安慰劑降低 32%,而導致永久停藥的高血鉀率僅 finerenone 1.7% vs placebo 0.6% [note_fidelity]。真正尚未解決的臨床問題不在「要不要用 finerenone」,而在 **加藥的節奏**:當 RASi 與 SGLT2i 已成標準,finerenone 究竟應「序列加上」(sequential add-on)還是「同步起始」(simultaneous initiation)?GLP-1RA 又在這個結構中補什麼?
