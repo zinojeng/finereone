@@ -183,6 +183,8 @@ Zuin 2026 對 finerenone 心血管結果做 fragility 分析(納入 FIDELIO、FI
 
 ## 7. 建議圖表
 
+> 📎 **簡報數據總表（獨立檔）**：[`slides_figures_forest_heatmap_nnt.md`](slides_figures_forest_heatmap_nnt.md)。
+
 ### 7.1 熱圖 1 — 基線 eGFR × UACR 對應的絕對事件率(安慰劑組,每 100 人年)
 
 > 資料來源:FIDELITY(Agarwal 2023)複合心血管事件率,安慰劑組📄[stage4_ckd_Agarwal_2023]。顏色概念:數字愈大=絕對事件率愈高=同一相對效果下 NNT 愈小=愈值得早用。
