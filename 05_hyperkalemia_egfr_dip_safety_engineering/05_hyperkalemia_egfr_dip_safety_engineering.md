@@ -6,6 +6,9 @@
 
 ---
 
+
+> 📊 **統計深度解讀**：本主題安全性統計的迷思與臨床轉換亮點，見獨立檔 [`statistical_insights_myths.md`](statistical_insights_myths.md)。
+
 ## 1. 核心臨床問題：真正要擔心的是什麼？
 
 在內分泌與腎臟共照門診裡，反對 finerenone 最常見的一句話是：「又多一種有效藥，但換來更多抽血與高血鉀風險。」這句話的前半段沒錯，後半段則需要被「工程化」地拆解。本文的立場是：**finerenone 的主要安全議題不是不可預測，而是需要 protocolized monitoring**——選對病人、抓對起始時點、審視併用藥、安排飲食與實驗室監測節奏、並在必要時導入 potassium binder。
