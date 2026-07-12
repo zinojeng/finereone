@@ -10,6 +10,9 @@
 
 ---
 
+
+> 🔬 **姊妹深挖**：受體層級的解離動力學與駐留時間（finerenone vs spironolactone/eplerenone 的微觀 off-rate、結構基礎）見 [`mr_receptor_dissociation_residence_time.md`](mr_receptor_dissociation_residence_time.md)。
+
 ## 一、三個時鐘：把「藥沒了」拆成三段獨立計時 🟢🟡🔴
 
 臨床上把「停藥後多久解毒」講成一個數字，其實混淆了三個物理上分開、速率不同的過程。下表把它們並列——**注意三者的時間尺度並不一致，且順序不是你直覺的那樣**：

@@ -9,7 +9,7 @@
 > 📊 **統計深度解讀**：本主題重要文獻結果的統計迷思與臨床轉換亮點，見獨立檔 [`statistical_insights_myths.md`](statistical_insights_myths.md)。
 
 
-> 🔬 **深度藥理專題**：finerenone 短半衰期（2–3h）、受體 off-rate（解離半衰期 ~50 min）與「暫停即解毒」的 PK-vs-PD 耦合機制，見獨立檔 [`pk_pd_hysteresis_offrate_hold_restart.md`](pk_pd_hysteresis_offrate_hold_restart.md)。
+> 🔬 **深度藥理專題**：finerenone 短半衰期（2–3h）、受體 off-rate（解離半衰期 ~50 min）與「暫停即解毒」的 PK-vs-PD 耦合機制，見獨立檔 [`pk_pd_hysteresis_offrate_hold_restart.md`](pk_pd_hysteresis_offrate_hold_restart.md)；受體解離動力學與 residence time 見 [`mr_receptor_dissociation_residence_time.md`](mr_receptor_dissociation_residence_time.md)。
 
 ## 1. 引言:把 finerenone 重新定位為「標的病理生物學」的藥物
 
