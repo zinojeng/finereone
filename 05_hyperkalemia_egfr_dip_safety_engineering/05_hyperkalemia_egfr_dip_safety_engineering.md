@@ -164,6 +164,8 @@ finerenone 幾乎完全經 CYP3A4 代謝。Wendl 的 PBPK 模型估計總 fm_CYP
 
 ## 6. 常被忽視的另一端：hypokalemia，以及 nsMRA 的「雙向」電解質效應
 
+> 🔬 **因果推論專論**：低血鉀↓54% 是否『中介』finerenone 的 CV 益處（關聯 vs 因果中介的判讀）見獨立檔 [`potassium_mediation_of_cv_benefit.md`](potassium_mediation_of_cv_benefit.md)。
+
 把 finerenone 只當成「升鉀藥」是片面的。Pitt 的 FIDELITY hypokalemia 分析揭示：在這群 CKD+T2D 病人，**血鉀 <4.0 mmol/L 竟達 41.1%、<3.5 mmol/L 達 7.5%**，其累積發生率甚至**高於**高血鉀（安慰劑組 4 年 K<4.0 累積 57.2% vs K>5.5 僅 10%）[label_guideline_safety_Pitt_2025]。而 **finerenone 顯著減少 hypokalemia**：K<4.0（HR 0.63, 95% CI 0.60–0.66）、K<3.5（HR 0.46, 95% CI 0.40–0.53）[label_guideline_safety_Pitt_2025]。這很重要，因為低血鉀本身與更差結局相關——baseline K<4.0（vs 4.0–4.5）之 CV composite HR 1.16、arrhythmia HR 1.20；病程中最低 K<3.5 者 CV HR 1.53、心律不整 HR 1.67、全死因 HR 1.56 [label_guideline_safety_Pitt_2025]。
 
 FINEARTS-HF 得到平行結論：finerenone 降低 K<3.5 風險（HR 0.46），而時間更新分析中 K<3.5 對應的主要結局風險（HR 2.49）甚至高於 K>5.5（HR 1.64）[hf_renal_safety_Vardeny_2025]。**臨床意涵**：nsMRA 把血鉀「往中央（4.0–5.0，最低風險帶）收斂」，門診敘事不該只算高血鉀那一邊的帳 [label_guideline_safety_Pitt_2025][hf_renal_safety_Vardeny_2025]。（post hoc；hypokalemia 保護屬 evidence expansion，是否中介療效未明）
