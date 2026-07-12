@@ -10,6 +10,9 @@
 
 ---
 
+
+> 🔗 **正向互補**：血鉀**不**中介；那**什麼中介**（UACR 39%＋SBP 21%≈一半）見主題二 [`../02_albuminuria_to_hard_endpoints/uacr_sbp_mediation_of_cv_benefit.md`](../02_albuminuria_to_hard_endpoints/uacr_sbp_mediation_of_cv_benefit.md)。
+
 ## ❓ 問題重述：為什麼「平行下降」會讓人直覺想到因果中介？
 
 先把兩條曲線並排擺出來——它們確實誘人：
