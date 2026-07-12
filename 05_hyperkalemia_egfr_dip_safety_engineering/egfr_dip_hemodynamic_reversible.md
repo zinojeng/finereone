@@ -8,6 +8,9 @@
 
 ---
 
+
+> 🔬 **姊妹機制檔**：停藥後 UACR 反彈與 eGFR dip 回復同源於腎絲球內壓（「一個變因兩面」）之可逆生理，見 [`uacr_rebound_reversibility_mechanism.md`](uacr_rebound_reversibility_mechanism.md)。
+
 ## 0. 一句話定位
 
 初期 eGFR dip 不是腎損傷，而是**濾過壓下修的血流動力學指紋**——與 RAAS 阻斷、SGLT2i 同源的 class 現象。它可逆、雙相、幅度小；在 finerenone 身上，dip 甚至**不再預示更差的腎臟結局**。真正有代價的不是 dip，而是**因為看到 dip 而過早停藥**。

@@ -10,6 +10,9 @@
 
 ---
 
+
+> 🔬 **機制深挖**：停藥後 UACR 為何反彈（腎絲球內壓「一個變因兩面」的可逆生理）見主題五 [`../05_hyperkalemia_egfr_dip_safety_engineering/uacr_rebound_reversibility_mechanism.md`](../05_hyperkalemia_egfr_dip_safety_engineering/uacr_rebound_reversibility_mechanism.md)。
+
 ## ❓ 三個問題，一句話先給答案
 
 | 問題 | CONFIDENCE 的答案 | 等級 |
