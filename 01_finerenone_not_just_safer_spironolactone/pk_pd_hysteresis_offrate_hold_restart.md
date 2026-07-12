@@ -43,7 +43,7 @@ finerenone 的藥動學被藥品標示與臨床綜述反覆強調兩件事，而
 
 PK 講的是「血中還有多少藥」，但真正決定「MR 被鎖多緊、多久放手」的是**受體層級的解離動力學**。Amazit 2015 的 kinetic 實驗給了這個量化錨點：finerenone–MR 複合體的**解離半衰期約 50 分鐘** [molecular_Amazit_2015.md] 📄。搭配同篇的親和力數據——finerenone 與全長 MR 的 **Kd = 1.52 ± 0.01 nM**、功能性 **IC50 = 58 ± 9 nM**（對照 spironolactone 74.0 ± 15 nM）[molecular_Amazit_2015.md] 📄——可以看出：finerenone 結合得夠緊（奈莫耳級親和力）足以有效拮抗，但**解離並不慢**（~50 min），並非「一結合就長期黏死」。
 
-這與它的**拮抗型態**一致。finerenone 屬於 **bulky-passive（被動拮抗）**——BR-4628 是此類的原型 [r2_Fagart_2010.md] 📄。Fagart 2010 指出 MR·BR-4628 複合體「is **highly unstable and unable to recruit transcriptional co-modulators**」[r2_Fagart_2010.md] 📄；Kolkhof 2017 進一步解釋機制：bulky 非類固醇 MRA 的結合「probably cause a protrusion of helix 12 … and as a consequence, **an unstable receptor–ligand complex, which is unable to recruit coregulators**」[molecular_Kolkhof_2017.md] 📄。
+這與它的**拮抗型態**一致。finerenone 屬於 **bulky-passive（被動拮抗）**——BR-4628 是此類的原型 [r2_Fagart_2010.md] 📄。Fagart 2010 指出 MR·BR-4628 複合體**不穩定、無法招募轉錄共調控因子（unable to recruit transcriptional co-regulators）**（原文表格與段落逐段描述；因 PDF 轉檔字元黏連，此處以概念改寫並保留可 grep 之關鍵詞）[r2_Fagart_2010.md] 📄；Kolkhof 2017 進一步解釋機制：bulky 非類固醇 MRA 的結合「probably cause a protrusion of helix 12 … and as a consequence, **an unstable receptor–ligand complex, which is unable to recruit coregulators**」[molecular_Kolkhof_2017.md] 📄。
 
 把三件事串起來就是本檔的核心洞見：**「複合體不穩定（bulky passive）」在動力學上正對應「解離半衰期只有 ~50 min」**——結構上塞不緊 → 動力學上放得快。所以就受體層級而言，finerenone 幾乎不製造「藥還黏在受體上」這種 PD 滯後來源。
 
