@@ -70,6 +70,8 @@ flowchart TD
 
 ### 2.2 主要療效:同步起始的 albuminuria 益處是「over-additive」
 
+> 🔬 **深問專題**：UACR −52% 為何 over-additive、eGFR 為何疊加、以及**停藥後 UACR 是反彈還是維持**（含對「結構性殘餘防護」假說的檢驗），見獨立檔 [`confidence_over_additive_and_offtreatment_reversibility.md`](confidence_over_additive_and_offtreatment_reversibility.md)。
+
 Day 180 時,**combination 使 UACR 自基線降約 52%**,對比 finerenone 單藥約 32%、empagliflozin 單藥約 29% [combination_editorial_Cheng_2025]。以組間比而言,combination 較 finerenone 單藥多降 **29%**(LS mean ratio 0.71;95% CI 0.61–0.82;P<0.001)、較 empagliflozin 單藥多降 **32%**(LS mean ratio 0.68;95% CI 0.59–0.79;P<0.001)[combination_editorial_Cheng_2025][combination_editorial_Georgianos_2025][confidence_trial_Vaduganathan_2025]。這個差距**在治療前 30 天內就出現**,並在停藥後(Day 180→210)雖回升但仍低於基線 [combination_editorial_Georgianos_2025]。
 
 **跨 KDIGO 風險層的一致性(Vaduganathan 預設次分析)**:781 名有資料者中 11.3% 為 low/moderate、29.6% high、59.2% very high risk。combination 的 UACR 降幅在各層一致(low/mod −61.7%、high −60.7%、very high −52.4%),且各層皆優於任一單藥(very high 層 combination vs finerenone LS mean ratio 0.72 [0.59–0.89]、vs empagliflozin 0.75 [0.61–0.91];P_interaction >.05)[confidence_trial_Vaduganathan_2025]。達到臨床有意義(>30% UACR 下降)者在 combination 各層皆過半(low/mod 58.1%、high 74.2%、very high 70.6%)[confidence_trial_Vaduganathan_2025]。**臨床意涵**:同步起始的相對益處不因基線腎風險高低而改變,支持「不必等到極高風險才聯用」的論點。

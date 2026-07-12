@@ -10,6 +10,9 @@
 
 ---
 
+
+> 🔬 **延伸專題**：over-additive 的機制拆解與**停藥後 UACR 反彈**（可逆 vs 結構性殘餘防護之辨）見 [`confidence_over_additive_and_offtreatment_reversibility.md`](confidence_over_additive_and_offtreatment_reversibility.md)。
+
 ## 1. 研究設計的解剖：為什麼這個試驗「乾淨」
 
 ### 1.1 三臂、double-dummy、Phase 2 的用意 🟡
