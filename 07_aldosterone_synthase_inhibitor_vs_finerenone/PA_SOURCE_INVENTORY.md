@@ -1,12 +1,12 @@
 # PA-finerenone 主題 — 來源清單與全文取得狀態
 
-> 本次 workflow 掃描去重 31 篇候選;實際取得 8 篇全文(verified)、8 篇僅 abstract(abstract_only)、0 篇未取得(failed)。
+> 第一輪 workflow 掃描去重 31 篇候選;去除 1 篇重複檔後取得 7 篇全文(verified)、7 篇僅 abstract(abstract_only)、0 篇未取得(failed)。
+> **2026-07-17 二輪檢索**再追加 8 篇(4 verified + 4 abstract_only);累計 **22 篇**(verified 11、abstract_only 11、failed 0)。二輪 8 篇經核 **changes_conclusions=false**(佐證,不改變回顧結論),已登錄於主檔中文 PA 回顧 References 第 17–24 條。
 > 檔案位於 `原始PDF/`。abstract_only 者僅逐字轉錄結構化摘要,未對付費牆內未載內容作具體數字斷言。
 
 | 狀態 | 檔名 | 引用 |
 |---|---|---|
 | verified | `pa_finerenone_circulation_rct_2025.md` | Hu J, Zhou Q, Sun Y, Feng Z, Yang J, He W, Song Y, Wang Y, Chen X, Shen H, Jing Y, Yang S, Li Q, et al. Efficacy and Safety of Finerenone in Patients With Primary Aldosteronism: A Pilot Randomized Controlled Trial. Circulation. 2025;151(2):196-198. doi:10.1161/CIRCULATIONAHA.124.071452. PMID: 39804908. |
-| abstract_only | `pa_finerenone_eje_realworld_2025.md` | Uslar T, Sanfuentes B, Muñoz I, Vaidya A, Baudrand R. Real-world outcomes of finerenone in primary aldosteronism. Eur J Endocrinol. 2025 May;192(5):K50–K53. doi:10.1093/ejendo/lvaf099. PMID: 40378185. |
 | abstract_only | `pa_finerenone_hypertension_2026.md` | Li P, Yang F, Lou Y, Zhang Z, Du Y, Zhang J, Ren Y, Tong A, Xie Z, Shi B, Liu J, Liu L, Zhu D. Efficacy and Safety of Finerenone in Patients With Primary Aldosteronism: A Multicenter Prospective Study. Hypertension. 2026;83(5):e26048. doi:10.1161/HYPERTENSIONAHA.125.26048. PMID:41568520. Trial: NCT06381323. |
 | abstract_only | `pa_finerenone_pamo_consensus_lancetde_2025.md` | Yang J, Burrello J, Goi J, et al. Outcomes after medical treatment for primary aldosteronism: an international consensus and analysis of treatment response in an international cohort. Lancet Diabetes Endocrinol. 2025;13(2):119-133. doi:10.1016/S2213-8587(24)00308-5. PMID: 39824204. |
 | abstract_only | `pa_finerenone_jcem_endosociety_sr_2025.md` | Farah MH, Hegazi M, Firwana M, Abusalih M, Saadi S, Al-Kordi M, Elsheikh A, Wang Z, Hassett L, Bancos I, Murad MH. A Systematic Review Supporting the Endocrine Society Clinical Practice Guideline on Management of Primary Aldosteronism. J Clin Endocrinol Metab. 2025 Aug 7;110(9):e2833-e2844. doi:10.1210/clinem/dgaf290. PMID: 40658500. |
@@ -20,3 +20,16 @@
 | verified | `pa_finerenone_esaxerenone_vs_spl_hypertens_res_rct_2022.md` | Ishikawa T, Morimoto S, Ichihara A. Effects of mineralocorticoid receptor antagonists on sex hormones and body composition in patients with primary aldosteronism. Hypertens Res. 2022;45(3):496-506. doi:10.1038/s41440-021-00836-6. PMID: 34961793. |
 | abstract_only | `pa_finerenone_esaxerenone_hypertens_res_2024.md` | Yoshida Y, Fujiwara M, Kinoshita M, Sada K, Miyamoto S, Ozeki Y, et al. Effects of esaxerenone on blood pressure, urinary albumin excretion, serum levels of NT-proBNP, and quality of life in patients with primary aldosteronism. Hypertens Res. 2024;47(1):173-184. doi:10.1038/s41440-023-01412-w. PMID: 37717115. |
 | abstract_only | `pa_finerenone_esaxerenone_iha_vascular_2025.md` | Kishimoto S, Maruhashi T, Kajikawa M, Mizobuchi A, Harada T, Yamaji T, Nakano Y, Goto C, Yusoff FM, Higashi Y. Chronic esaxerenone treatment improves vascular function and lowers peripheral arterial stiffness in patients with idiopathic hyperaldosteronism. J Hypertens. 2025. doi:10.1097/HJH.0000000000004030. PMID: 40394919. |
+
+## 二輪檢索追加(2026-07-17;changes_conclusions=false,佐證;主檔 References ref 17–24)
+
+| 狀態 | 檔名 | 引用 |
+|---|---|---|
+| abstract_only | `pa_finerenone_LiS2026_DSX.md` | Li S, Zhang Y, Liu X, Chai Y, Jia H, Shu H, Fan Y, Ding L, Liu M. Efficacy and safety of finerenone in the treatment of primary aldosteronism: A prospective clinical study. Diabetes Metab Syndr. 2025 Dec 27;20(1):103369. doi:10.1016/j.dsx.2025.103369. PMID: 41475301. (獨立單臂前瞻 n=15;Elsevier 付費牆,無 PMCID/OA,僅結構化 abstract。) |
+| verified | `pa_finerenone_yu2024.md` | Yu CG, Cao B, Gong HL, Ke J, Xian SZ, Wu NN, Zhao D. Primary aldosteronism with postoperative elevation of aldosterone treated effectively by finerenone: A case report. J Clin Hypertens (Greenwich). 2024;26(9):1116-1120. doi:10.1111/jch.14877. PMID: 39119826; PMCID: PMC11488330. (第二個 finerenone-in-PA 正面案例;PMC OA 全文。) |
+| verified | `pa_finerenone_turcu2026_emerging.md` | Vibhatavata P, Turcu AF. Emerging Medical Therapies for Primary Aldosteronism. Hypertension. 2026;83(5):e26229. doi:10.1161/HYPERTENSIONAHA.126.26229. PMID: 41685462; PMCID: PMC13001030. (=主文 ASI 章 References ref 30;本輪取得 PMC 全文。) |
+| abstract_only | `pa_finerenone_asi_review_merlo2026.md` | Merlo M, Zoccatelli F, Costa G, Panepinto L, Friso S, Marzano L. Aldosterone synthase inhibitors across the translational spectrum: Mechanistic foundations and emerging clinical applications. J Intern Med. 2026. doi:10.1111/joim.70061. PMID: 41491887. (Wiley 付費牆,無 PMCID/OA;僅官方結構化摘要。) |
+| verified | `pa_finerenone_ASI_cicero2025_drugs_review.md` | Cicero AFG, Tocci G, Avagimyan A, Penson P, Nardoianni G, Perone F, Borghi C, Fogacci F. Aldosterone Synthase Inhibitors for Resistant Hypertension: Pharmacological Insights – A Systematic Review. Drugs. 2025;85(11):1429-1453. doi:10.1007/s40265-025-02229-2. PMID: 40885884; PMCID: PMC12572095. (=主文 ASI 章 References ref 10;PMC OA 全文。) |
+| verified | `pa_finerenone_liu2026_cvrisk_review.md` | Liu H, Wu Z, Liu X, Hu Y, Zhang K, Shang J. Cardiovascular risk in primary aldosteronism: inflammatory drivers, residual risk, and emerging combination strategies. Front Endocrinol (Lausanne). 2026;17:1802307. doi:10.3389/fendo.2026.1802307. PMID: 42064766; PMCID: PMC13124616. (Frontiers OA 全文。) |
+| abstract_only | `pa_finerenone_esaxerenone_pa_reply.md` | Yoshida Y, Shibata H. Clinical benefits and uncertainties of treatment with esaxerenone in primary aldosteronism. Hypertens Res. 2024;47(11):3282-3283. doi:10.1038/s41440-024-01869-3. PMID: 39210086. (作者回覆 Letter,無一手數字;Nature 付費牆,取免費預覽段落。) |
+| abstract_only | `pa_finerenone_kidoguchi2026_sodium_mra.md` | Kidoguchi S, Sugano N, Kawauchi-Hirai R, Yokoo T. The amount of sodium intake may affect the susceptibility to treatment with mineralocorticoid receptor antagonists in patients with primary aldosteronism. Clin Exp Nephrol. 2026;30(7):1101-1107. doi:10.1007/s10157-026-02874-1. PMID: 42126723. (n=90 PA on eplerenone/esaxerenone;Springer 付費牆,僅結構化 abstract。) |

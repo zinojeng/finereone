@@ -522,6 +522,29 @@ MRA **不會消除**自主性 aldosterone secretion——反而使 PAC 上升(pi
 
 ---
 
+#### 二輪檢索補充佐證文獻(2026-07-17 收錄;均為 corroborating,changes_conclusions=false)
+
+> 二次檢索另取得 8 篇切題來源,經核**均佐證而非改變**既有結論(皆無 PA-specific hard outcome、與現有數字無矛盾),依規則僅登錄於此供 grep 稽核,未改動上文結論、對照表與任何既有數字。
+
+**A. 直接 finerenone-in-PA 一手證據(呼應 §3)**
+
+17. Li S, Zhang Y, Liu X, Chai Y, Jia H, Shu H, Fan Y, Ding L, Liu M. Efficacy and safety of finerenone in the treatment of primary aldosteronism: A prospective clinical study. Diabetes Metab Syndr. 2025 Dec 27;20(1):103369. doi:10.1016/j.dsx.2025.103369. PMID: 41475301. 📌 `原始PDF/pa_finerenone_LiS2026_DSX.md`（獨立單中心單臂前瞻,**n=15**,基線全數低血鉀;4 週 **47%(7/15)** 不需補鉀即達正常血鉀,血鉀於 2/4/8 週顯著上升,SBP 於 4/8 週顯著下降、DBP 無顯著變化;PA+CKD 亞群見 eGFR dip(未達顯著)。與 Hu 2025、Li P 2026 為**不同**研究,方向一致,強化「finerenone 能降壓/矯正低血鉀但屬短期代理終點」之既有結論。abstract 未報 renin/PAC/PAMO%/劑量。）
+18. Yu CG, Cao B, Gong HL, Ke J, Xian SZ, Wu NN, Zhao D. Primary aldosteronism with postoperative elevation of aldosterone treated effectively by finerenone: A case report. J Clin Hypertens (Greenwich). 2024;26(9):1116-1120. doi:10.1111/jch.14877. PMID: 39119826; PMCID: PMC11488330. 📄 `原始PDF/pa_finerenone_yu2024.md`（**第二個 finerenone-in-PA 正面案例**,術後殘留/復發醛固酮過量合併 DKD,finerenone 20 mg/d,13 個月血鉀正常化(4.16–4.50)、renin 去抑制、ARR 80→29。作為 §3.4 Karanović **陰性**案例之對照。**重要註記**:醛固酮絕對值在 finerenone 下**未下降**(257.8–603.7 pg/mL 波動),控制係經下游 MR 阻斷/renin 去抑制,**不可誤述為「降低醛固酮」**——與本頁「MRA 不消除自主性 aldosterone 分泌、PAC 反升」之核心命題一致。）
+
+**B. ASI 與 nsMRA class 背景/框架佐證(呼應 §6、§8)**
+
+19. Vibhatavata P, Turcu AF. Emerging Medical Therapies for Primary Aldosteronism. Hypertension. 2026;83(5):e26229. doi:10.1161/HYPERTENSIONAHA.126.26229. PMID: 41685462; PMCID: PMC13001030. 📄 `原始PDF/pa_finerenone_turcu2026_emerging.md`（=主文 References ref 30;本輪取得 PMC 全文。並列 ASI 與 nsMRA,提出「finerenone 真實世界由 eplerenone 換用**反降**完全生化反應比例」「11-DOC 累積為 ASI class 限制」等平衡論點。）
+20. Merlo M, Zoccatelli F, Costa G, Panepinto L, Friso S, Marzano L. Aldosterone synthase inhibitors across the translational spectrum: Mechanistic foundations and emerging clinical applications. J Intern Med. 2026. doi:10.1111/joim.70061. PMID: 41491887. 📌 `原始PDF/pa_finerenone_asi_review_merlo2026.md`（ASI narrative review;明言證據仍以 surrogate endpoints 為主、phase III 進行中、無 PA hard outcome。）
+21. Cicero AFG, Tocci G, Avagimyan A, Penson P, Nardoianni G, Perone F, Borghi C, Fogacci F. Aldosterone Synthase Inhibitors for Resistant Hypertension: Pharmacological Insights – A Systematic Review. Drugs. 2025;85(11):1429-1453. doi:10.1007/s40265-025-02229-2. PMID: 40885884; PMCID: PMC12572095. 📄 `原始PDF/pa_finerenone_ASI_cicero2025_drugs_review.md`（=主文 References ref 10;ASI PK/藥理系統回顧,呼籲 ASI-vs-MRA 頭對頭試驗。）
+22. Liu H, Wu Z, Liu X, Hu Y, Zhang K, Shang J. Cardiovascular risk in primary aldosteronism: inflammatory drivers, residual risk, and emerging combination strategies. Front Endocrinol (Lausanne). 2026;17:1802307. doi:10.3389/fendo.2026.1802307. PMID: 42064766; PMCID: PMC13124616. 📄 `原始PDF/pa_finerenone_liu2026_cvrisk_review.md`（PA 殘餘 CV 風險與 ASI+MRA 併用策略綜述;framing finerenone 耐受佳但 PA 生化緩解弱於 esaxerenone,支持 §8 定位論述。）
+
+**C. nsMRA-in-PA 佐證(呼應 §2.3、§4.2)**
+
+23. Yoshida Y, Shibata H. Clinical benefits and uncertainties of treatment with esaxerenone in primary aldosteronism. Hypertens Res. 2024;47(11):3282-3283. doi:10.1038/s41440-024-01869-3. PMID: 39210086. 📌 `原始PDF/pa_finerenone_esaxerenone_pa_reply.md`（**作者回覆 Letter**,無一手數字;重申 esaxerenone 僅日本上市、跨族群抗高血壓/器官保護/QOL 效益未定之不確定性。被評論之原著 cohort 數字見 PMID 37717115 = ref 12。）
+24. Kidoguchi S, Sugano N, Kawauchi-Hirai R, Yokoo T. The amount of sodium intake may affect the susceptibility to treatment with mineralocorticoid receptor antagonists in patients with primary aldosteronism. Clin Exp Nephrol. 2026;30(7):1101-1107. doi:10.1007/s10157-026-02874-1. PMID: 42126723. 📌 `原始PDF/pa_finerenone_kidoguchi2026_sodium_mra.md`（**n=90** PA 用 eplerenone/esaxerenone(nsMRA);post-treatment PRA-response 受**鈉攝取**獨立干擾,3 年 eGFR 於 responder/non-responder 無差異(null 腎臟訊號)。提醒以 renin/PRA 反應作為 MRA 療效替代指標會被鈉攝取混淆,呼應 §4.2 renin-as-target 之判讀難題。）
+
+---
+
 #### 誠實揭露(全文取得狀態)
 
 - **全文可稽核(📄)**:Hu 2025 pilot RCT(publisher HTML 逐字,無 PDF)、2025 指引(abstract + 治療章節 publisher extract)、FAIRY 協定(ClinicalTrials.gov v2 API)、Satoh 2021 esaxerenone(PMC OA 全文)、Ishikawa 2022(Sci-Hub PDF)、Mulatero 2024 dexfadrostat(PMC OA 全文)、Karanović 2024 case(publisher HTML)。
