@@ -1,7 +1,8 @@
 # PA-finerenone 主題 — 來源清單與全文取得狀態
 
 > 第一輪 workflow 掃描去重 31 篇候選;去除 1 篇重複檔後取得 7 篇全文(verified)、7 篇僅 abstract(abstract_only)、0 篇未取得(failed)。
-> **2026-07-17 二輪檢索**再追加 8 篇(4 verified + 4 abstract_only);累計 **22 篇**(verified 11、abstract_only 11、failed 0)。二輪 8 篇經核 **changes_conclusions=false**(佐證,不改變回顧結論),已登錄於主檔中文 PA 回顧 References 第 17–24 條。
+> **2026-07-17 二輪檢索**再追加 8 篇(4 verified + 4 abstract_only);二輪後累計 22 篇。二輪 8 篇經核 **changes_conclusions=false**(佐證,不改變回顧結論),已登錄於主檔中文 PA 回顧 References 第 17–24 條。
+> **2026-07-17 收尾補抓**再追加 6 篇確診 PA 一手/權威 ASI 證據(3 verified + 3 abstract_only);累計 **28 篇**(verified 14、abstract_only 14、failed 0)。此 6 篇實質**織入 §8**「受體阻斷 vs 合成抑制」對讀(SPARK baxdrostat、LCI699/osilodrostat 為確診 PA 一手 ASI 試驗),登錄於主檔中文 References 第 25–30 條、英文附錄 References 第 17–22 條。
 > 檔案位於 `原始PDF/`。abstract_only 者僅逐字轉錄結構化摘要,未對付費牆內未載內容作具體數字斷言。
 
 | 狀態 | 檔名 | 引用 |
@@ -33,3 +34,14 @@
 | verified | `pa_finerenone_liu2026_cvrisk_review.md` | Liu H, Wu Z, Liu X, Hu Y, Zhang K, Shang J. Cardiovascular risk in primary aldosteronism: inflammatory drivers, residual risk, and emerging combination strategies. Front Endocrinol (Lausanne). 2026;17:1802307. doi:10.3389/fendo.2026.1802307. PMID: 42064766; PMCID: PMC13124616. (Frontiers OA 全文。) |
 | abstract_only | `pa_finerenone_esaxerenone_pa_reply.md` | Yoshida Y, Shibata H. Clinical benefits and uncertainties of treatment with esaxerenone in primary aldosteronism. Hypertens Res. 2024;47(11):3282-3283. doi:10.1038/s41440-024-01869-3. PMID: 39210086. (作者回覆 Letter,無一手數字;Nature 付費牆,取免費預覽段落。) |
 | abstract_only | `pa_finerenone_kidoguchi2026_sodium_mra.md` | Kidoguchi S, Sugano N, Kawauchi-Hirai R, Yokoo T. The amount of sodium intake may affect the susceptibility to treatment with mineralocorticoid receptor antagonists in patients with primary aldosteronism. Clin Exp Nephrol. 2026;30(7):1101-1107. doi:10.1007/s10157-026-02874-1. PMID: 42126723. (n=90 PA on eplerenone/esaxerenone;Springer 付費牆,僅結構化 abstract。) |
+
+## 收尾補抓:確診 PA 一手/權威 ASI 證據(2026-07-17;織入 §8;中文 References ref 25–30 / 英文 ref 17–22)
+
+| 狀態 | 檔名 | 引用 |
+|---|---|---|
+| abstract_only | `pa_baxdrostat_spark.md` | Turcu AF, Freeman MW, Bancos I, et al. Phase 2a Study of Baxdrostat in Primary Aldosteronism. N Engl J Med. 2025;393(5):515-518. doi:10.1056/NEJMc2508629. PMID: 40658651. (確診 PA N=15 一手 ASI[SPARK phase 2a];NEJM letter 付費,數字逐字轉錄自同一試驗 ENDO 2025 abstract OR16-08,PMC12545722 OA。) |
+| abstract_only | `pa_finerenone_lci699_poc.md` | Amar L, Azizi M, Menard J, Peyrard S, Watson C, Plouin PF. Aldosterone synthase inhibition with LCI699: a proof-of-concept study in patients with primary aldosteronism. Hypertension. 2010;56(5):831-838. doi:10.1161/HYPERTENSIONAHA.110.157271. PMID: 20837883. (首個 ASI-in-PA PoC[osilodrostat],確診 PA N=14;全文付費,逐字取 PubMed abstract。) |
+| verified | `pa_finerenone_hundemer2024_biomarkers.md` | Hundemer GL, Leung AA, Kline GA, Brown JM, Turcu AF, Vaidya A. Biomarkers to Guide Medical Therapy in Primary Aldosteronism. Endocr Rev. 2024;45(1):69-94. doi:10.1210/endrev/bnad024. PMID: 37439256; PMCID: PMC10765164. (權威 biomarker 回顧;renin 去抑制為 MRA 充分性核心指標。) |
+| abstract_only | `pa_finerenone_nrdp_primer.md` | Vaidya A, Kline GA, Mulatero P, Turcu AF, Williams TA, Wu VC, Yang J, Zennaro MC, Lacroix A. Primary aldosteronism. Nat Rev Dis Primers. 2026;12(1). doi:10.1038/s41572-026-00714-w. PMID: 42350437. (權威疾病總覽;MRA 標準、ASI near-future。Abstract 無硬數字,全文付費。) |
+| verified | `pa_finerenone_spain_aldo_mra.md` | Goi J, Paja Fano M, Parra Ramírez P, Araujo-Castro M, et al. Efficacy and safety of medical treatment of primary aldosteronism: a real-world data study in Spain (SPAIN-ALDO). Eur J Endocrinol. 2025;193(2):297-309. doi:10.1093/ejendo/lvaf158. PMID: 40743244. (N=997 真實世界;受體阻斷側療效天花板/耐受缺口。) |
+| verified | `pa_finerenone_retame_pa_protocol.md` | Merabtine A, Leung AA, Kline GA, Dubrofsky L, Hundemer GL, Goupil R. Renin-guided therapy with mineralocorticoid receptor antagonists in primary aldosteronism: feasibility study (RETAME-PA) — a clinical research protocol for a randomised controlled trial. BMJ Open. 2025;15(12):e111167. doi:10.1136/bmjopen-2025-111167. PMID: 41419284; PMCID: PMC12716583. NCT06108427. (RCT protocol,無結局;renin-guided MRA 監測框架。) |
