@@ -260,3 +260,474 @@ flowchart TD
 ---
 
 *本文所有事實性數字均可經句末 `[本地MD檔名]` 於 07_aldosterone_synthase_inhibitor_vs_finerenone/原始PDF/ 目錄下對應 MD 檔 grep 回溯。LLM 僅執行組織與改寫，未自創任何引用或數值。撰稿日 2026-07-08。*
+
+
+---
+
+# 延伸主題:Finerenone(nsMRA)用於原發性醛固酮症(Primary Aldosteronism)
+
+> 本節於 2026-07 併入本主題頁。原發性醛固酮症(PA)是「受體端阻斷 vs 合成端抑制」在**確診 PA** 情境下的直接戰場,與本頁 §8「受體阻斷 vs 醛固酮合成抑制」互為延伸。以下依證據分層整理 finerenone 及 nsMRA class(esaxerenone)在 PA 的直接證據,並附一份**投稿用英文 review article** 草稿。PA-specific 全文/摘要來源清單見同資料夾 `PA_SOURCE_INVENTORY.md`,原始檔位於 `原始PDF/pa_finerenone_*.md`。
+
+---
+## Finerenone(非類固醇型 MRA)用於原發性醛固酮症:一篇證據分層的深度回顧
+
+> **證據標記說明**:📄=本地全文可稽核(檔案位於 `/Users/ander/Documents/medical/diabetes/nsmra/deep-research/07_aldosterone_synthase_inhibitor_vs_finerenone/原始PDF/`);📌=僅結構化 abstract(數字逐字轉錄,絕對值付費牆未取得);🌐=外部/參考檔來源(標作者年份 DOI/PMID,未落地全文)。
+> **重要限度**:Circulation pilot RCT 雖為 verified,但為 Research Letter,PubMed 無 abstract、無 PMC/OA PDF;全文與完整 Table 係經 AHA Journals 發行商 HTML 逐字擷取。EJE 真實世界 switch、Hypertension 2026 單臂、Lancet DE PAMO 共識、JCEM 系統性回顧均為付費牆,僅取得 abstract。
+
+---
+
+### 1. TL;DR 結論
+
+截至 **2026 年 7 月**,finerenone 用於 PA 的證據仍屬**早期**:一項 60 人 pilot RCT、一項智利真實世界 forced-switch 研究、一項 57 人單臂多中心研究,加上 esaxerenone(同屬非類固醇型 MRA,nsMRA)的 PA 資料作為 class 對照。核心結論如下:
+
+1. **finerenone 確實能降 PA 患者的診間與 24h 血壓**,不是「只阻斷 MR、不降壓」的藥。pilot RCT 中 daytime SBP 降 −9.9 mmHg、24h SBP 降 −10.9 mmHg。📄 `pa_finerenone_circulation_rct_2025.md`
+2. **真正的爭點不是「能不能降壓」,而是「現行 20 mg QD 劑量能否提供全天候的腎臟 MR blockade,充分逆轉鈉滯留、容量擴張、低血鉀與 renin suppression」**。單臂研究顯示 12 週後仍只有 32.7% 患者達 PRA ≥1 ng/mL/h,PAMO complete biochemical response 僅 29.1%。📌 `pa_finerenone_hypertension_2026.md`
+3. **20 mg finerenone vs 20 mg spironolactone ≠ 等效 MR potency**。真實世界(eplerenone→finerenone)顯示血壓表面持平,但 renin 再被壓低、complete biochemical response 比例下降 → **診間血壓會高估治療充分性**。📌 `pa_finerenone_eje_realworld_switch_2025.md`
+4. **2025 Endocrine Society 指引仍首選 spironolactone**,明言理由是「成本低、可近性高」,而非已證明藥理更優;並認為各 MRA「調到等效 potency 應有相近療效」。📄 `pa_finerenone_endosociety_guideline_2025.md`
+5. **尚無 PA-specific 長期 hard outcome(AF/stroke/HF/MACE/CKD/死亡)證據**;head-to-head FAIRY trial 進行中,primary endpoint 仍是 12 週 24h ABPM SBP(short-term surrogate)。📄 `pa_finerenone_fairy_protocol_nct06457074.md`
+
+**一句話定位**:finerenone 是 spironolactone 不耐受、或合併特定心腎共病患者**很有吸引力的替代研究方向**,但尚不能視為已證實較佳的一線 PA 治療。評估療效時,血壓、血鉀、renin 與 antihypertensive burden 應**放在一起看**;「血壓降了但 renin 仍 suppressed」應視為**可能治療不足的訊號**,而非自動判定治療成功。
+
+---
+
+### 2. 為何 PA 需要重新檢視 MRA 選擇
+
+#### 2.1 spironolactone 一線的真正理由:成本與 tolerability,非藥理更優
+
+2025 Endocrine Society 指引以 GRADE 方法回答 10 個問題,Recommendation 9 明確建議 spironolactone 優先於其他 MRA,理由逐字為「**due to its low cost and widespread availability**」,並附註「**all MRAs, when titrated to equivalent potencies, are anticipated to have similar efficacy in treating PA**」——亦即這是一個 conditional/weak、very low certainty(2 | ⊕OOO)的建議,建立在「等效 potency 下療效相近」的**理論外推**,而非 head-to-head 硬證據。📄 `pa_finerenone_endosociety_guideline_2025.md`
+
+#### 2.2 spironolactone 降壓機轉與其副作用來源分離
+
+spironolactone 的降壓作用主要來自 **MR blockade 後減少鈉滯留與容量擴張**,並非因其同時阻斷 androgen / progesterone receptor;後兩者主要造成男性女乳、性功能障礙、乳房與月經相關症狀。因此非類固醇型、MR 選擇性較高的 finerenone / esaxerenone 的理論優勢**主要是 tolerability**,而不是「多了一個降壓機轉」。🌐 參考檔(Endocrine Society 指引第 13 段論述)
+
+nsMRA 的 tolerability 優勢在 esaxerenone vs spironolactone 的 PA RCT 中有直接量化:spironolactone 組男性游離睪固酮由 7.2→10.7 pg/mL 顯著上升(P<0.05,且高於 esaxerenone 組 P<0.05),esaxerenone 組則無變化(8.1→8.2,ns);spironolactone 組有 1 名男性 gynecomastia,esaxerenone 組無。📄 `pa_finerenone_esaxerenone_vs_spl_hypertens_res_rct_2022.md`(Ishikawa 2022, PMID 34961793)
+
+#### 2.3 現實的「治療充分性缺口」
+
+2025 國際 PAMO 共識分析 28 個中心、**1258 名**接受藥物治療的 PA 患者(平均年齡 52 歲,女性 48.5%),生化資料可得者 1057 人中僅 **559 人(52.9%)** 達 complete biochemical response;臨床資料 1248 人中 complete clinical response 僅 **228 人(18.3%)**。complete biochemical responders 的 spironolactone 中位劑量 40 mg/d(vs non-responder 25 mg/d,p=0.011),提示**劑量常偏低 → 治療不足**。complete clinical response 與女性(OR 2.099)、較低基線降壓藥負擔(OR 0.687)、無 microalbuminuria/LVH(OR 0.584)相關。📌 `pa_finerenone_pamo_consensus_lancetde_2025.md`(Yang 2025, PMID 39824204)
+
+> 這個「約一半達生化目標、不到兩成達完整臨床反應」的缺口,**不能直接歸因於 spironolactone 分子失效**,更可能是副作用限制增量、renin 未解除抑制、高鈉攝取、診斷過晚、adherence 等綜合結果。這正是 nsMRA 被寄望改善 adherence 進而改善充分性的切入點——但目前仍是假說。
+
+---
+
+### 3. finerenone 在 PA 的直接證據
+
+#### 3.1 Pilot RCT:finerenone vs spironolactone(Hu 2025, Circulation)📄
+
+**設計**:open-label pilot RCT,PA 患者 125 篩選 → 60 隨機(30/30),1 名 spironolactone 未給藥 → 分析 30 finerenone + 29 spironolactone。兩組均 20 mg QD 起始、必要時增至 40 mg/d。追蹤 8 週(day 56)。平均劑量:finerenone 21.8 mg/d、spironolactone 23.4 mg/d。PA 亞型(uni/bi/indeterminate):finerenone 4/21/5、spironolactone 4/15/10。📄 `pa_finerenone_circulation_rct_2025.md`
+
+**血壓(primary = daytime SBP change)**:
+- Daytime SBP:finerenone −9.9±13.0 vs spironolactone −7.8±10.2,**組間差 −2.1 mmHg(95%CI −8.2 to 4.0),NS**
+- 24h SBP:−10.9±12.5 vs −7.8±9.5,差 −3.1(−8.9 to 2.7)
+- Office SBP:−17.7±19.7 vs −17.1±19.0,差 −0.6(−10.7 to 9.5)
+- Office BP 控制率(<140/90):finerenone 20/30(66.7%)vs spironolactone 14/29(48.3%)
+
+**血鉀**:finerenone 3.9→4.1(+0.2±0.4)vs spironolactone 3.7→4.2(+0.5±0.4),**組間差 −0.3 mmol/L(95%CI −0.5 to −0.1,顯著;finerenone 上升幅度較小)**。
+
+**renin/醛固酮(組內變化)**:兩組 upright PRC 皆上升(finerenone +3.4 vs spironolactone +5.0 μIU/mL,組間差 −0.8,NS);upright PAC 皆上升(+79.5 vs +22.0 pg/mL,差 36.6,NS)。
+
+**安全性**:spironolactone 6/29(20.7%)有 AE(4 impotence + 1 mastodynia + 1 hyperkalemia);finerenone **0**。無人因 AE 停藥。
+
+**解讀**:finerenone **確實能降壓**,但此結果**不能解讀為已證明等效或 non-inferior**——樣本小、追蹤僅 8 週、CI 寬,且「20 對 20 mg」非等效 MR potency。本試驗**未報告 PASO/PAMO 式 complete biochemical/clinical response %**,只有 office BP 控制率與組內 PRC/PAC 變化。血鉀上升較小、AE 較少雖為訊號,但樣本不足以下安全性結論。⚠ 血鉀上升較小同時可有兩種解讀(見第 4 節):tolerability 較佳 vs 遠端腎小管 MR/ENaC 阻斷較弱。
+
+#### 3.2 真實世界:eplerenone→finerenone 被迫轉換(Uslar/Baudrand 2025, EJE)📌
+
+智利因全國 eplerenone 缺藥,PA 患者被迫 forced switch 至 finerenone。abstract 僅揭露方向與兩個 P 值,**無任何絕對值/N/追蹤週數**:
+- 「blood pressure and antihypertensive dose remained unchanged」
+- 達到正常血壓的患者**比例下降**(P = .004)
+- complete biochemical response **比例下降**(P = .008)
+- 上述下降「**determined by a reduction in direct renin concentration**」(renin 再被壓低)
+
+📌 `pa_finerenone_eje_realworld_switch_2025.md`(PMID 40378185)
+
+**解讀**:這是全篇最關鍵的方法學警示——**血壓表面差不多,但 renin 又被壓下去、生化反應變差**,代表 MR blockade 或容量解除可能不足。**單看診間血壓會高估 finerenone 在 PA 的治療充分性**。⚠ 侷限:此為觀察性 forced-switch、無等效劑量對照,eplerenone→finerenone 的劑量換算本身未確立,故「finerenone 較弱」與「劑量換算不當」無法分離。
+
+#### 3.3 單臂多中心前瞻研究(Li P 2026, Hypertension;NCT06381323)📌
+
+**設計**:單臂、多中心、探索性;N=57;age ≤75;office BP 140–180/90–120;eGFR ≥60;finerenone 20–40 mg/d × 12 週。📌 `pa_finerenone_hypertension_2026.md`(PMID 41568520)
+
+- **血壓**:daytime SBP −6.69±1.60、daytime DBP −4.55±1.06;office SBP −15.58±1.69、office DBP −8.61±1.02(皆 P<0.001)
+- **血鉀**:平均上升 0.39±0.05 mmol/L;正常血鉀比例 12 週 94.5% vs 基線 61.8%(P<0.001)
+- **renin**:PRA 上升,但僅 **32.7%** 達 PRA ≥1 ng/mL/h
+- **PAMO**:complete biochemical response **29.1%**、complete clinical response **20.0%**
+- 耐受良好
+
+**解讀**:訊息不是「finerenone 無效」,而是「**有明顯降壓與改善低血鉀效果,但多數患者 renin 仍未解除抑制,完整生化成功率有限**」。單臂、短期、僅納腎功能較佳者(eGFR ≥60),無法回答與足量 spironolactone 的比較,也無法回答長期 hard outcome。值得注意:此研究 PAMO 生化反應率(29.1%)明顯低於 PAMO 共識整體 spironolactone 世代的 52.9%,可能反映 finerenone 20–40 mg 對應的 MR potency 偏低、非等效劑量,或族群/療程差異。
+
+#### 3.4 單一案例:finerenone 20 mg 治療 PA(Karanović Štambuk 2024)📄
+
+54 歲女性 PA(spironolactone 因過敏疹停用、eplerenone 因子宮異常出血/內膜增生停用),改 finerenone 20 mg QD + 120 mmol/d 補鉀,追蹤 1 個月:血壓 130–140/75–85(未達理想);血鉀僅 3.5(未達正常);PRA 由 0.5→0.8 µg/L/h(仍受抑,僅輕微上升);aldosterone 750→1414 pmol/L。結局:BP 控制與血鉀皆不理想、renin 未解除抑制,患者選擇腎上腺切除。📄 `pa_finerenone_karger_case_2024.md`(PMID 39293423)⚠ N=1、僅 1 個月、標準劑量,提供的是「20 mg 可能阻斷不足」的個案訊號,非群體結論。
+
+---
+
+### 4. 方法學核心:BP 下降 ≠ 充分 MR blockade
+
+#### 4.1 血壓與 MR blockade 可能分離
+
+這可能是整個議題**最核心的問題**。多項證據匯聚指向:office BP 改善**不等於**生化治療充分。真實世界 switch(§3.2)是最直接的例子——BP 未惡化,但 renin 再被壓低、complete biochemical response 下降。📌 因此未來研究不應只看 office BP,應同時評估:24h 與 nighttime ABPM、停止補鉀後血鉀是否正常、renin 是否由基線上升或脫離抑制、antihypertensive burden、PAMO biochemical/clinical response、體重/natriuresis/細胞外液變化。🌐 參考檔
+
+#### 4.2 renin 是否應為 target
+
+指引 Recommendation 7 只明確建議:**「血壓仍未控制且 renin suppressed 時,增加 PA-specific therapy 以促使 renin 上升」**(2 | ⊕OOO)。📄 換言之,當 **BP 已控制**時,是否仍應為 renin 而繼續增量,證據仍不確定——這是目前最重要的未解問題之一。
+
+支持「renin 應被重視」的觀察性證據:2025 指引的 companion 系統性回顧(Farah,95 studies:7 RCT + 88 觀察性)發現「**unsuppressed PRA 與較佳低血鉀控制相關;suppression 與較高的 mortality、AF、stroke 風險相關(very low certainty)**」。📌 `pa_finerenone_jcem_endosociety_sr_2025.md`(PMID 40658500)。相關前導證據包括 Hundemer 2018(MRA 後 renin 仍受抑者 CV 事件較高)🌐 與 Katsuragawa 2025 系統性回顧暨統合分析:medically treated PA 中,post-treatment unsuppressed vs suppressed renin 的 CV 事件 **pooled HR 0.43(95% CI 0.23–0.80;4 studies / 874 patients,low certainty)**。📌🌐(Lancet Diabetes Endocrinol 2025,PMID 41235994;書目已由 PubMed metadata 落地確認、HR 逐字相符,惟全文仍付費牆未取得)。**但這些觀察性設計均有 residual confounding**;且「BP 已控制時單純為抬升 renin 而增量能否改善 outcome」無隨機證據。
+
+判讀 renin 為 target 的其他難題:應以「由 baseline 上升」還是絕對閾值(PRA ≥1 ng/mL/h / DRC ≥10 mU/L)為準?併用 ACEi/ARB/利尿劑/β-blocker/SGLT2i 時如何判讀?CKD 患者腎素生成能力下降時 renin 是否仍可靠?🌐 參考檔
+
+#### 4.3 「血鉀上升較少」是優點還是阻斷不足警訊?
+
+finerenone 較少引起高血鉀(pilot RCT 中血鉀上升 +0.2 vs spironolactone +0.5,顯著較小 📄),對 CKD、糖尿病、高血鉀高風險者是**優勢**。但在嚴重低血鉀 PA 中存在**另一種解讀**:
+
+> 血鉀上升較少,是否代表腎小管 MR / ENaC blockade 不夠強?
+
+這**目前只是假說**,需以 urine sodium、urine potassium、TTKG、容量標記、renin 與劑量反應研究,來區分「安全性較佳」與「阻斷不足」。單臂研究中 finerenone 20–40 mg 血鉀正常率可達 94.5% 📌,顯示對低血鉀本身矯正不差;真正的疑點在於**遠端鈉排泄/容量解除是否同步充分**——這無法只靠血鉀一個指標回答。
+
+---
+
+### 5. 等效劑量與 PK/PD 未解問題
+
+不能用「finerenone 20 mg ↔ spironolactone 20 mg」判定療效等值。需建立:MR potency-equivalent dosing、dose–response curve、QD 是否足夠(或部分患者需不同給藥策略)、24h MR blockade 與夜間 BP coverage、最大有效與最大耐受劑量、以 BP/K/renin 何者作增量依據。🌐 參考檔
+
+指引本身明示:**finerenone 在 PA 的最佳起始與最大劑量仍不清楚**;既有研究常用**非等效劑量**與**非 renin-guided titration**。📄 對照組資料:指引建議 spironolactone 起始 12.5–25 mg/d、嚴重者 50 mg/d,多數人在 **50–100 mg/day** 才達 renin normalization,調整間隔 8–12 週。📄 而 PA 研究中 finerenone 停在 20–40 mg——**若 spironolactone 需 50–100 mg 才使 renin 正常,finerenone 20–40 mg 是否對應足夠 potency,目前無 PK/PD 橋接資料**。這也解釋了為何單臂研究只有 32.7% 達 PRA ≥1。
+
+---
+
+### 6. Hard outcome 與器官保護缺口
+
+**目前最缺的是 PA-specific 長期 outcome trial**。需比較:AF、stroke、HF、MI/MACE、CV 與全因死亡、incident CKD、eGFR slope、ESRD。🌐 參考檔
+
+關鍵警語:**finerenone 在 diabetic CKD / HF 的心腎效益(FIDELIO-DKD、FIGARO-DKD、FIDELITY)不能直接外推為 PA 也有相同效益**,因為 PA 的核心病理生理是**自主性 aldosterone excess、容量擴張與持續 renin suppression**,與糖尿病腎病族群不同。📄 `FIDELIO-DKD_NEJMoa2025845.md`、`FIGARO-DKD_NEJMoa2110956.md`、`FIDELITY_Agarwal_2022.md`(本地全文,屬非 PA 族群外推證據,不可直接套用)。2025 指引也將 PA-specific hard endpoints 列為主要研究缺口。📄
+
+**器官保護的間接訊號(nsMRA class,非 finerenone、非 hard outcome)**:esaxerenone 在 IHA 患者 12 週改善血管功能——FMD 3.1→5.7%、NID 10.7→15.7%、baPWV 1605→1428 cm/s(皆 P<0.01),ΔFMD/ΔNID 與 ΔPAC/ΔPRA 相關。📌 `pa_finerenone_esaxerenone_iha_vascular_2025.md`(Kishimoto 2025,PMID 40394919)。另 esaxerenone 於 PA 顯著降 UACR 與 NT-proBNP,且 UACR/NT-proBNP 下降**獨立於血壓下降**。📌 `pa_finerenone_esaxerenone_hypertens_res_2024.md`(Yoshida 2024,PMID 37717115)。⚠ 這些是 surrogate(血管功能、albuminuria、NT-proBNP),非臨床事件,且為 esaxerenone 而非 finerenone——僅供 class-effect 外推,不能等同 finerenone 之器官保護。
+
+**待做的等效血壓/等效 MR blockade 下比較**:LV mass index、GLS、diastolic function、cardiac MRI fibrosis、left atrial remodeling、arterial stiffness、endothelial function、UACR、腎纖維化標記。否則 finerenone 所謂較佳的組織層級 anti-inflammatory/antifibrotic profile 在 PA 是否有額外臨床價值,仍屬 CKD/HF 外推。🔴
+
+---
+
+### 7. Phenotype 分層與 patient-centered outcomes
+
+#### 7.1 應預先分層的 phenotype
+
+bilateral vs unilateral(不願/不能手術);hypokalemic vs normokalemic;mild vs marked aldosterone excess;suppressed vs partially recovered renin;CKD 3–4 vs preserved eGFR;合併 diabetes/HF/albuminuria;高鈉 vs 低鈉攝取;APA driver mutations(KCNJ5、CACNA1D)。🌐 參考檔
+
+finerenone 可能**並非對所有 PA 一律適合**:嚴重低血鉀、明顯容量擴張者可能需要較強的 natriuretic MR blockade(此時 finerenone 20–40 mg 可能不足);CKD 或易高血鉀者則較重視 safety margin(此時 finerenone 的低高血鉀風險是優勢)。可資參照的訊號:esaxerenone PA 研究中,PRA≥1 者降壓幅度大於 PRA<1 者(SBP −20.0 vs −16.5),女性降壓大於男性(P=0.0156),單藥大於併用(P=0.0433)。📄 `pa_finerenone_esaxerenone_satoh_2021.md`(Satoh 2021,PMID 33199881)
+
+#### 7.2 patient-centered / comparative effectiveness 指標
+
+除 efficacy 外需比較:gynecomastia、性功能障礙、月經/乳房症狀、hyperkalemia、eGFR 初期下降與長期 slope、adherence/persistence、QoL、medication burden、lifelong cost-effectiveness。🌐 參考檔
+
+關鍵:**spironolactone 一線地位很大程度來自低成本與可近性;finerenone 若要取代它,不能只證明副作用較少,還須證明較好的 adherence 能轉化為更完整的 MR blockade 或更佳長期 outcome**。📄 指引論述。tolerability 差異已有量化基礎(§2.2 游離睪固酮/gynecomastia;pilot RCT AE 20.7% vs 0%),但「較佳 adherence → 較佳 hard outcome」的鏈條尚未被任何 PA 研究驗證。
+
+---
+
+### 8. 受體阻斷 vs 醛固酮合成抑制(ASI)在 PA 的定位
+
+MRA **不會消除**自主性 aldosterone secretion——反而使 PAC 上升(pilot RCT finerenone PAC +79.5 pg/mL 📄;esaxerenone PAC +83.9 📄)。這留下一個機轉問題:**MR-independent(如 GPER 非基因體訊號)aldosterone effects 是否具臨床重要性**,MRA 無法涵蓋。🔴
+
+**ASI 在確診 PA 的唯一 RCT 級證據**:dexfadrostat phosphate(CYP11B2 抑制劑)phase 2,N=35 確診 PA,4/8/12 mg QD × 8 週。ARR 中位由 15.3→0.6(**相對下降 92.1%**,LSM log change −2.5,p<0.0001);24h aSBP 142.6→131.9(LSM −10.7 mmHg,p<0.0001);低血鉀 20/22(90.9%)正常化;renin day14 有 68.6% 上升;**無高血鉀**、cortisol 穩定(無 osilodrostat 式 11β-羥化酶 off-target)。**unilateral 與 bilateral 療效相當**。📄 `pa_finerenone_dexfadrostat_pa_phase2_2024.md`(Mulatero 2024,PMID 38618204)
+
+**定位論述**:ASI 從上游降低 aldosterone *生成*(ARR 被矯正、renin 上升、PAC 下降),MRA 從下游阻斷受體但 aldosterone 反升。理論上 ASI 更「對因」,且在無法 AVS 分型或不願手術時可作藥物治療或手術橋接(停藥快速可逆)。⚠ 但侷限明顯:dexfadrostat 為 dose-finding、**無平行 placebo arm**、8 週、N=35;baxdrostat / lorundrostat / vicadrostat 的關鍵試驗多在 resistant/uncontrolled hypertension 而**非確診 PA**,故 ASI vs MRA 在 PA 的 head-to-head 尚不存在。2025 指引已將 ASI 的 PA-specific trial 列為**優先研究方向**。📄
+
+**nsMRA class effect(esaxerenone)作為 finerenone 的旁證**:esaxerenone 單藥 PA phase 3(N=44,2.5→5 mg × 12 週)sitting SBP −17.7 mmHg、DBP −9.5(皆 p<0.0001),BP <140/90 達標 47.7%,無 gynecomastia/乳房疼痛。📄 Satoh 2021。esaxerenone vs spironolactone RCT(N=65)顯示 esaxerenone 降壓略慢/略弱(3mo SBP 降幅 SPL 較大 P<0.05)、血鉀上升較小、renin 上升較小(PRA 上升 SPL > ESX,P<0.05),但性荷爾蒙副作用顯著較少。📄 Ishikawa 2022。**這再次印證核心命題:nsMRA 相對 spironolactone,tolerability 較佳但同劑量下 MR/容量/renin 效力可能較弱**——finerenone 很可能落在同一光譜。narrative review 亦將 post-treatment renin 定為 PAMO 治療反應標記,並列 finerenone、esaxerenone、ASI(CYP11B2)為 PA 三條治療路線。📌 `pa_finerenone_asi_hypertens_res_review_2026.md`(PMID 41629686)
+
+---
+
+### 9. 理想試驗設計(依參考檔)
+
+一個能真正回答問題的研究,**不應是固定 20 對 20 mg**,而應設計為:
+
+- **Population**:確診 PA、無法或不接受手術者,依 bilateral/unilateral、血鉀、eGFR 分層。
+- **Intervention**:finerenone 依 **BP + K + renin composite target** 增量。
+- **Comparator**:spironolactone 亦依**相同 composite target** 增量(而非固定同毫克)。
+- **Co-primary endpoints**:①24h ABPM SBP;②PAMO complete biochemical response。
+- **Secondary**:血鉀不需補充、renin unsuppression、藥物數量、hyperkalemia、eGFR、性荷爾蒙副作用、QoL。
+- **中期**:LV mass、cardiac fibrosis、UACR、eGFR slope。
+- **長期**:AF、stroke、HF、MACE、CKD、死亡。
+
+🌐 參考檔。**現行 head-to-head FAIRY(NCT06457074)** 是正確方向但仍偏 surrogate:Phase 4、open-label、N=306(計畫)、finerenone vs spironolactone、兩者 20 mg 起始每 4 週增量、療程 12 週;**primary = 12 週 24h ABPM SBP 變化**;secondary 含各時段 ABPM、office BP 控制率、血鉀、低血鉀控制率、plasma renin concentration;exploratory 含 eGFR、UACR。**無任何 hard outcome,亦無等效-potency 而非等毫克的滴定設計**;primary completion 估 2025-06,尚無結果。📄 `pa_finerenone_fairy_protocol_nct06457074.md`。⚠ 注意 FAIRY 仍採「20 mg 起始」對照,並未跳脫「非等效劑量」的方法學陷阱,故即使完成,對「等效 MR potency 下是否等效」的核心問題仍只能部分回答。
+
+---
+
+### 10. Take-home + 證據分層
+
+#### 10.1 Take-home
+
+- finerenone **能降 PA 患者 BP**(pilot RCT 與單臂研究一致),tolerability 優於 spironolactone(高血鉀、性荷爾蒙副作用較少)。
+- 但**現行 20–40 mg QD 對多數 PA 患者未能達到充分的 renin 解除抑制與完整生化反應**(單臂 PRA≥1 僅 32.7%、PAMO CBR 29.1%;switch 研究 renin 再受抑)。
+- **診間血壓會高估治療充分性**;評估必須綜合 BP + 停補鉀後血鉀 + renin + 藥物負擔 + PAMO 反應。
+- **無 PA-specific hard outcome 證據**;CKD/HF 的心腎效益不可直接外推。
+- 指引首選 spironolactone 的理由是**成本/可近性**,finerenone 目前是**不耐受者的替代研究方向**,尚非已證實較佳的一線治療。
+- **最大未解問題**:BP 已控制時,是否應為抬升 renin 而繼續增量;等效 MR potency 的 finerenone 劑量為何;以及 ASI(對因降 aldosterone)在 PA 的最終定位。
+
+#### 10.2 證據分層總結
+
+**🟢 Guideline / RCT(較可靠)**
+- 2025 Endocrine Society PA 指引:spironolactone 一線(成本);renin-guided titration(BP 未控 + renin 受抑時增量);等效 potency 下各 MRA 療效相近之外推。📄
+- Hu 2025 pilot RCT(N=60):finerenone 降 daytime SBP −9.9,與 spironolactone NS;血鉀上升較小(−0.3);AE 較少。惟樣本小、8 週、非等效劑量、無 PAMO。📄
+- Satoh 2021 / Ishikawa 2022 esaxerenone PA RCT/單臂:nsMRA 降壓有效、tolerability 佳、同劑量 MR/renin 效力可能較弱。📄
+- Mulatero 2024 dexfadrostat phase 2(確診 PA 唯一 ASI RCT):ARR −92.1%、aSBP −10.7、低血鉀正常化、無高血鉀;惟無 placebo arm、N=35、8 週。📄
+
+**🟡 Evidence expansion / surrogate / real-world**
+- Li P 2026 單臂(N=57):降壓 + 血鉀改善明確,但 renin 解除抑制與 PAMO 反應有限。📌
+- Uslar/Baudrand 2025 switch:BP 持平但 renin 再受抑、生化反應下降(僅方向 + P 值)。📌
+- Yang 2025 PAMO 共識(N=1258):藥物治療 CBR 52.9%、CCR 18.3%,治療充分性缺口。📌
+- Farah 2025 系統性回顧:suppressed renin ↔ 較高 mortality/AF/stroke(very low certainty)。📌
+- esaxerenone 器官/血管 surrogate(FMD、baPWV、UACR、NT-proBNP)。📌
+- Katsuragawa 2025 統合分析:unsuppressed vs suppressed renin CV 事件 pooled HR 0.43(95% CI 0.23–0.80;4 studies/874 pts,low certainty);Hundemer 2018。📌🌐(書目 metadata 已落地,全文付費牆)
+
+**🔴 Hypothesis / 機轉外推(最需謹慎)**
+- 「finerenone 血鉀上升較少 = 遠端 MR/ENaC 阻斷不足」——僅假說,需 urine Na/K、TTKG、容量標記驗證。
+- FIDELIO/FIGARO/FIDELITY 心腎效益外推至 PA——族群病生理不同,不可直接套用。📄(非 PA 族群)
+- MR-independent(GPER)aldosterone effects 之臨床重要性——機轉層級。
+- nsMRA class effect(esaxerenone)→ finerenone 器官保護之等同性——跨藥外推。
+
+---
+
+### 對照表:各 PA-finerenone / nsMRA / ASI 研究
+
+| 研究(標記) | 設計 | N | 藥物 / 劑量 | 追蹤 | BP 變化(mmHg) | 血鉀 | renin | PAMO 反應 | 主要限制 |
+|---|---|---|---|---|---|---|---|---|---|
+| **Hu 2025 Circulation** pilot RCT 📄 | open-label RCT,fine vs spiro | 60 隨機(30/29 分析) | fine 20→40(平均21.8)vs spiro 20→40(23.4) | 8 週 | daytime SBP −9.9 vs −7.8(差 −2.1,NS);24h SBP −10.9 vs −7.8;office SBP −17.7 vs −17.1 | +0.2 vs +0.5(差 −0.3,顯著,fine 較小) | 兩組 PRC 皆升(+3.4 vs +5.0,NS) | **未報告**(僅 office BP 控制率 66.7% vs 48.3%) | 小樣本、8 週、非等效劑量、無 PAMO、open-label |
+| **Li P 2026 Hypertension** 單臂 📌 | 前瞻多中心單臂 | 57 | finerenone 20–40 | 12 週 | daytime SBP −6.69;office SBP −15.58/DBP −8.61(皆 P<0.001) | +0.39;正常率 94.5% vs 基線 61.8% | PRA↑,僅 32.7% 達 ≥1 ng/mL/h | CBR **29.1%**、CCR **20.0%** | 單臂、短期、eGFR≥60、無對照 |
+| **Uslar/Baudrand 2025 EJE** real-world 📌 | forced-switch 觀察(eple→fine) | NR | finerenone(劑量 NR) | NR | 「BP unchanged」 | NR | direct renin concentration **再下降** | complete biochemical response **比例下降**(P=.008);正常 BP 比例下降(P=.004) | 無絕對值/N、無等效劑量對照、觀察性 |
+| **Karanović 2024** case 📄 | 單一案例 | 1 | finerenone 20 + 補鉀 | 1 月 | 130–140/75–85(未達標) | 3.5(未正常) | PRA 0.5→0.8(仍受抑) | — | N=1、標準劑量、極短 |
+| **FAIRY NCT06457074** protocol 📄 | Phase 4 RCT,fine vs spiro(open-label) | 306(計畫) | 兩者 20 起始每 4 週增量 | 12 週 | primary=24h ABPM SBP(**無結果**) | secondary | plasma renin concentration | 無 | 進行中、無結果、20mg 起始非等效、無 hard outcome |
+| **Satoh 2021 HypertensRes** esaxerenone 📄 | 單臂 phase 3(nsMRA) | 44 | esaxerenone 2.5→5 | 12 週 | sitting SBP −17.7 / DBP −9.5(p<0.0001);<140/90 達 47.7% | +0.33(→4.34);1 例 K≥6.0 停藥 | PRA +0.60(p<0.001) | **無**(早於 PAMO) | 單臂、無對照、無 hard outcome |
+| **Ishikawa 2022 HypertensRes** ESX vs SPL 📄 | RCT 1:1 | 65 分析 | SPL 25→50 vs ESX 1.25→5 | 3/6 月 | SPL SBP 降幅較大(3mo,P<0.05) | SPL 上升較大(4.5 vs 4.2);無 K≥6.0 | PRA 上升 SPL>ESX(P<0.05) | 無 | esaxerenone 非 finerenone;COI(Daiichi Sankyo) |
+| **Mulatero 2024 eClinMed** dexfadrostat(ASI)📄 | phase 2 dose-finding RCT | 35 | dexfadrostat 4/8/12 QD | 8 週 | 24h aSBP −10.7(p<0.0001) | 低血鉀 90.9% 正常化;**無高血鉀** | day14 68.6% 上升 | 無(ARR −92.1%) | 無 placebo arm、小樣本、非 PA-MRA 對照 |
+| **Yang 2025 Lancet DE** PAMO 共識 📌 | 國際 cohort + Delphi | 1258 | 多為 spironolactone | 6–12 月 | NR | NR | — | CBR **52.9%**、CCR **18.3%** | 觀察性、閾值定義在付費全文 |
+
+> **表格數字全部逐字取自 verified 全文(📄)或結構化 abstract(📌);NR=abstract 未揭露絕對值;CBR=complete biochemical response;CCR=complete clinical response。**
+
+---
+
+### References(Vancouver + DOI)
+
+1. Hu J, Zhou Q, Sun Y, Feng Z, Yang J, He W, et al. Efficacy and Safety of Finerenone in Patients With Primary Aldosteronism: A Pilot Randomized Controlled Trial. Circulation. 2025;151(2):196-198. doi:10.1161/CIRCULATIONAHA.124.071452. PMID: 39804908. 📄
+2. Uslar T, Sanfuentes B, Muñoz I, Vaidya A, Baudrand R. Real-world outcomes of finerenone in primary aldosteronism. Eur J Endocrinol. 2025;192(5):K50-K53. doi:10.1093/ejendo/lvaf099. PMID: 40378185. 📌
+3. Li P, Yang F, Lou Y, Zhang Z, Du Y, Zhang J, et al. Efficacy and Safety of Finerenone in Patients With Primary Aldosteronism: A Multicenter Prospective Study. Hypertension. 2026;83(5):e26048. doi:10.1161/HYPERTENSIONAHA.125.26048. PMID: 41568520. NCT06381323. 📌
+4. Adler GK, Stowasser M, Correa RR, Khan N, Kline G, McGowan MJ, et al. Primary Aldosteronism: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2025;110(9):2453-2495. doi:10.1210/clinem/dgaf284. PMID: 40658480. (Correction: doi:10.1210/clinem/dgaf472, PMID 40880123.) 📄
+5. Farah MH, Hegazi M, Firwana M, Abusalih M, Saadi S, Al-Kordi M, et al. A Systematic Review Supporting the Endocrine Society Clinical Practice Guideline on Management of Primary Aldosteronism. J Clin Endocrinol Metab. 2025;110(9):e2833-e2844. doi:10.1210/clinem/dgaf290. PMID: 40658500. 📌
+6. Yang J, Burrello J, Goi J, et al. Outcomes after medical treatment for primary aldosteronism: an international consensus and analysis of treatment response in an international cohort. Lancet Diabetes Endocrinol. 2025;13(2):119-133. doi:10.1016/S2213-8587(24)00308-5. PMID: 39824204. 📌
+7. Li Q (Sponsor-Investigator), Chongqing Medical University. Finerenone for Patients With Primary Aldosteronism (FAIRY): A Multicenter, Randomized Clinical Trial. ClinicalTrials.gov NCT06457074. Registered 2024-06-13. 📄
+8. Satoh F, Ito S, Itoh H, Rakugi H, Shibata H, Ichihara A, et al. Efficacy and safety of esaxerenone (CS-3150), a newly available nonsteroidal mineralocorticoid receptor blocker, in hypertensive patients with primary aldosteronism. Hypertens Res. 2021;44(4):464-472. doi:10.1038/s41440-020-00570-5. PMID: 33199881. PMCID: PMC8019657. 📄
+9. Ishikawa T, Morimoto S, Ichihara A. Effects of mineralocorticoid receptor antagonists on sex hormones and body composition in patients with primary aldosteronism. Hypertens Res. 2022;45(3):496-506. doi:10.1038/s41440-021-00836-6. PMID: 34961793. 📄
+10. Mulatero P, Wuerzner G, Groessl M, Sconfienza E, Damianaki A, Forestiero V, et al. Safety and efficacy of once-daily dexfadrostat phosphate in patients with primary aldosteronism: a randomised, parallel group, multicentre, phase 2 trial. eClinicalMedicine. 2024;71:102576. doi:10.1016/j.eclinm.2024.102576. PMID: 38618204. PMCID: PMC11015343. NCT04007406. 📄
+11. Karanović Štambuk S. A Trial of Finerenone in a Patient with Primary Aldosteronism. Kidney Blood Press Res. 2024;49(1):839-842. doi:10.1159/000541441. PMID: 39293423. 📄
+12. Yoshida Y, Fujiwara M, Kinoshita M, Sada K, Miyamoto S, Ozeki Y, et al. Effects of esaxerenone on blood pressure, urinary albumin excretion, serum levels of NT-proBNP, and quality of life in patients with primary aldosteronism. Hypertens Res. 2024;47(1):157-167. doi:10.1038/s41440-023-01412-w. PMID: 37717115. 📌
+13. Kishimoto S, Maruhashi T, Kajikawa M, Mizobuchi A, Harada T, Yamaji T, et al. Chronic esaxerenone treatment improves vascular function and lowers peripheral arterial stiffness in patients with idiopathic hyperaldosteronism. J Hypertens. 2025;43(7):1205-1213. doi:10.1097/HJH.0000000000004030. PMID: 40394919. 📌(絕對 BP/血鉀值未於 abstract 揭露)
+14. Yoshida Y, Shibata H. Aldosterone-mineralocorticoid receptor interactions: new insights and therapeutic perspectives in primary aldosteronism. Hypertens Res. 2026;49(4):1336-1342. doi:10.1038/s41440-026-02561-4. PMID: 41629686. 📌
+15. Hundemer GL, Curhan GC, Yozamp N, Wang M, Vaidya A. Cardiometabolic outcomes and mortality in medically treated primary aldosteronism: a retrospective cohort study. Lancet Diabetes Endocrinol. 2018;6(1):51-59. doi:10.1016/S2213-8587(17)30367-4. PMID: 29129576. 🌐(參考檔,未落地全文)
+16. Katsuragawa S, Le MV, Fuller PJ, Yang J. Post-treatment renin status and cardiovascular, renal, and mortality outcomes in medically treated primary aldosteronism: a systematic review and meta-analysis. Lancet Diabetes Endocrinol. 2025;13(12):1041-1053. doi:10.1016/S2213-8587(25)00263-3. PMID: 41235994. 📌🌐(書目 metadata 已由 PubMed 落地確認,pooled HR 0.43 [95% CI 0.23–0.80]、4 studies/874 pts、low certainty 逐字相符;全文仍付費牆未取得)
+
+---
+
+#### 誠實揭露(全文取得狀態)
+
+- **全文可稽核(📄)**:Hu 2025 pilot RCT(publisher HTML 逐字,無 PDF)、2025 指引(abstract + 治療章節 publisher extract)、FAIRY 協定(ClinicalTrials.gov v2 API)、Satoh 2021 esaxerenone(PMC OA 全文)、Ishikawa 2022(Sci-Hub PDF)、Mulatero 2024 dexfadrostat(PMC OA 全文)、Karanović 2024 case(publisher HTML)。
+- **僅 abstract(📌,付費牆全文未取得)**:Uslar/Baudrand 2025 EJE(僅方向 + 2 個 P 值,無絕對值)、Li P 2026 Hypertension(abstract 含全部關鍵數字)、Yang 2025 PAMO 共識、Farah 2025 系統性回顧、Yoshida 2024 esaxerenone、Kishimoto 2025 IHA vascular、Yoshida/Shibata 2026 review、Katsuragawa 2025 統合分析(書目 metadata + pooled HR 已落地,全文付費牆)。
+- **外部/參考檔未落地全文(🌐)**:Hundemer 2018;Katsuragawa 2025(全文付費牆,書目與 HR 已由 metadata 確認)。
+- **付費牆未取得之關鍵缺口**:PAMO 共識與 JCEM 系統性回顧中定義 complete/partial/absent 反應的 BP/K/renin **閾值** 及 HR/OR 絕對值,位於付費全文表格,未能取得;EJE switch 研究的 N/BP/K/renin **絕對值** 未能取得;Katsuragawa 2025 各 study-level 數據與完整森林圖位於付費全文。所有數字均逐字轉錄,未虛構任何作者/年份/DOI/N/HR/BP/%。
+
+---
+
+> **仲裁註記(本次修訂)**:必修 0 條。三項「待議」書目已依稽核落地更新——(a) ref 12 Yoshida 2024 頁碼由 173-184 更正為 **157-167**;(b) ref 13 Kishimoto 2025 補齊卷期頁碼 **43(7):1205-1213**;(c) ref 16 Katsuragawa 2025 補上經 PubMed 驗證之完整書目(標題/卷期頁碼/DOI),pooled HR 0.43 加註 **95% CI 0.23–0.80、4 studies/874 pts、low certainty**,並將標記由純 🌐 調整為 📌🌐(書目 metadata 已落地、全文仍付費牆),§4.2 內文同步由「事實語氣裸值」改為帶 CI 與 low-certainty/residual confounding 保留註記的方向性敘述。其餘所有帶本地檔名/DOI 之數字句經逐字比對通過,未改動;CKD/HF(FIDELIO/FIGARO/FIDELITY)外推與 PA-specific 證據於 §6、§10.2 明確區隔並標為不可直接套用。
+
+---
+
+# 附錄:English review article(publication draft)
+
+> 以下為可投稿之英文 narrative review 草稿(結構化 Abstract / 10 節 / Table 1 / Vancouver references),與上節中文回顧同源、可獨立成文。
+
+---
+## Nonsteroidal Mineralocorticoid Receptor Antagonism (Finerenone) in Primary Aldosteronism: Evidence, Mechanistic Uncertainties, and Research Priorities
+
+---
+
+### Abstract
+
+**Background.** Primary aldosteronism (PA) is the most common surgically and pharmacologically remediable cause of secondary hypertension and carries excess cardiovascular and renal risk attributable to autonomous, renin-independent aldosterone excess. Steroidal mineralocorticoid receptor (MR) antagonists (MRAs)—spironolactone and eplerenone—remain the pharmacological mainstay, but dose-limiting anti-androgenic effects and residual renin suppression constrain adequacy of treatment. The nonsteroidal MRA finerenone, with proven cardiorenal benefit in diabetic chronic kidney disease (CKD), has generated interest as a PA-specific therapy.
+
+**Objective.** To synthesise the direct PA-specific evidence for finerenone (and, as a class comparator, esaxerenone), to articulate the central mechanistic uncertainty—whether blood-pressure (BP) lowering can dissociate from adequate MR blockade—and to define research priorities.
+
+**Findings.** A pilot randomised trial (N=60, 8 weeks) found finerenone non-inferior in appearance to spironolactone for ambulatory BP but with a smaller potassium rise and no anti-androgenic events; it was underpowered and did not report biochemical response. A single-arm multicentre study (N=57, 12 weeks) lowered BP and corrected hypokalaemia (normokalaemia 94.5%) yet achieved renin unsuppression in only 32.7% and PAMO complete biochemical response in 29.1%. A real-world forced switch from eplerenone to finerenone showed unchanged office BP but declining biochemical response driven by renin re-suppression. The 2025 Endocrine Society guideline retains spironolactone first-line on cost/availability grounds, not proven pharmacological superiority.
+
+**Conclusions.** Finerenone lowers BP in PA, but milligram-equivalent dosing is not potency-equivalent, and BP control may overestimate treatment adequacy. Renin-guided, hard-outcome, phenotype-stratified trials are needed before finerenone can be positioned as more than an attractive alternative for spironolactone-intolerant or cardiorenal-comorbid patients.
+
+**Keywords:** primary aldosteronism; finerenone; nonsteroidal mineralocorticoid receptor antagonist; spironolactone; renin; PAMO; aldosterone synthase inhibitor; ambulatory blood pressure
+
+---
+
+### 1. Introduction
+
+Primary aldosteronism (PA) is now recognised as a common cause of hypertension rather than a rare endocrine curiosity, and it confers cardiovascular, cerebrovascular, and renal risk in excess of that predicted by blood pressure (BP) alone. This excess reflects the pathophysiology of autonomous, renin-independent aldosterone secretion: chronic mineralocorticoid receptor (MR) over-activation drives sodium retention, volume expansion, kaliuresis with hypokalaemia, suppression of the renin–angiotensin axis, and—through MR-mediated and possibly MR-independent signalling—myocardial and vascular fibrosis, left ventricular hypertrophy, and atrial and renal remodelling.[1] The therapeutic corollary is that BP normalisation is a necessary but insufficient goal; adequate, target-organ-relevant MR blockade is the mechanistic objective.
+
+For patients who cannot or will not undergo unilateral adrenalectomy—including all with bilateral disease—the pharmacological mainstay for four decades has been the steroidal MRAs spironolactone and eplerenone. The 2025 Endocrine Society Clinical Practice Guideline on PA reaffirms an MRA-centred medical strategy and, importantly, introduces renin-guided titration as a marker of treatment adequacy: if hypertension remains uncontrolled and renin is suppressed, PA-specific therapy should be intensified to raise renin.[1] Yet the guideline also acknowledges that only a minority of medically treated patients achieve the biochemical targets now formalised by the international Primary Aldosteronism Medical Treatment Outcome (PAMO) consensus, and that hard-outcome evidence for any specific agent or titration strategy is sparse.[1,2]
+
+Against this backdrop, the nonsteroidal MRA finerenone—which reduces cardiovascular and renal events in type 2 diabetic CKD—has attracted attention as a potentially better-tolerated, and speculatively organ-protective, option in PA. This review revisits the MRA mainstay through the specific lens of finerenone. We ask not whether finerenone lowers BP (it does), but whether current doses and once-daily dosing deliver round-the-clock renal MR blockade sufficient to reverse sodium retention, volume expansion, hypokalaemia, and renin suppression; whether BP lowering can dissociate from adequate MR blockade; and what evidence would be required to position receptor blockade relative to the emerging aldosterone synthase inhibitors (ASIs).
+
+### 2. Pharmacology of steroidal versus nonsteroidal MRAs relevant to PA
+
+Spironolactone, eplerenone, and finerenone are all competitive MR antagonists, but they differ in receptor selectivity, tissue distribution, pharmacokinetics, and the balance of "natriuretic" (epithelial, ENaC-linked) versus "anti-fibrotic" (non-epithelial) MR blockade.
+
+- **Spironolactone** is a potent but non-selective steroidal antagonist with active metabolites and a long effective half-life. Its antihypertensive action derives principally from MR blockade with consequent reduction of sodium retention and volume expansion—not from its off-target antagonism of androgen and progesterone receptors, which instead produces the characteristic dose-limiting adverse effects of gynaecomastia, sexual dysfunction, mastodynia, and menstrual irregularity.[1]
+- **Eplerenone** is a selective steroidal antagonist with lower MR affinity and a shorter half-life, typically requiring twice-daily dosing; it lacks the anti-androgenic burden but is generally regarded as less potent, and the guideline's companion systematic review found that, relative to eplerenone, spironolactone may achieve better hypokalaemia control with fewer and lower-dose antihypertensives.[3]
+- **Finerenone** is a nonsteroidal, highly selective MR antagonist with balanced cardiac/renal tissue distribution, a short plasma half-life (~2–3 hours), and no active metabolites; it does not engage androgen or progesterone receptors and, in the CKD/diabetes programme, produces a smaller absolute rise in serum potassium than steroidal agents at label doses.
+
+Two pharmacological points are pivotal for PA. First, greater MR **selectivity** confers a tolerability advantage, not a distinct antihypertensive mechanism; the theoretical case for finerenone in PA therefore rests on tolerability-enabled adherence and on any tissue-level anti-inflammatory/anti-fibrotic advantage, rather than on a superior mechanism of BP reduction.[1] Second, and critically, **milligram equivalence is not potency equivalence**: a 20 mg dose of finerenone cannot be assumed to deliver the same degree or duration of renal MR blockade as 20 mg of spironolactone (whose renin normalisation typically requires 50–100 mg/day).[1] The short half-life of finerenone additionally raises the unresolved question of whether once-daily dosing sustains nocturnal and 24-hour epithelial MR blockade in a disease defined by continuous autonomous aldosterone drive.
+
+### 3. Current direct evidence in PA
+
+Direct PA-specific evidence for finerenone comprises one pilot randomised controlled trial, one real-world switch cohort, and one single-arm multicentre study; a head-to-head randomised trial (FAIRY) is recruiting. Class-comparator evidence is available for esaxerenone. Table 1 summarises the finerenone and esaxerenone PA studies.
+
+#### 3.1 Pilot randomised trial: finerenone versus spironolactone (Circulation 2025)
+
+Hu and colleagues randomised 60 patients with PA (30 per arm; 30 finerenone and 29 spironolactone analysed) to finerenone or spironolactone, both started at 20 mg/day and titrated toward 40 mg/day, over 8 weeks; achieved mean doses were 21.8 and 23.4 mg/day, respectively.[4] For the primary endpoint, change in daytime ambulatory systolic BP (SBP), finerenone produced −9.9 ± 13.0 mmHg versus −7.8 ± 10.2 mmHg for spironolactone (between-group difference −2.1 mmHg, 95% CI −8.2 to 4.0; non-significant). Changes were directionally similar and non-significant across 24-hour SBP (−10.9 ± 12.5 vs −7.8 ± 9.5; difference −3.1, 95% CI −8.9 to 2.7), 24-hour diastolic BP (−5.9 vs −4.7; difference −1.2, 95% CI −4.9 to 2.4), and office SBP (−17.7 ± 19.7 vs −17.1 ± 19.0; difference −0.6, 95% CI −10.7 to 9.5). Office BP control (<140/90 mmHg) was 66.7% (20/30) with finerenone versus 48.3% (14/29) with spironolactone.
+
+Two secondary signals are mechanistically important. Serum potassium rose less with finerenone (+0.2 ± 0.4 vs +0.5 ± 0.4 mmol/L; between-group difference −0.3 mmol/L, 95% CI −0.5 to −0.1). Upright plasma renin concentration increased in both arms (finerenone +3.4 [IQR 1.4–7.0] vs spironolactone +5.0 [1.3–12.8] µIU/mL; difference −0.8, 95% CI −6.2 to 2.2, non-significant), and upright plasma aldosterone rose numerically more with finerenone. Tolerability favoured finerenone: adverse events occurred in 6/29 spironolactone patients (20.7%; four impotence, one mastodynia, one hyperkalaemia) versus none with finerenone, with no discontinuations in either arm.
+
+This trial establishes that finerenone lowers both office and ambulatory BP in PA and is better tolerated over 8 weeks. It cannot, however, be read as demonstrating equivalence or non-inferiority: the sample is small, follow-up short, confidence intervals wide (spanning clinically important differences in both directions), the comparison used milligram-matched rather than potency-matched dosing, and—critically—no PAMO/PASO complete biochemical or clinical response percentages were reported. The smaller potassium rise and fewer adverse events are compatible either with superior safety or with less complete epithelial MR blockade; the design cannot distinguish these.
+
+#### 3.2 Real-world forced switch: eplerenone to finerenone (European Journal of Endocrinology 2025)
+
+During a national eplerenone shortage in Chile, Uslar and colleagues observed patients with PA forcibly switched from eplerenone to finerenone.[5] Mean BP and antihypertensive drug burden remained unchanged, yet the proportion of patients with normal BP decreased (P = 0.004) and the proportion with complete biochemical response decreased (P = 0.008), the latter driven by a fall in direct renin concentration—i.e., renin re-suppression. Absolute values (N, follow-up duration, BP, potassium, renin, response percentages) were not available in the abstract, and the full text is paywalled; these findings should therefore be treated as directional.
+
+Despite these limitations, this observation is conceptually the most instructive in the field: it demonstrates that **BP can appear preserved while renin is re-suppressed**, implying that the switch delivered less effective MR blockade or volume unloading than the prior eplerenone regimen. It provides the clearest empirical support for the thesis that office (and even mean) BP can overestimate the adequacy of MR blockade in PA.
+
+#### 3.3 Single-arm multicentre study (Hypertension 2026)
+
+Li and colleagues treated 57 patients with PA (age ≤75, office BP 140–180/90–120 mmHg, eGFR ≥60) with finerenone 20–40 mg/day for 12 weeks in a single-arm multicentre design (NCT06381323).[6] Ambulatory daytime SBP fell by −6.69 ± 1.60 mmHg and daytime DBP by −4.55 ± 1.06 mmHg (both P<0.001); office SBP and DBP fell by −15.58 ± 1.69 and −8.61 ± 1.02 mmHg (both P<0.001). Serum potassium rose by 0.39 ± 0.05 mmol/L, and the proportion with normokalaemia increased from 61.8% at baseline to 94.5% at 12 weeks (P<0.001). However, plasma renin activity reached ≥1 ng/mL/h in only 32.7% of patients, PAMO complete biochemical response was achieved in 29.1%, and complete clinical response in 20.0%.
+
+The message is not that finerenone is ineffective—it produced clinically meaningful BP reduction and near-universal correction of hypokalaemia—but that in most patients renin remained suppressed and full biochemical treatment success was uncommon. As a single-arm, short-term study enriched for preserved renal function, it cannot be compared with adequately titrated spironolactone, nor can it address long-term atrial fibrillation, stroke, heart failure, CKD, or mortality.
+
+#### 3.4 Ongoing head-to-head trial: FAIRY (NCT06457074)
+
+FAIRY is a Phase 4, randomised, open-label, parallel-group multicentre trial of finerenone versus spironolactone in PA (planned N=306), with both drugs started at 20 mg/day and titrated every 4 weeks over 12 weeks to an office BP target <140/90 mmHg.[7] The primary endpoint is change in 24-hour ABPM SBP; secondaries include daytime/nighttime ABPM, office BP control, change in serum potassium, hypokalaemia control, and change in plasma renin concentration; exploratory endpoints include eGFR and urinary albumin-to-creatinine ratio (UACR). This endpoint architecture is directionally correct—incorporating ambulatory BP and renin—but remains oriented to short-term surrogates and, as designed, again titrates by milligram rather than by potency-equivalent, renin-guided targets. No results are available; the trial is recruiting.
+
+#### 3.5 Single-patient experience
+
+A single case report illustrates the ceiling of low-dose finerenone monotherapy in severe PA: a 54-year-old woman intolerant of both spironolactone and eplerenone received finerenone 20 mg/day with high-dose potassium supplementation for one month, achieving only modest BP improvement, persistent hypokalaemia (K⁺ 3.5 mmol/L despite supplementation), and only minimal renin rise (plasma renin activity 0.5 → 0.8 µg/L/h, remaining suppressed) with a rise in aldosterone; she proceeded to adrenalectomy.[8] A single case cannot support inference but is consistent with the concern that 20 mg once daily may be insufficient in marked aldosterone excess.
+
+#### 3.6 Class comparator: esaxerenone
+
+Esaxerenone, a nonsteroidal MRA licensed in Japan, provides the most mature PA-specific nonsteroidal-MRA dataset. In a 12-week, open-label, single-arm Phase 3 study (N=44; escalated to 5 mg/day in 93%), sitting SBP fell by −17.7 mmHg (95% CI −20.6 to −14.7) and DBP by −9.5 mmHg (−11.7 to −7.3; both P<0.0001), with BP <140/90 mmHg achieved in 47.7%; plasma aldosterone and renin rose (PAC +83.9 pg/mL; PRA +0.60 ng/mL/h), serum potassium rose from 4.01 to 4.34 mEq/L by week 2 (one patient reached K⁺ ≥6.0 mEq/L and discontinued), eGFR fell by −8.1 mL/min/1.73 m², and no gynaecomastia or breast pain occurred.[9] This trial predates PAMO criteria and reported no biochemical response percentages. In a randomised comparison of esaxerenone versus spironolactone over 6 months (N=65 analysed), spironolactone produced a greater early SBP fall and a greater rise in both serum potassium and renin, whereas free testosterone rose in spironolactone-treated men (7.2 → 10.7 pg/mL) but was unchanged with esaxerenone, and one spironolactone patient developed gynaecomastia.[10] Additional single-arm esaxerenone data suggest reductions in UACR and NT-proBNP and improved quality of life,[11] and improvement of endothelial function (flow-mediated dilation 3.1% → 5.7%) and arterial stiffness (brachial-ankle pulse-wave velocity 1605 → 1428 cm/s) in idiopathic hyperaldosteronism.[12] These class data reinforce two themes relevant to finerenone: nonsteroidal MRAs lower BP and improve surrogate organ measures in PA, but steroidal spironolactone may raise potassium and renin more, consistent with greater epithelial MR blockade at the doses studied.
+
+### 4. The central problem: dissociation of BP lowering from adequate MR blockade
+
+The recurring finding across the finerenone dataset is a potential **dissociation between BP lowering and biochemical adequacy of MR blockade**. In the single-arm study, near-complete correction of hypokalaemia and substantial BP reduction coexisted with renin unsuppression in only one-third and complete biochemical response in fewer than one-third of patients.[6] In the real-world switch, BP was maintained while renin was re-suppressed and biochemical response fell.[5] This dissociation is the crux of the clinical debate, and it reframes how efficacy in PA should be judged.
+
+**Renin as a biomarker and candidate target.** Because renin suppression is the physiological signature of continuing mineralocorticoid excess and volume expansion, a rise in (or de-suppression of) renin is a biologically coherent marker that MR blockade has been titrated to a mineralocorticoid-relevant degree. The guideline operationalises this in Recommendation 7, advising intensification of PA-specific therapy when BP is uncontrolled and renin remains suppressed, with renin normalisation typically requiring spironolactone 50–100 mg/day.[1] The companion systematic review found, at very low certainty, that unsuppressed plasma renin activity during MRA therapy was associated with better hypokalaemia control, whereas persistent renin suppression was associated with higher risks of mortality, atrial fibrillation, and stroke.[3] This association is corroborated by observational cohorts: treated PA patients who remain renin-suppressed appear to have higher cardiovascular event rates than those in whom renin is unsuppressed. A recent systematic review and meta-analysis reported a pooled hazard ratio of 0.43 (95% CI 0.23–0.80) for cardiovascular events favouring post-treatment renin unsuppression, though this rested on only 4 studies (874 patients) and was rated low certainty.[13,14] These data are retrospective and subject to residual confounding, and—crucially—it remains unproven whether escalating an MRA purely to raise renin *after* BP is already controlled improves outcomes.
+
+**Smaller hyperkalaemia: benefit or warning?** Finerenone's smaller potassium rise (confirmed directly against spironolactone in the pilot RCT[4]) is genuinely advantageous for patients at risk of hyperkalaemia—those with CKD, diabetes, or on renin–angiotensin blockade. But in the specific context of hypokalaemic PA, a blunted potassium response admits an alternative interpretation: that distal tubular MR/ENaC blockade is less complete. The two interpretations—superior safety versus under-blockade—cannot be separated by potassium and BP alone. Distinguishing them requires paired measurement of urinary sodium and potassium, transtubular potassium gradient, extracellular volume/natriuresis, renin trajectory, and formal dose–response study. Until then, the safety advantage should be described as such, without assuming that lower kalaemic impact is inconsequential for mineralocorticoid adequacy.
+
+The practical implication is a shift in how treatment success is defined. Office BP alone is an inadequate endpoint; efficacy assessment should integrate 24-hour and nocturnal ambulatory BP, potassium normalisation *without* supplementation, renin de-suppression, antihypertensive medication burden, and PAMO biochemical and clinical response.[5] "BP fell but renin remained suppressed" should be read as a possible signal of undertreatment rather than as automatic evidence of success—while acknowledging the genuine, unresolved uncertainty about whether pursuing renin de-suppression once BP is controlled changes hard outcomes.
+
+### 5. Dose-equivalence and PK/PD gaps
+
+No potency-equivalent dosing has been established for finerenone relative to spironolactone or eplerenone in PA, and the guideline explicitly notes that finerenone's optimal starting dose, maximum dose, and titration strategy in PA remain undefined.[1] Every completed PA study, and the ongoing FAIRY trial, has used milligram-matched (20 mg vs 20 mg) starting doses and BP-driven rather than renin-guided titration—a design that, given spironolactone's substantially greater per-milligram MR potency, risks systematically under-dosing the finerenone arm relative to true pharmacodynamic equivalence.[4,7]
+
+Several PK/PD questions follow. First, the dose–response relationship of finerenone for the PA-relevant endpoints (natriuresis, renin de-suppression, potassium normalisation without supplementation) is unknown. Second, finerenone's short plasma half-life raises the question of whether once-daily dosing maintains 24-hour and nocturnal epithelial MR blockade in a disease of continuous autonomous aldosterone drive, or whether some patients require alternative dosing to cover nighttime BP and volume. Third, the maximally effective and maximally tolerated doses in PA are undefined. Fourth, the appropriate titration signal—BP, potassium, or renin—has not been benchmarked. Resolving these gaps is a prerequisite for any fair head-to-head efficacy comparison: without potency-equivalent, renin-informed titration, apparent equivalence or non-inferiority may simply reflect under-titration of the comparator.
+
+### 6. Hard outcomes and target-organ protection — the evidence gap
+
+The largest gap is the complete absence of PA-specific long-term outcome trials for finerenone. No PA study has evaluated atrial fibrillation, stroke, heart failure, myocardial infarction/MACE, cardiovascular or all-cause mortality, incident CKD, eGFR slope, or end-stage renal disease as endpoints; all completed studies report short-term surrogates over 8–12 weeks.[4,6,9] The cardiorenal benefits of finerenone demonstrated in diabetic CKD and heart-failure populations **cannot be extrapolated** to PA, whose pathophysiology—autonomous aldosterone excess, volume expansion, and persistent renin suppression—differs fundamentally from the substrate in which finerenone's outcome trials were conducted. The 2025 guideline correspondingly lists PA-specific hard endpoints as a principal research gap.[1]
+
+Target-organ protection is equally unproven for finerenone in PA. The proposition that finerenone's tissue-level anti-inflammatory/anti-fibrotic profile confers organ protection beyond BP control has, in PA, no direct supporting data; the available organ-level signals derive from esaxerenone (improved UACR, NT-proBNP, endothelial function, and arterial stiffness)[11,12] and cannot be assumed to transfer to finerenone or to occur independently of BP and volume effects. A credible demonstration of finerenone-specific organ protection would require comparison at **equivalent BP and equivalent MR blockade**, using left ventricular mass index, global longitudinal strain, diastolic function, cardiac MRI fibrosis, left atrial remodelling, arterial stiffness, endothelial function, UACR, and renal fibrosis markers—otherwise any apparent advantage risks being an artefact of unequal BP or unequal MR blockade, or an unjustified extrapolation from the CKD/heart-failure setting.
+
+### 7. Phenotype stratification and patient-centered outcomes
+
+PA is heterogeneous, and finerenone is unlikely to be equally suitable across all phenotypes. Future studies should pre-stratify by: bilateral versus unilateral disease (the latter in patients declining or unfit for surgery); hypokalaemic versus normokalaemic PA; mild versus marked aldosterone excess; suppressed versus partially recovered renin; CKD stage 3–4 versus preserved eGFR; comorbid diabetes, heart failure, or albuminuria; high versus low dietary sodium; and, where available, aldosterone-producing adenoma driver genotype (e.g., *KCNJ5*, *CACNA1D*). The physiological priorities differ by phenotype: patients with severe hypokalaemia and marked volume expansion may require the stronger natriuretic MR blockade historically delivered by higher-dose spironolactone, whereas patients with CKD or hyperkalaemia risk may benefit most from finerenone's wider safety margin. The PAMO cohort itself underscores phenotype dependence of response: complete clinical response was more likely in women (OR 2.099, 95% CI 1.485–2.968) and less likely with higher baseline antihypertensive burden (OR 0.687, 95% CI 0.603–0.782) or baseline microalbuminuria/left ventricular hypertrophy (OR 0.584, 95% CI 0.391–0.873).[2]
+
+Comparative effectiveness must extend beyond efficacy to patient-centered outcomes: gynaecomastia, sexual dysfunction, menstrual/breast symptoms, hyperkalaemia, initial eGFR dip and long-term slope, adherence and persistence, quality of life, medication burden, and lifelong cost-effectiveness. Spironolactone's first-line status derives substantially from low cost and wide availability rather than proven pharmacological superiority.[1] For finerenone to displace it, demonstrating fewer adverse effects (as the pilot RCT and the esaxerenone-versus-spironolactone data suggest for the nonsteroidal class[4,10]) is insufficient; it must be shown that better tolerability translates into more complete MR blockade, better adherence-driven biochemical response, or superior long-term outcomes.
+
+### 8. Receptor blockade versus aldosterone-synthase inhibition
+
+MRAs antagonise the receptor but do not abolish autonomous aldosterone secretion or any MR-independent aldosterone actions. Aldosterone synthase inhibitors (ASIs), which target CYP11B2, offer a mechanistically distinct approach by lowering aldosterone production itself, and the guideline lists PA-specific ASI trials as a priority.[1] The most directly relevant ASI evidence in *confirmed* PA is the Phase 2 trial of dexfadrostat phosphate (N=35, parallel-dose, 8 weeks): the aldosterone-to-renin ratio fell by a relative 92.1% (least-squares mean log change −2.5, 95% CI −2.9 to −2.2; P<0.0001), 24-hour ambulatory SBP fell by −10.7 mmHg (95% CI −13.6 to −7.9) and DBP by −5.7 mmHg (−7.8 to −3.5; both P<0.0001), hypokalaemia normalised in 90.9%, renin increased in 68.6% by day 14, and there was no hyperkalaemia with stable cortisol.[15] These data establish proof of concept that synthesis inhibition can lower BP, correct hypokalaemia, and de-suppress renin in diagnosed PA; most other ASIs (baxdrostat, lorundrostat, vicadrostat) have been studied predominantly in resistant/uncontrolled hypertension rather than in biochemically confirmed PA, limiting direct comparison.
+
+The comparative research agenda therefore includes: finerenone versus an ASI in confirmed PA; combination MRA plus ASI; whether MR-independent aldosterone effects are clinically important; the place of ASIs in confirmed PA specifically; and characterisation of the nonsteroidal MRA class effect, for which esaxerenone provides the most mature PA reference.[9,10] A narrative review of aldosterone–MR interactions similarly frames renin (via PAMO) as the therapeutic-response marker unifying these approaches.[16] Whether receptor blockade, synthesis inhibition, or their combination best reverses the mineralocorticoid burden of PA—and improves hard outcomes—remains open.
+
+### 9. A proposed pragmatic comparative trial design
+
+The completed studies motivate a trial that abandons fixed milligram-matched dosing in favour of physiology-guided titration:
+
+- **Population.** Confirmed PA in patients unfit for or declining surgery, stratified by laterality (bilateral/unilateral), potassium status (hypokalaemic/normokalaemic), and renal function (eGFR ≥60 vs 30–59), with pre-specified subgroups by aldosterone severity and, where feasible, driver genotype.
+- **Intervention.** Finerenone titrated to a **composite target** of BP control, potassium normalisation without supplementation, and renin de-suppression.
+- **Comparator.** Spironolactone titrated to the *same* composite target—i.e., to potency-equivalent MR blockade—rather than to a matched milligram dose, to avoid systematic under-titration of either arm.
+- **Co-primary endpoints.** (i) 24-hour ABPM SBP and (ii) PAMO complete biochemical response, jointly capturing the BP–MR-blockade dissociation that single endpoints miss.
+- **Secondary endpoints.** Potassium normalisation without supplementation, renin unsuppression, antihypertensive medication count, hyperkalaemia, eGFR (initial dip and slope), sex-hormone-related adverse effects, adherence/persistence, and quality of life.
+- **Intermediate (mechanistic) endpoints.** Left ventricular mass, cardiac fibrosis (MRI), UACR, arterial stiffness, and eGFR slope, assessed at equivalent BP and MR blockade.
+- **Long-term endpoints.** Atrial fibrillation, stroke, heart failure, MACE, incident/progressive CKD, and mortality.
+
+Such a design would test the field's central hypothesis directly: whether, at potency-equivalent, renin-guided titration, finerenone matches spironolactone on biochemical adequacy and BP while improving tolerability, and whether biochemical adequacy translates into organ protection and hard-outcome benefit.
+
+### 10. Conclusion
+
+Finerenone is not a "receptor blocker that cannot lower BP"—it demonstrably reduces office and ambulatory BP in PA and, over short horizons, is better tolerated than spironolactone with a smaller potassium rise and no anti-androgenic effects.[4,6] The genuine uncertainty is whether current doses and once-daily dosing deliver round-the-clock MR blockade sufficient to reverse sodium retention, volume expansion, hypokalaemia, and renin suppression. Milligram-matched dosing is not potency-matched, and both a real-world switch and a single-arm study suggest that BP control can coexist with renin re-suppression and low rates of complete biochemical response—so office BP may overestimate treatment adequacy.[5,6] There is, at present, no PA-specific evidence that finerenone improves long-term cardiovascular or renal outcomes relative to adequately titrated spironolactone, and the 2025 Endocrine Society guideline retains spironolactone first-line largely on cost and availability rather than proven pharmacological superiority.[1]
+
+The pragmatic reading is that finerenone is an attractive alternative and research priority for patients intolerant of spironolactone or with cardiorenal comorbidity, but not yet an established superior first-line PA therapy. Efficacy should be judged by BP, potassium, renin, and medication burden together; "BP fell but renin stayed suppressed" should prompt reassessment rather than reassurance. Whether renin de-suppression should be pursued once BP is fully controlled—and whether receptor blockade, aldosterone-synthase inhibition, or their combination best reverses the mineralocorticoid burden of PA—remain the defining unanswered questions, to be settled only by potency-equivalent, renin-guided, hard-outcome, phenotype-stratified trials.
+
+---
+
+### Table 1. Finerenone and esaxerenone studies in primary aldosteronism
+
+| Study (ref) | Design; N; duration | Agent & dose | BP change | Potassium | Renin / biochemical | Key limitation |
+|---|---|---|---|---|---|---|
+| Hu 2025, *Circulation*[4] | Pilot RCT vs spironolactone; N=60 (30/29 analysed); 8 wk | Finerenone 20→40 (mean 21.8) vs spironolactone (mean 23.4) mg/d | Daytime SBP −9.9±13.0 vs −7.8±10.2 (diff −2.1, 95% CI −8.2 to 4.0, NS); office SBP −17.7 vs −17.1 | K⁺ +0.2±0.4 vs +0.5±0.4; between-group diff −0.3 mmol/L (95% CI −0.5 to −0.1) | Upright PRC +3.4 vs +5.0 µIU/mL (NS); PAC rose; **no PAMO response reported** | Small, short, wide CIs; mg-matched, not potency-matched; no biochemical response |
+| Uslar 2025, *EJE*[5] | Real-world forced switch eplerenone→finerenone; N/duration NR | Finerenone (dose NR) | BP unchanged; proportion with normal BP ↓ (P=0.004) | NR | Complete biochemical response ↓ (P=0.008), driven by direct renin re-suppression | Abstract only; no absolute values; paywalled |
+| Li 2026, *Hypertension*[6] | Single-arm multicentre (NCT06381323); N=57; 12 wk | Finerenone 20–40 mg/d | Daytime SBP −6.69±1.60; office SBP −15.58±1.69 (P<0.001) | K⁺ +0.39±0.05; normokalaemia 61.8%→94.5% (P<0.001) | PRA ≥1 ng/mL/h in 32.7%; PAMO complete biochemical 29.1%, clinical 20.0% | Single-arm, short; enriched eGFR ≥60; no comparator |
+| FAIRY (NCT06457074)[7] | RCT vs spironolactone, open-label; planned N=306; 12 wk | Both 20 mg/d, titrate q4wk | Primary: 24-h ABPM SBP (pending) | Secondary endpoint | Secondary: plasma renin concentration | Recruiting; no results; mg-matched start; surrogate endpoints |
+| Karanović Štambuk 2024[8] | Single case; N=1; 1 mo | Finerenone 20 mg/d + K⁺ supplement | Suboptimal (130–140/75–85) | K⁺ 3.5 (not normokalaemic) | PRA 0.5→0.8 µg/L/h (still suppressed); aldosterone 750→1414 pmol/L | N=1; proceeded to adrenalectomy |
+| Satoh 2021, *Hypertens Res*[9] | Single-arm Phase 3 (esaxerenone); N=44; 12 wk | Esaxerenone 2.5→5 mg/d | Sitting SBP −17.7 (95% CI −20.6 to −14.7); DBP −9.5 (both P<0.0001); <140/90 in 47.7% | K⁺ 4.01→4.34 mEq/L (wk2); 1 pt K⁺ ≥6.0 discontinued | PAC +83.9 pg/mL; PRA +0.60 ng/mL/h; **predates PAMO** | Single-arm; class comparator, not finerenone |
+| Ishikawa 2022, *Hypertens Res*[10] | RCT esaxerenone vs spironolactone; N=65 analysed; 6 mo | Esaxerenone 1.25→5 vs spironolactone 25→50(–100) mg/d | Greater early SBP fall with spironolactone (P<0.05 at 3 mo) | K⁺ rise greater with spironolactone | PRA rise greater with spironolactone; free testosterone ↑ in spironolactone men only | Compares esaxerenone, not finerenone |
+
+*ABPM, ambulatory BP monitoring; CI, confidence interval; NR, not reported; NS, non-significant; PAC, plasma aldosterone concentration; PAMO, Primary Aldosteronism Medical Treatment Outcome; PRA, plasma renin activity; PRC, plasma renin concentration.*
+
+---
+
+### References
+
+1. Adler GK, Stowasser M, Correa RR, Khan N, Kline G, McGowan MJ, Mulatero P, Murad MH, Touyz RM, Vaidya A, Williams TA, Yang J, Young WF, Zennaro MC, Brito JP. Primary Aldosteronism: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2025;110(9):2453–2495. doi:10.1210/clinem/dgaf284. PMID: 40658480. (Correction: PMID 40880123; doi:10.1210/clinem/dgaf472.)
+
+2. Yang J, Burrello J, Goi J, et al. Outcomes after medical treatment for primary aldosteronism: an international consensus and analysis of treatment response in an international cohort. Lancet Diabetes Endocrinol. 2025;13(2):119–133. doi:10.1016/S2213-8587(24)00308-5. PMID: 39824204. *(Abstract-only in this synthesis; category-defining threshold values reside in the paywalled full text.)*
+
+3. Farah MH, Hegazi M, Firwana M, Abusalih M, Saadi S, Al-Kordi M, Elsheikh A, Wang Z, Hassett L, Bancos I, Murad MH. A Systematic Review Supporting the Endocrine Society Clinical Practice Guideline on Management of Primary Aldosteronism. J Clin Endocrinol Metab. 2025;110(9):e2833–e2844. doi:10.1210/clinem/dgaf290. PMID: 40658500. *(Abstract-only; numeric HR/OR in paywalled evidence tables.)*
+
+4. Hu J, Zhou Q, Sun Y, Feng Z, Yang J, He W, Song Y, Wang Y, Chen X, Shen H, Jing Y, Yang S, Li Q, et al. Efficacy and Safety of Finerenone in Patients With Primary Aldosteronism: A Pilot Randomized Controlled Trial. Circulation. 2025;151(2):196–198. doi:10.1161/CIRCULATIONAHA.124.071452. PMID: 39804908.
+
+5. Uslar T, Sanfuentes B, Muñoz I, Vaidya A, Baudrand R. Real-world outcomes of finerenone in primary aldosteronism. Eur J Endocrinol. 2025;192(5):K50–K53. doi:10.1093/ejendo/lvaf099. PMID: 40378185. *(Abstract-only; full text paywalled; no absolute values reported.)*
+
+6. Li P, Yang F, Lou Y, Zhang Z, Du Y, Zhang J, Ren Y, Tong A, Xie Z, Shi B, Liu J, Liu L, Zhu D. Efficacy and Safety of Finerenone in Patients With Primary Aldosteronism: A Multicenter Prospective Study. Hypertension. 2026;83(5):e26048. doi:10.1161/HYPERTENSIONAHA.125.26048. PMID: 41568520. Trial: NCT06381323. *(Headline figures from structured abstract; full text paywalled.)*
+
+7. Li Q (Sponsor-Investigator), Chongqing Medical University. Finerenone for Patients With Primary Aldosteronism (FAIRY): A Multicenter, Randomized Clinical Trial. ClinicalTrials.gov identifier NCT06457074. Registered 2024-06-13. Status: Recruiting. Available from: https://clinicaltrials.gov/study/NCT06457074 *(Protocol only; no published results.)*
+
+8. Karanović Štambuk S. A Trial of Finerenone in a Patient with Primary Aldosteronism. Kidney Blood Press Res. 2024;49(1):839–842. doi:10.1159/000541441. PMID: 39293423. *(Single case; numeric detail transcribed from publisher HTML.)*
+
+9. Satoh F, Ito S, Itoh H, Rakugi H, Shibata H, Ichihara A, Omura M, Takahashi K, Okuda Y, Iijima S. Efficacy and safety of esaxerenone (CS-3150), a newly available nonsteroidal mineralocorticoid receptor blocker, in hypertensive patients with primary aldosteronism. Hypertens Res. 2021;44(4):464–472. doi:10.1038/s41440-020-00570-5. PMID: 33199881; PMCID: PMC8019657.
+
+10. Ishikawa T, Morimoto S, Ichihara A. Effects of mineralocorticoid receptor antagonists on sex hormones and body composition in patients with primary aldosteronism. Hypertens Res. 2022;45(3):496–506. doi:10.1038/s41440-021-00836-6. PMID: 34961793.
+
+11. Yoshida Y, Fujiwara M, Kinoshita M, Sada K, Miyamoto S, Ozeki Y, et al. Effects of esaxerenone on blood pressure, urinary albumin excretion, serum levels of NT-proBNP, and quality of life in patients with primary aldosteronism. Hypertens Res. 2024;47(1):157–167. doi:10.1038/s41440-023-01412-w. PMID: 37717115. *(Abstract-only; exact deltas in paywalled full text.)*
+
+12. Kishimoto S, Maruhashi T, Kajikawa M, Mizobuchi A, Harada T, Yamaji T, Nakano Y, Goto C, Yusoff FM, Higashi Y. Chronic esaxerenone treatment improves vascular function and lowers peripheral arterial stiffness in patients with idiopathic hyperaldosteronism. J Hypertens. 2025;43(7):1205–1213. doi:10.1097/HJH.0000000000004030. PMID: 40394919. *(Abstract-only; absolute BP/potassium values not reported in abstract.)*
+
+13. Hundemer GL, Curhan GC, Yozamp N, Wang M, Vaidya A. Cardiometabolic outcomes and mortality in medically treated primary aldosteronism: a retrospective cohort study. Lancet Diabetes Endocrinol. 2018;6(1):51–59. PMID: 29129576. *(Cited via the guideline systematic review [ref 3] for the renin–outcome association.)*
+
+14. Katsuragawa S, Le MV, Fuller PJ, Yang J. Post-treatment renin status and cardiovascular, renal, and mortality outcomes in medically treated primary aldosteronism: a systematic review and meta-analysis. Lancet Diabetes Endocrinol. 2025;13(12):1041–1053. doi:10.1016/S2213-8587(25)00263-3. PMID: 41235994. *(Pooled HR 0.43 [95% CI 0.23–0.80] for cardiovascular events favouring renin unsuppression; 4 studies, 874 patients; low certainty.)*
+
+15. Mulatero P, Wuerzner G, Groessl M, Sconfienza E, Damianaki A, Forestiero V, Vogt B, Brunner H, Gerlock T, Steele R, Schumacher C. Safety and efficacy of once-daily dexfadrostat phosphate in patients with primary aldosteronism: a randomised, parallel group, multicentre, phase 2 trial. eClinicalMedicine. 2024;71:102576. doi:10.1016/j.eclinm.2024.102576. PMID: 38618204; PMCID: PMC11015343. Trial: NCT04007406.
+
+16. Yoshida Y, Shibata H. Aldosterone–mineralocorticoid receptor interactions: new insights and therapeutic perspectives in primary aldosteronism. Hypertens Res. 2026;49(4):1336–1342. doi:10.1038/s41440-026-02561-4. PMID: 41629686. *(Narrative review; abstract-only in this synthesis.)*
+
+---
+
+*Evidence-discipline note.* Every quantitative statement traces to a source in the provided inventory or reference file. Studies marked abstract-only (refs 2, 3, 5, 6, 11, 12, 16) yielded directional findings and, where noted, headline figures from structured abstracts; their exact effect estimates reside in paywalled full texts and are flagged as such. Ref 13 (Hundemer 2018) is cited as reported within the guideline systematic review (ref 3); ref 14 (Katsuragawa 2025) has been completed with verified PubMed metadata, and its pooled HR 0.43 (95% CI 0.23–0.80) is reported with the source's own low-certainty caveat. No authors, years, DOIs, PMIDs, or numeric values were fabricated.
+
+---
+
+### Editorial changelog (audit resolution)
+
+- **No must-fix items** were present; no fabricated DOIs, PMIDs, or numbers were identified. PA-specific claims (Hu 2025, Uslar 2025, Li 2026, Karanović 2024) remain explicitly separated from CKD/HF-extrapolated claims (§6 states finerenone's diabetic-CKD/HF cardiorenal benefits "cannot be extrapolated" to PA) and from esaxerenone class-comparator data (§3.6).
+- **Ref 11 (Yoshida 2024, Hypertens Res):** page range corrected from 173–184 to **157–167** (DOI/PMID unchanged; verified against PubMed).
+- **Ref 12 (Kishimoto 2025, J Hypertens):** completed in-press citation to **43(7):1205–1213** (DOI/PMID unchanged).
+- **Ref 14 (Katsuragawa 2025, Lancet Diabetes Endocrinol):** placeholder/paraphrased title replaced with the **verified full citation** (13(12):1041–1053; doi:10.1016/S2213-8587(25)00263-3); the previous "🌐 pending full text" caveat is retired because the PMID, title, and pooled HR 0.43 (95% CI 0.23–0.80) were all confirmed. In-text §4 now states the pooled HR with its 95% CI and explicit **low-certainty / 4-study, 874-patient** qualifier rather than an unqualified "approximately 0.43."
+- Ref 13 (Hundemer 2018) retained as the qualitative renin–outcome anchor, still attributed via the guideline systematic review (ref 3), per the audit.
