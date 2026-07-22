@@ -18,6 +18,19 @@
 
 > [`deep-research-report.md`](deep-research-report.md) 為產生前六個主題的母體研究報告（含各主題完整 面向 brief、試驗/法規里程碑、優先文獻地圖）。主題七為後續加開的機轉對比題（ASI：baxdrostat / lorundrostat / vicadrostat）。
 
+## 知識庫（llm-wiki）
+
+[`llm-wiki/`](llm-wiki/) 把上述七大主題的 40 篇實質內容檔編譯成互相連結的個人知識庫：**147 個實體頁**（試驗、藥物、生物標記、方法學概念）、**16 個主題頁**（依六個關鍵問題組織）、**40 個素材摘要頁**，外加知識圖譜（203 節點、11 個社群）。
+
+回顧稿是線性長文；知識庫的用途是把「高血鉀」「UACR」「FIDELITY」這類散落在七個主題裡的說法收攏到同一頁，並保留每個說法的出處與證據層級。健康檢查狀態：0 孤立頁、0 斷鏈、索引雙向一致。
+
+- 研究目標與六個關鍵問題：[`llm-wiki/purpose.md`](llm-wiki/purpose.md)
+- 索引：[`llm-wiki/index.md`](llm-wiki/index.md)
+- 互動式圖譜：`llm-wiki/wiki/knowledge-graph.html`（雙擊開啟）
+- 用 Obsidian 開啟 `llm-wiki/` 資料夾可直接瀏覽雙向連結
+
+> 知識庫只收錄七大主題的回顧稿與 KDIGO 2026 草案；436 個 `原始PDF/*.md` 全文轉檔仍留在各主題資料夾作為 grep 稽核語料。
+
 ## 涵蓋的核心試驗與分析
 ARTS / ARTS-DN / ARTS-HF · FIDELIO-DKD · FIGARO-DKD · FIDELITY(個體層級 pooled) · FINEARTS-HF(HFpEF/HFmrEF) · CONFIDENCE(finerenone+empagliflozin 三臂) · FINE-ONE(T1D) · FIND-CKD(非糖尿病 CKD)+glomerular 亞群 · FINE-HEART pooled(18,991) · INFINITY / 2026 Lancet DM+非DM pooled · ASI：BrigHTN / BaxHTN / Launch-HTN / Advance-HTN / EASi-KIDNEY。
 

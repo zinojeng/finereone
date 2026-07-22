@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "entries": {
+    "raw/notes/00-deep-research-report.md": {
+      "hash": "sha256:7ca221d69420be86be957ae0ca0b7285571a23e09c5f2f51946eedd79ecb20a8",
+      "ingested_at": "2026-07-22T05:00:01Z",
+      "source_page": "wiki/sources/2026-07-22-00-deep-research-report.md"
+    },
+    "raw/notes/03-03_fourth_pillar_or_early_combination.md": {
+      "hash": "sha256:aec2a3b1c44a4b21f79e07f1059f80134bee3dae599452cc358fa8593b947ace",
+      "ingested_at": "2026-07-22T05:00:34Z",
+      "source_page": "wiki/sources/2026-07-22-03-03_fourth_pillar_or_early_combination.md"
+    },
+    "raw/notes/00-KDIGO_2026_Diabetes_CKD_draft.md": {
+      "hash": "sha256:1caa4b886372fadb781a0501cd3598e789b4c43cc156b68300c07aa5e2a3ed6e",
+      "ingested_at": "2026-07-22T05:01:16Z",
+      "source_page": "wiki/sources/2026-07-22-00-KDIGO_2026_Diabetes_CKD_draft.md"
+    },
+    "raw/notes/03-background_guideline_placement_four_pillars.md": {
+      "hash": "sha256:1c2a094dab2d17737d72614716df165df898d70223cd004505e7c8c32ee8595e",
+      "ingested_at": "2026-07-22T05:01:37Z",
+      "source_page": "wiki/sources/2026-07-22-03-background_guideline_placement_four_pillars.md"
+    },
+    "raw/notes/03-confidence_over_additive_and_offtreatment_reversibility.md": {
+      "hash": "sha256:48cd203d10aff2ad1a27ac7db4499c6bc17b18e76ecd895c1e0800826036ecd1",
+      "ingested_at": "2026-07-22T05:02:30Z",
+      "source_page": "wiki/sources/2026-07-22-03-confidence_over_additive_and_offtreatment_reversibility.md"
+    },
+    "raw/notes/01-01_finerenone_not_just_safer_spironolactone.md": {
+      "hash": "sha256:8b2ae5045a4d8d8b692d9df31f1abf47731b51e2a120fac7237f56732c90938d",
+      "ingested_at": "2026-07-22T05:02:43Z",
+      "source_page": "wiki/sources/2026-07-22-01-01_finerenone_not_just_safer_spironolactone.md"
+    },
+    "raw/notes/01-mr_receptor_dissociation_residence_time.md": {
+      "hash": "sha256:257eb978b9715c1be0af50641addfc19fb02970d583781dca8c41aa84bb3e7fe",
+      "ingested_at": "2026-07-22T05:02:43Z",
+      "source_page": "wiki/sources/2026-07-22-01-mr_receptor_dissociation_residence_time.md"
+    },
+    "raw/notes/01-pk_pd_hysteresis_offrate_hold_restart.md": {
+      "hash": "sha256:45e6b4bac453d02d91e31454045569b72e72812bc1403060bf2e34163d95ef84",
+      "ingested_at": "2026-07-22T05:02:43Z",
+      "source_page": "wiki/sources/2026-07-22-01-pk_pd_hysteresis_offrate_hold_restart.md"
+    },
+    "raw/notes/01-statistical_insights_myths.md": {
+      "hash": "sha256:d363434fb9dfd397650dea8ca000c05afa18de0960f0a265571f46746fe2c7bb",
+      "ingested_at": "2026-07-22T05:02:43Z",
+      "source_page": "wiki/sources/2026-07-22-01-statistical_insights_myths.md"
+    },
+    "raw/notes/06-06_beyond_t2d_cardiorenal_landscape.md": {
+      "hash": "sha256:4fd476f6d5da26e225609bf0a14b2b9916c3a157d272e66a8cf586209dd24752",
+      "ingested_at": "2026-07-22T05:02:44Z",
+      "source_page": "wiki/sources/2026-07-22-06-06_beyond_t2d_cardiorenal_landscape.md"
+    },
+    "raw/notes/06-06b_deep_dive_specialist.md": {
+      "hash": "sha256:7df9efef21572b27a57230c507885ff77f81e0154e9829f7d75672bfba46db63",
+      "ingested_at": "2026-07-22T05:02:44Z",
+      "source_page": "wiki/sources/2026-07-22-06-06b_deep_dive_specialist.md"
+    },
+    "raw/notes/07-07_aldosterone_synthase_inhibitor_vs_finerenone.md": {
+      "hash": "sha256:f941a643e8c343f9199d4b6449d1360af879d2d7e3366492fa32be07a3e7340c",
+      "ingested_at": "2026-07-22T05:02:48Z",
+      "source_page": "wiki/sources/2026-07-22-07-07_aldosterone_synthase_inhibitor_vs_finerenone.md"
+    },
+    "raw/notes/03-confidence_trial_deep_dive.md": {
+      "hash": "sha256:2fee7e0001c808f908684147a34254851def7566dfa57de9aee72189a0e0dcbc",
+      "ingested_at": "2026-07-22T05:03:41Z",
+      "source_page": "wiki/sources/2026-07-22-03-confidence_trial_deep_dive.md"
+    },
+    "raw/notes/02-02_albuminuria_to_hard_endpoints.md": {
+      "hash": "sha256:84b4b3bf2213f21f552162308b848c98d641c717ba8c110de9465a47cea1167d",
+      "ingested_at": "2026-07-22T05:03:58Z",
+      "source_page": "wiki/sources/2026-07-22-02-02_albuminuria_to_hard_endpoints.md"
+    },
+    "raw/notes/02-endpoint_evolution_hard_to_surrogate.md": {
+      "hash": "sha256:d1a9e7a60d539ad54787d56a55ca51b96d9ba1ed00d76cac5071a1e6c0d74f37",
+      "ingested_at": "2026-07-22T05:03:58Z",
+      "source_page": "wiki/sources/2026-07-22-02-endpoint_evolution_hard_to_surrogate.md"
+    },
+    "raw/notes/02-statistical_insights_myths.md": {
+      "hash": "sha256:2e873c4054386bdae43439b134b7dd5b93700edc692f79679496f644ebacaa46",
+      "ingested_at": "2026-07-22T05:03:59Z",
+      "source_page": "wiki/sources/2026-07-22-02-statistical_insights_myths.md"
+    },
+    "raw/notes/02-uacr_sbp_mediation_of_cv_benefit.md": {
+      "hash": "sha256:0b5b7f0ff3201873f53920a31021ddc78bb4eb02bf26c91fd220dd861fd86dc0",
+      "ingested_at": "2026-07-22T05:03:59Z",
+      "source_page": "wiki/sources/2026-07-22-02-uacr_sbp_mediation_of_cv_benefit.md"
+    },
+    "raw/notes/03-discussion_controversies_endpoint_hyperkalemia_cost.md": {
+      "hash": "sha256:3f4cd73b1f84843d54b7775b1ec1109b4cd9cc56ee18e3b6504132a25921f245",
+      "ingested_at": "2026-07-22T05:04:42Z",
+      "source_page": "wiki/sources/2026-07-22-03-discussion_controversies_endpoint_hyperkalemia_cost.md"
+    },
+    "raw/notes/07-submission_EN_manuscript_clean.md": {
+      "hash": "sha256:34d4894131f326d8044185cd3342d2557b6cea192df8e5b2a36a94dc2d64ef45",
+      "ingested_at": "2026-07-22T05:05:10Z",
+      "source_page": "wiki/sources/2026-07-22-07-submission_EN_manuscript_clean.md"
+    },
+    "raw/notes/03-real_world_combination_logic_indirect_evidence.md": {
+      "hash": "sha256:14f4c86c016eb50d34990bed1a7d04aab46d0e860e3cf406c461c2e8fdd6e09b",
+      "ingested_at": "2026-07-22T05:05:58Z",
+      "source_page": "wiki/sources/2026-07-22-03-real_world_combination_logic_indirect_evidence.md"
+    },
+    "raw/notes/05-hypokalemia_bidirectional_electrolyte.md": {
+      "hash": "sha256:fc6ce8cd78728b970416ee1036ba7be521f97cf90b970a4992d8b0d6080afba5",
+      "ingested_at": "2026-07-22T05:06:19Z",
+      "source_page": "wiki/sources/2026-07-22-05-hypokalemia_bidirectional_electrolyte.md"
+    },
+    "raw/notes/05-potassium_mediation_of_cv_benefit.md": {
+      "hash": "sha256:7059c2bb81208487e960c6696363010fe1098c4ebffbc1e21278829066b8c5c7",
+      "ingested_at": "2026-07-22T05:06:19Z",
+      "source_page": "wiki/sources/2026-07-22-05-potassium_mediation_of_cv_benefit.md"
+    },
+    "raw/notes/05-uacr_rebound_reversibility_mechanism.md": {
+      "hash": "sha256:a5253f65f50f5e4ec9b884ddf5ccc0b4c65791615a99e5fcb00f606f2c7d1399",
+      "ingested_at": "2026-07-22T05:06:19Z",
+      "source_page": "wiki/sources/2026-07-22-05-uacr_rebound_reversibility_mechanism.md"
+    },
+    "raw/notes/05-benefit_risk_discussion_nnt_nnh.md": {
+      "hash": "sha256:e9f970998593c6f8a889ee46ca96a65183ce5ce0940e0aa824d74e5119bbacbe",
+      "ingested_at": "2026-07-22T05:06:19Z",
+      "source_page": "wiki/sources/2026-07-22-05-benefit_risk_discussion_nnt_nnh.md"
+    },
+    "raw/notes/05-label_guideline_safety_framework.md": {
+      "hash": "sha256:9352b059f74c601664b403d664d38ae0048ed10a6ff6b6cba7f371d0dfc3d801",
+      "ingested_at": "2026-07-22T05:06:20Z",
+      "source_page": "wiki/sources/2026-07-22-05-label_guideline_safety_framework.md"
+    },
+    "raw/notes/05-statistical_insights_myths.md": {
+      "hash": "sha256:5ecb3cb437f0913e35349da184bb194bf3eacc48500b85710f6b9d2045eaffc0",
+      "ingested_at": "2026-07-22T05:06:20Z",
+      "source_page": "wiki/sources/2026-07-22-05-statistical_insights_myths.md"
+    },
+    "raw/notes/05-05_hyperkalemia_egfr_dip_safety_engineering.md": {
+      "hash": "sha256:c000857c4c048f29bdce38908263908d42355b7951cd473bd08c73e1c35afd44",
+      "ingested_at": "2026-07-22T05:06:22Z",
+      "source_page": "wiki/sources/2026-07-22-05-05_hyperkalemia_egfr_dip_safety_engineering.md"
+    },
+    "raw/notes/05-hyperkalemia_engineering_by_scenario.md": {
+      "hash": "sha256:67dce0ff25b3f3a72fe55f321e3a231252f18627262d05587ed1a4c22c071d49",
+      "ingested_at": "2026-07-22T05:06:22Z",
+      "source_page": "wiki/sources/2026-07-22-05-hyperkalemia_engineering_by_scenario.md"
+    },
+    "raw/notes/05-egfr_dip_hemodynamic_reversible.md": {
+      "hash": "sha256:9266f84f02db9c0b61006e47e6deb1c1d2ed32f3bc82eb9f919b4cd4f466e4f7",
+      "ingested_at": "2026-07-22T05:06:22Z",
+      "source_page": "wiki/sources/2026-07-22-05-egfr_dip_hemodynamic_reversible.md"
+    },
+    "raw/notes/05-outpatient_workflow_monitoring_algorithm.md": {
+      "hash": "sha256:1a04ec6469251073a39a81e3fc75da347546009507a33eb0de0b43e20c5aabe0",
+      "ingested_at": "2026-07-22T05:06:22Z",
+      "source_page": "wiki/sources/2026-07-22-05-outpatient_workflow_monitoring_algorithm.md"
+    },
+    "raw/notes/05-potassium_binder_role.md": {
+      "hash": "sha256:cc2b4ac5f68b0d0b70dbdface53123f7e6403085b8217206b2586dbc34cbbfb4",
+      "ingested_at": "2026-07-22T05:06:22Z",
+      "source_page": "wiki/sources/2026-07-22-05-potassium_binder_role.md"
+    },
+    "raw/notes/05-cyp3a4_interaction_prescribing_rules.md": {
+      "hash": "sha256:014885aba3d4a5d4f540ef94662b59bf867f853bb196f5ddc8d674d244a7421d",
+      "ingested_at": "2026-07-22T05:06:23Z",
+      "source_page": "wiki/sources/2026-07-22-05-cyp3a4_interaction_prescribing_rules.md"
+    },
+    "raw/notes/04-04_who_gets_greatest_benefit.md": {
+      "hash": "sha256:15484f63e1d23b7b2a2463d3d786320868846acaf9547441a15b55177dee06ef",
+      "ingested_at": "2026-07-22T05:06:23Z",
+      "source_page": "wiki/sources/2026-07-22-04-04_who_gets_greatest_benefit.md"
+    },
+    "raw/notes/04-cluster1_advanced_ckd_absolute_event_gradient.md": {
+      "hash": "sha256:692fd72d10dad8e86c3409490220c9dff4e9623ccc0241aac5cda8fceab6ab9f",
+      "ingested_at": "2026-07-22T05:06:23Z",
+      "source_page": "wiki/sources/2026-07-22-04-cluster1_advanced_ckd_absolute_event_gradient.md"
+    },
+    "raw/notes/04-cluster2_asian_chinese_japanese_subgroup.md": {
+      "hash": "sha256:f13d0288538692d2e61d91c0afaf7bf865dd7856f6eea7c2604755871fd6508b",
+      "ingested_at": "2026-07-22T05:06:23Z",
+      "source_page": "wiki/sources/2026-07-22-04-cluster2_asian_chinese_japanese_subgroup.md"
+    },
+    "raw/notes/04-cluster3_hf_lvh_targets_insulin_resistance.md": {
+      "hash": "sha256:d10e690bfdb7bf8faf15196e9df9a5afaaa507933d2cafcea14547c9d5eb5fed",
+      "ingested_at": "2026-07-22T05:06:23Z",
+      "source_page": "wiki/sources/2026-07-22-04-cluster3_hf_lvh_targets_insulin_resistance.md"
+    },
+    "raw/notes/04-methodology_subgroup_relative_vs_absolute.md": {
+      "hash": "sha256:681549c63a6f29ea8df60f1c6083f9293b8a693313594a13b122c302b43905af",
+      "ingested_at": "2026-07-22T05:06:23Z",
+      "source_page": "wiki/sources/2026-07-22-04-methodology_subgroup_relative_vs_absolute.md"
+    },
+    "raw/notes/04-slides_figures_forest_heatmap_nnt.md": {
+      "hash": "sha256:1ddf91620354f1f5b86e64ed3db4e5ec8f1f0d569ac274d3868e913f2a16584e",
+      "ingested_at": "2026-07-22T05:06:24Z",
+      "source_page": "wiki/sources/2026-07-22-04-slides_figures_forest_heatmap_nnt.md"
+    },
+    "raw/notes/04-statistical_insights_myths.md": {
+      "hash": "sha256:55be1fb5b9e06933132e48141c4d8f3750d86bde1841a232dad634a3009fd34c",
+      "ingested_at": "2026-07-22T05:06:24Z",
+      "source_page": "wiki/sources/2026-07-22-04-statistical_insights_myths.md"
+    },
+    "raw/notes/03-statistical_insights_myths.md": {
+      "hash": "sha256:e23886c5a2b2e43b23108df9b16dfc3928b5000eaa9b0c25cb173443521232cd",
+      "ingested_at": "2026-07-22T05:07:09Z",
+      "source_page": "wiki/sources/2026-07-22-03-statistical_insights_myths.md"
+    }
+  }
+}
